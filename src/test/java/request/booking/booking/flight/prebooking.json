@@ -1,0 +1,67 @@
+{
+  "fields": [],
+  "data": {
+    "addOnProductSpecs": [],
+    "selectedPrice": {
+      "selectedPrice": {
+        "currency": "IDR",
+        "amount": "647900"
+      }
+    },
+    "currency": "IDR",
+    "selectedProductSpec": {
+      "productType": "FLIGHT",
+      "flightProductBookingSpec": {
+        "originAirportSpec": "JKTA",
+        "destinationAirportSpec": "DPS",
+        "visitId": "A0B5423F-6B03-4006-8547-8FD6D42CA727",
+        "selectedFlightSpecs": [
+          {
+            "flightIds": [
+              "3CgbWE8IWKZ+gnQ0cDFUPtZQBbr/kRLReWsqxt5fdkOQd64DWEOCfvmhVjy3yKhNDNfbXaLzmlBgniu3dAW6E0VMd3UUQ4Fr7OXmU747AHs1+V+oLugY2zR1xU2vDksCwTJUkAq4Y6T47aiIcRmdUfXUYWY90K2uUHyuT9Kf9WtlVagU/vBpYvF8NScd/QblbH6nF6WJiJgDUVA2H7+paz1bl0S8lzsth5vxvuI/nBI="
+            ],
+            "isPackage": "false"
+          }
+        ],
+        "funnelSource": "iconHomepage",
+        "numberOfSeats": {
+          "numChildren": "0",
+          "numAdults": "1",
+          "numInfants": "0"
+        },
+        "funnelId": "flight",
+        "isBuybackGuarantee": "false",
+        "initialSelectedSeatClass": "ECONOMY",
+        "winnerTypes": [
+          [
+            "LEAST_HASSLE"
+          ]
+        ],
+        "searchId": "DEBB6EDF-2C10-4D72-8B4F-93CD31AAED2D",
+        "isReschedule": "false",
+        "isUseDateFlow": "false",
+        "searchSource": "BASIC",
+        "currency": "IDR",
+        "isUsePromoFinder": "true",
+        "seatPublishedClass": "ECONOMY"
+      }
+    },
+    "preBookingOption": {
+      "showInstallmentToggle": true
+    },
+    "trackingSpec": {
+      "marketingContexts": {
+        "idfa": "00000000-0000-0000-0000-000000000000",
+        "idfv": "5249E851-C96D-41B0-BB37-4144F9C5F5B5"
+      },
+      "contexts": {},
+      "searchId": "DEBB6EDF-2C10-4D72-8B4F-93CD31AAED2D"
+    }
+  },
+  "context": {
+    "tvLifetime": "qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7ZZ2zVpkzUiSJkhnn9YB7RjQFuKvzXn34gc9Lwj+H0Lgrst7BdGb5MXusGf6s52MpEeSIn8qNQJL/r6leTrURGy+FOLKoHZLzG/U/I8kLLgtVSoAmQKLLN/PMLl+4PwBmkXxhPY/G1liWleHZMbjAHFc24zDSXOkLrODSiSiJL1Q9iNZMUARyhV60G9eYi4HtBzlMRaqzLkZbQpj+0TnixmYJ//0LuDhWKbS0HDoTtmSgA==",
+    "nonce": "38C440DF-5019-4015-A31F-279399C2AC07",
+    "tvSession": "qgdHX7GvehrD9XH5a3S4PWL3Nd74xArIuT+JzcRMbKcFsQrjaDEoS0MSnSRvGz7kekrl/22yH9AhfnQD8pHIuYJ5v2uHXQCvDrnNWJOCXg1N+WkpBq2EXGUJWtFNKUfAlEpksRleABY98htcDTgcE6zJ4BjNcV3dW7shDmtObCXXo98eDDc95Xi3kuvGTuW6rCxoidBCTjQInAI8r2VSfteznmA8o7nI/dw4/yGzktmWLXkPQbe10XH+rTy5t8vZuG7btg5s/Kh4UsDAumIaIzC5ezFBAf4qKqpVp05/P3cD88tRMrtOTsE7eJEAr6ZGA1eTyq2M72szPkl3bwvQPEEO0W9iaV2Ujr5H1XG3gRcBjIM54s0P6D3DL97SVMleNfB4TWfqt/Y+OhRJ0evTuz7huqH3p9AZ1PGHeWN9Ptw="
+  },
+  "clientInterface": "mobile-iOS"
+}

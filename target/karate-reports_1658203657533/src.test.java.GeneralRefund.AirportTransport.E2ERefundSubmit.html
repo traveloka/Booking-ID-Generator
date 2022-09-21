@@ -1,0 +1,3801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ac47b090-41ca-42aa-b5b1-dd1bb09963b4",{name:"siskaadelinadamanik"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.GeneralRefund.AirportTransport.E2ERefundSubmit</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-07-19 10:57:02 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>User Submit Refund Successful</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/GeneralRefund/AirportTransport/E2ERefundSubmit.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Refund Submit E2E flow</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">User Submit Refund Successful</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>8736</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:6]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:6]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def bookingID = &quot;89704438&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Refund Summary</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def refundSummary = call read(&#39;classpath:GeneralRefund/AirportTransport/PreSubmission/refundSummary.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5420</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.8.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">GeneralRefund.AirportTransport.PreSubmission.refundSummary</div>
+      </div>
+      <div class="time-cell passed">5406</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlIPI</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>json requestbodySummary = read(&#39;classpath:request/refund/pre/AT/refundSummary.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">33</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path refundSummary</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers accept</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8.0.call.0.9">10:56:54.164 did not evaluate to map accept: [type: STRING, value: application/json]
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestbodySummary</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5370</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8.0.call.0.11">10:56:54.424 request:
+1 &gt; POST https://ipipapi.ipi.staging-traveloka.com/en-id/v2/post-issuance/refund/pre/refund-summary
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 948
+1 &gt; Host: ipipapi.ipi.staging-traveloka.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;fields&quot;:[],&quot;data&quot;:{&quot;itemId&quot;:&quot;89704438.36125&quot;,&quot;productType&quot;:&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;,&quot;bookingId&quot;:&quot;89704438&quot;},&quot;context&quot;:{&quot;nonce&quot;:&quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;,&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0\/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE\/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U\/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY\/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;},&quot;clientInterface&quot;:&quot;mobile-iOS&quot;}
+
+10:56:59.531 response time in milliseconds: 5100
+1 &lt; 200
+1 &lt; Date: Tue, 19 Jul 2022 03:56:59 GMT
+1 &lt; Content-Type: application/json;charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: no-cache
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; X-Nonce: 2ada945a-2110-4198-a412-e78f1398f9cb
+1 &lt; vary: accept-encoding
+1 &lt; Set-Cookie: AWSALB=1TzfoyAJDuCANH28eXAJpnz/PXS0yRD3uyrJc7K6Ht9VkHk9PYsWLdYug8B/4JfBaoZko8sAOfhlpS6e7dPtMj/oIHZKVzcNFZptwtB2dRN5ap2C0a11HrIyekec; Max-Age=1658807818000; Expires=Sun, 27 Jan 54588 17:23:39 GMT; Domain=ipipapi.ipi.staging-traveloka.com
+1 &lt; Set-Cookie: AWSALBCORS=1TzfoyAJDuCANH28eXAJpnz/PXS0yRD3uyrJc7K6Ht9VkHk9PYsWLdYug8B/4JfBaoZko8sAOfhlpS6e7dPtMj/oIHZKVzcNFZptwtB2dRN5ap2C0a11HrIyekec; Max-Age=1658807818000; Expires=Sun, 27 Jan 54588 17:23:39 GMT; Domain=ipipapi.ipi.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;apiStatus&quot;:&quot;SUCCESS&quot;,&quot;message&quot;:null,&quot;refundItemSummary&quot;:{&quot;bookingId&quot;:&quot;89704438&quot;,&quot;iconUrl&quot;:&quot;https://static-content.ipi.staging-traveloka.com/static/icon/product/SHUTTLE_AIRPORT_TRANSPORT.png&quot;,&quot;selectedItem&quot;:{&quot;itemId&quot;:&quot;36125&quot;,&quot;type&quot;:&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;,&quot;title&quot;:&quot;From Soekarno Hatta International Airport (CGK)&quot;,&quot;description&quot;:[&quot;Tue, 19 Jul 2022 • 15:00&quot;,&quot;Traveloka Airport Transport Supplier 1  - Sedan - 1 car(s)&quot;]}},&quot;relatedItems&quot;:[],&quot;refundHistoryCards&quot;:[]},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;,&quot;nonce&quot;:&quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print refundSummary</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">10:56:59.547 [print] {
+  &quot;responseHeaders&quot;: {
+    &quot;Date&quot;: [
+      &quot;Tue, 19 Jul 2022 03:56:59 GMT&quot;
+    ],
+    &quot;Content-Type&quot;: [
+      &quot;application/json;charset=utf-8&quot;
+    ],
+    &quot;Transfer-Encoding&quot;: [
+      &quot;chunked&quot;
+    ],
+    &quot;Connection&quot;: [
+      &quot;keep-alive&quot;
+    ],
+    &quot;Cache-Control&quot;: [
+      &quot;no-cache&quot;
+    ],
+    &quot;Access-Control-Allow-Credentials&quot;: [
+      &quot;true&quot;
+    ],
+    &quot;X-Nonce&quot;: [
+      &quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;
+    ],
+    &quot;vary&quot;: [
+      &quot;accept-encoding&quot;
+    ],
+    &quot;Set-Cookie&quot;: [
+      &quot;AWSALB=1TzfoyAJDuCANH28eXAJpnz/PXS0yRD3uyrJc7K6Ht9VkHk9PYsWLdYug8B/4JfBaoZko8sAOfhlpS6e7dPtMj/oIHZKVzcNFZptwtB2dRN5ap2C0a11HrIyekec; Max-Age=1658807818000; Expires=Sun, 27 Jan 54588 17:23:39 GMT; Domain=ipipapi.ipi.staging-traveloka.com&quot;,
+      &quot;AWSALBCORS=1TzfoyAJDuCANH28eXAJpnz/PXS0yRD3uyrJc7K6Ht9VkHk9PYsWLdYug8B/4JfBaoZko8sAOfhlpS6e7dPtMj/oIHZKVzcNFZptwtB2dRN5ap2C0a11HrIyekec; Max-Age=1658807818000; Expires=Sun, 27 Jan 54588 17:23:39 GMT; Domain=ipipapi.ipi.staging-traveloka.com; Secure&quot;
+    ]
+  },
+  &quot;requestbodySummary&quot;: {
+    &quot;fields&quot;: [
+    ],
+    &quot;data&quot;: {
+      &quot;itemId&quot;: &quot;89704438.36125&quot;,
+      &quot;productType&quot;: &quot;SHUTTLE_AIRPORT_TRANSPORT&quot;,
+      &quot;bookingId&quot;: &quot;89704438&quot;
+    },
+    &quot;context&quot;: {
+      &quot;nonce&quot;: &quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;,
+      &quot;tvLifetime&quot;: &quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,
+      &quot;tvSession&quot;: &quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;
+    },
+    &quot;clientInterface&quot;: &quot;mobile-iOS&quot;
+  },
+  &quot;responseStatus&quot;: 200,
+  &quot;response&quot;: {
+    &quot;data&quot;: {
+      &quot;apiStatus&quot;: &quot;SUCCESS&quot;,
+      &quot;message&quot;: null,
+      &quot;refundItemSummary&quot;: {
+        &quot;bookingId&quot;: &quot;89704438&quot;,
+        &quot;iconUrl&quot;: &quot;https://static-content.ipi.staging-traveloka.com/static/icon/product/SHUTTLE_AIRPORT_TRANSPORT.png&quot;,
+        &quot;selectedItem&quot;: {
+          &quot;itemId&quot;: &quot;36125&quot;,
+          &quot;type&quot;: &quot;SHUTTLE_AIRPORT_TRANSPORT&quot;,
+          &quot;title&quot;: &quot;From Soekarno Hatta International Airport (CGK)&quot;,
+          &quot;description&quot;: [
+            &quot;Tue, 19 Jul 2022 \u2022 15:00&quot;,
+            &quot;Traveloka Airport Transport Supplier 1  - Sedan - 1 car(s)&quot;
+          ]
+        }
+      },
+      &quot;relatedItems&quot;: [
+      ],
+      &quot;refundHistoryCards&quot;: [
+      ]
+    },
+    &quot;userContext&quot;: null,
+    &quot;context&quot;: {
+      &quot;tvLifetime&quot;: &quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,
+      &quot;tvSession&quot;: &quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;,
+      &quot;nonce&quot;: &quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;
+    }
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match refundSummary.response.data.refundItemSummary.bookingId == bookingID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Refund Info</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def refundInfo = call read(&#39;classpath:GeneralRefund/AirportTransport/PreSubmission/refundInfo.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1290</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.13.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">GeneralRefund.AirportTransport.PreSubmission.refundInfo</div>
+      </div>
+      <div class="time-cell passed">1283</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.13.0.call">
+    <div class="step-container" id="0.13.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlIPI</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.13.0.call">
+    <div class="step-container" id="0.13.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>json requestbodyInfo = read(&#39;classpath:request/refund/pre/AT/refundInfo.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.13.0.call">
+    <div class="step-container" id="0.13.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path refundInfo</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.13.0.call">
+    <div class="step-container" id="0.13.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers accept</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13.0.call.0.9">10:56:59.561 did not evaluate to map accept: [type: STRING, value: application/json]
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.13.0.call">
+    <div class="step-container" id="0.13.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestbodyInfo</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.13.0.call">
+    <div class="step-container" id="0.13.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1282</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13.0.call.0.11">10:56:59.562 request:
+2 &gt; POST https://ipipapi.ipi.staging-traveloka.com/en-id/v2/post-issuance/refund/pre/refund-info
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Content-Length: 948
+2 &gt; Host: ipipapi.ipi.staging-traveloka.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;fields&quot;:[],&quot;data&quot;:{&quot;itemId&quot;:&quot;89704438.36124&quot;,&quot;productType&quot;:&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;,&quot;bookingId&quot;:&quot;89704438&quot;},&quot;context&quot;:{&quot;nonce&quot;:&quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;,&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0\/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE\/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U\/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY\/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;},&quot;clientInterface&quot;:&quot;mobile-iOS&quot;}
+
+10:57:00.841 response time in milliseconds: 1279
+2 &lt; 200
+2 &lt; Date: Tue, 19 Jul 2022 03:57:00 GMT
+2 &lt; Content-Type: application/json;charset=utf-8
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Connection: keep-alive
+2 &lt; Cache-Control: no-cache
+2 &lt; Access-Control-Allow-Credentials: true
+2 &lt; X-Nonce: 2ada945a-2110-4198-a412-e78f1398f9cb
+2 &lt; vary: accept-encoding
+2 &lt; Set-Cookie: AWSALB=hx49/N9suObS0zl2njpnPRWdX9nxE0oos2PNIZWk5BsDv5L3JzZQ+9ilLIlhxJx9SJ6u4suD4OO3Bg1bfyfntWqx8tAi5+TC3U3XvDwvLf2zsOcfGbG3MnBLzSQ0; Max-Age=1658807819000; Expires=Sun, 27 Jan 54588 17:40:20 GMT; Domain=ipipapi.ipi.staging-traveloka.com
+2 &lt; Set-Cookie: AWSALBCORS=hx49/N9suObS0zl2njpnPRWdX9nxE0oos2PNIZWk5BsDv5L3JzZQ+9ilLIlhxJx9SJ6u4suD4OO3Bg1bfyfntWqx8tAi5+TC3U3XvDwvLf2zsOcfGbG3MnBLzSQ0; Max-Age=1658807819000; Expires=Sun, 27 Jan 54588 17:40:20 GMT; Domain=ipipapi.ipi.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;apiStatus&quot;:&quot;SUCCESS&quot;,&quot;message&quot;:null,&quot;bookingId&quot;:&quot;89704438&quot;,&quot;itemId&quot;:&quot;36125&quot;,&quot;productType&quot;:&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;,&quot;refundabilityInfo&quot;:{&quot;refundabilityLabel&quot;:{&quot;type&quot;:&quot;SUCCESS&quot;,&quot;displayText&quot;:&quot;Yes&quot;},&quot;description&quot;:&quot;You may request for a refund until Tue, 19 Jul 2022, 14:00 Jakarta time.&quot;,&quot;showPolicyButton&quot;:false,&quot;contactUsUrl&quot;:null,&quot;providerPhone&quot;:null},&quot;refundReceivedInfo&quot;:{&quot;disclaimer&quot;:&quot;The estimated refund amount above has been deducted by any discounts, taxes, or fees.&quot;,&quot;receivedAmounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;description&quot;:&quot;The refund estimation above is applicable for: &lt;ul&gt;&lt;li&gt;Self cancellation reason &lt;/li&gt;&lt;li&gt;Refund requests made until Tue, 19 Jul 2022, 14:00 Jakarta time.&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;Please note that the refund amount might change if you request a refund for a different reason or at another time.&quot;,&quot;showPolicyButton&quot;:true},&quot;refundAdditionalInfo&quot;:[{&quot;title&quot;:&quot;How long is the refund process?&quot;,&quot;description&quot;:&quot;The refund process may take &lt;b&gt;up to 5 days&lt;/b&gt; from the date of request.&quot;,&quot;link&quot;:null}],&quot;refundAdditionalInfoGradientView&quot;:[],&quot;refundExtraInfo&quot;:[],&quot;reasonSelectionInfo&quot;:{&quot;title&quot;:&quot;Refund is applicable for the following reason(s):&quot;,&quot;description&quot;:[&quot;Self cancellation&quot;,&quot;Sickness&quot;,&quot;Pregnancy&quot;,&quot;Death&quot;,&quot;Canceled by airline&quot;,&quot;Wrong booking date&quot;,&quot;Double booking&quot;,&quot;Natural disaster&quot;,&quot;Other&quot;],&quot;itemId&quot;:null,&quot;type&quot;:null},&quot;refundEstimationInfo&quot;:{&quot;title&quot;:&quot;Refund Estimation&quot;,&quot;estimationPolicyTitle&quot;:&quot;Estimated based on refund reason:&quot;,&quot;reasonPoliciesSelectionTitle&quot;:&quot;Refund policies differ based on your refund reason.&quot;,&quot;reasonPoliciesSelectionNote&quot;:null,&quot;reasonMap&quot;:{&quot;OTHERS&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;}],&quot;SICKNESS&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;}],&quot;FLIGHT_CANCELLATION&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;}],&quot;WRONG_BOOKING_DATE&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;}],&quot;DEATH&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;}],&quot;FORCE_MAJEURE&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;}],&quot;DOUBLE_BOOKING&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;}],&quot;SELF_CANCELLATION&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;}],&quot;PREGNANCY&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;}]},&quot;reasonList&quot;:[{&quot;name&quot;:&quot;SELF_CANCELLATION&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Self cancellation&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;SICKNESS&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Sickness&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;PREGNANCY&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Pregnancy&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;DEATH&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Death&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;FLIGHT_CANCELLATION&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Canceled by airline&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;WRONG_BOOKING_DATE&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Wrong booking date&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;DOUBLE_BOOKING&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Double booking&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;FORCE_MAJEURE&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Natural disaster&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;OTHERS&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Other&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:true,&quot;freeText&quot;:true,&quot;available&quot;:true}],&quot;showPolicyButton&quot;:true,&quot;infoText&quot;:&quot;LandingPage_RefundEstimationInfo_InfoText&quot;,&quot;reasonSelectionDisclaimer&quot;:null,&quot;preEstimationNotice&quot;:null,&quot;postEstimationNotice&quot;:null,&quot;infoBox&quot;:null,&quot;disclaimer&quot;:null,&quot;productTNCDialogTitle&quot;:null},&quot;buttonState&quot;:&quot;ENABLED&quot;,&quot;faq&quot;:null},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;,&quot;nonce&quot;:&quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.13.0.call">
+    <div class="step-container" id="0.13.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>match refundInfo.response.data.bookingId == bookingID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Refund Request</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def refundRequest = call read(&#39;classpath:GeneralRefund/AirportTransport/PreSubmission/refundRequest.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">162</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.17.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">GeneralRefund.AirportTransport.PreSubmission.refundRequest</div>
+      </div>
+      <div class="time-cell passed">150</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.17.0.call">
+    <div class="step-container" id="0.17.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlIPI</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.17.0.call">
+    <div class="step-container" id="0.17.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>json requestbodyRefundReq = read(&#39;classpath:request/refund/pre/AT/request.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.17.0.call">
+    <div class="step-container" id="0.17.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path refundRequest</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.17.0.call">
+    <div class="step-container" id="0.17.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers accept</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.17.0.call.0.9">10:57:00.859 did not evaluate to map accept: [type: STRING, value: application/json]
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.17.0.call">
+    <div class="step-container" id="0.17.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestbodyRefundReq</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.17.0.call">
+    <div class="step-container" id="0.17.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">147</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.17.0.call.0.11">10:57:00.861 request:
+3 &gt; POST https://ipipapi.ipi.staging-traveloka.com/en-id/v2/post-issuance/refund/pre/request
+3 &gt; Content-Type: application/json; charset=UTF-8
+3 &gt; Content-Length: 880
+3 &gt; Host: ipipapi.ipi.staging-traveloka.com
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+3 &gt; Accept-Encoding: gzip,deflate
+{&quot;fields&quot;:[],&quot;data&quot;:{&quot;bookingId&quot;:&quot;89704438&quot;},&quot;context&quot;:{&quot;nonce&quot;:&quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;,&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0\/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE\/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U\/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY\/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;},&quot;clientInterface&quot;:&quot;mobile-iOS&quot;}
+
+10:57:01.005 response time in milliseconds: 144
+3 &lt; 200
+3 &lt; Date: Tue, 19 Jul 2022 03:57:00 GMT
+3 &lt; Content-Type: application/json;charset=utf-8
+3 &lt; Transfer-Encoding: chunked
+3 &lt; Connection: keep-alive
+3 &lt; Cache-Control: no-cache
+3 &lt; Access-Control-Allow-Credentials: true
+3 &lt; X-Nonce: 2ada945a-2110-4198-a412-e78f1398f9cb
+3 &lt; vary: accept-encoding
+3 &lt; Set-Cookie: AWSALB=F8sOlfCJ4N8bn9fgbgusuKzKo7/U6Pm43wCaYmT0o6xjrOLYY7NZ1MuoEMt9MWLp+IR7+/BFwSvHf4g89FEEAd+W4MqRX2BSG+rH8xf4zsfv6+qmEqx5WvR6JETk; Max-Age=1658807820000; Expires=Sun, 27 Jan 54588 17:57:01 GMT; Domain=ipipapi.ipi.staging-traveloka.com
+3 &lt; Set-Cookie: AWSALBCORS=F8sOlfCJ4N8bn9fgbgusuKzKo7/U6Pm43wCaYmT0o6xjrOLYY7NZ1MuoEMt9MWLp+IR7+/BFwSvHf4g89FEEAd+W4MqRX2BSG+rH8xf4zsfv6+qmEqx5WvR6JETk; Max-Age=1658807820000; Expires=Sun, 27 Jan 54588 17:57:01 GMT; Domain=ipipapi.ipi.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;apiStatus&quot;:&quot;SUCCESS&quot;,&quot;message&quot;:null,&quot;status&quot;:&quot;SUCCESS&quot;,&quot;ableToContinue&quot;:true,&quot;captionTitle&quot;:&quot;Non-refundable&quot;,&quot;title&quot;:&quot;Non-refundable&quot;,&quot;altMessage&quot;:null,&quot;items&quot;:[]},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;,&quot;nonce&quot;:&quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.17.0.call">
+    <div class="step-container" id="0.17.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match response.data.status == &quot;SUCCESS&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print refundRequest</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">10:57:01.009 [print] {
+  &quot;responseHeaders&quot;: {
+    &quot;Date&quot;: [
+      &quot;Tue, 19 Jul 2022 03:57:00 GMT&quot;
+    ],
+    &quot;Content-Type&quot;: [
+      &quot;application/json;charset=utf-8&quot;
+    ],
+    &quot;Transfer-Encoding&quot;: [
+      &quot;chunked&quot;
+    ],
+    &quot;Connection&quot;: [
+      &quot;keep-alive&quot;
+    ],
+    &quot;Cache-Control&quot;: [
+      &quot;no-cache&quot;
+    ],
+    &quot;Access-Control-Allow-Credentials&quot;: [
+      &quot;true&quot;
+    ],
+    &quot;X-Nonce&quot;: [
+      &quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;
+    ],
+    &quot;vary&quot;: [
+      &quot;accept-encoding&quot;
+    ],
+    &quot;Set-Cookie&quot;: [
+      &quot;AWSALB=F8sOlfCJ4N8bn9fgbgusuKzKo7/U6Pm43wCaYmT0o6xjrOLYY7NZ1MuoEMt9MWLp+IR7+/BFwSvHf4g89FEEAd+W4MqRX2BSG+rH8xf4zsfv6+qmEqx5WvR6JETk; Max-Age=1658807820000; Expires=Sun, 27 Jan 54588 17:57:01 GMT; Domain=ipipapi.ipi.staging-traveloka.com&quot;,
+      &quot;AWSALBCORS=F8sOlfCJ4N8bn9fgbgusuKzKo7/U6Pm43wCaYmT0o6xjrOLYY7NZ1MuoEMt9MWLp+IR7+/BFwSvHf4g89FEEAd+W4MqRX2BSG+rH8xf4zsfv6+qmEqx5WvR6JETk; Max-Age=1658807820000; Expires=Sun, 27 Jan 54588 17:57:01 GMT; Domain=ipipapi.ipi.staging-traveloka.com; Secure&quot;
+    ]
+  },
+  &quot;responseStatus&quot;: 200,
+  &quot;response&quot;: {
+    &quot;data&quot;: {
+      &quot;apiStatus&quot;: &quot;SUCCESS&quot;,
+      &quot;message&quot;: null,
+      &quot;status&quot;: &quot;SUCCESS&quot;,
+      &quot;ableToContinue&quot;: true,
+      &quot;captionTitle&quot;: &quot;Non-refundable&quot;,
+      &quot;title&quot;: &quot;Non-refundable&quot;,
+      &quot;altMessage&quot;: null,
+      &quot;items&quot;: [
+      ]
+    },
+    &quot;userContext&quot;: null,
+    &quot;context&quot;: {
+      &quot;tvLifetime&quot;: &quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,
+      &quot;tvSession&quot;: &quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;,
+      &quot;nonce&quot;: &quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;
+    }
+  },
+  &quot;requestbodyRefundReq&quot;: {
+    &quot;fields&quot;: [
+    ],
+    &quot;data&quot;: {
+      &quot;bookingId&quot;: &quot;89704438&quot;
+    },
+    &quot;context&quot;: {
+      &quot;nonce&quot;: &quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;,
+      &quot;tvLifetime&quot;: &quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,
+      &quot;tvSession&quot;: &quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;
+    },
+    &quot;clientInterface&quot;: &quot;mobile-iOS&quot;
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* match refundRequest.response.data.bookingId == bookingID</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Refund Session Check</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def refundsessioncheck = call read(&#39;classpath:GeneralRefund/AirportTransport/PreSubmission/sessionCheck.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">147</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.22.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">GeneralRefund.AirportTransport.PreSubmission.sessionCheck</div>
+      </div>
+      <div class="time-cell passed">141</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.22.0.call">
+    <div class="step-container" id="0.22.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlIPI</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.22.0.call">
+    <div class="step-container" id="0.22.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>json requestbodyCheckSession = read(&#39;classpath:request/refund/pre/AT/sessionCheck.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.22.0.call">
+    <div class="step-container" id="0.22.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path refundSessionCheck</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.22.0.call">
+    <div class="step-container" id="0.22.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers accept</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.22.0.call.0.9">10:57:01.017 did not evaluate to map accept: [type: STRING, value: application/json]
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.22.0.call">
+    <div class="step-container" id="0.22.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestbodyCheckSession</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.22.0.call">
+    <div class="step-container" id="0.22.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">138</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.22.0.call.0.11">10:57:01.018 request:
+4 &gt; POST https://ipipapi.ipi.staging-traveloka.com/en-id/v2/post-issuance/refund/session/check
+4 &gt; Content-Type: application/json; charset=UTF-8
+4 &gt; Content-Length: 880
+4 &gt; Host: ipipapi.ipi.staging-traveloka.com
+4 &gt; Connection: Keep-Alive
+4 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+4 &gt; Accept-Encoding: gzip,deflate
+{&quot;fields&quot;:[],&quot;data&quot;:{&quot;bookingId&quot;:&quot;89704438&quot;},&quot;context&quot;:{&quot;nonce&quot;:&quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;,&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0\/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE\/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U\/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY\/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;},&quot;clientInterface&quot;:&quot;mobile-iOS&quot;}
+
+10:57:01.154 response time in milliseconds: 136
+4 &lt; 200
+4 &lt; Date: Tue, 19 Jul 2022 03:57:01 GMT
+4 &lt; Content-Type: application/json;charset=utf-8
+4 &lt; Transfer-Encoding: chunked
+4 &lt; Connection: keep-alive
+4 &lt; Cache-Control: no-cache
+4 &lt; Access-Control-Allow-Credentials: true
+4 &lt; X-Nonce: 2ada945a-2110-4198-a412-e78f1398f9cb
+4 &lt; vary: accept-encoding
+4 &lt; Set-Cookie: AWSALB=t5BCG/m0V5DnmG9vDyrG3Dh4CyzAGBwtqWGE7nrBQrIhzeCmmQbdEV58KP+kaEG1gNa0TeJko8+mYZviJVzjYH09YO2ZeX6hPFeIGeF3JuO9YVAC7aixvjZedrhp; Max-Age=1658807821000; Expires=Sun, 27 Jan 54588 18:13:41 GMT; Domain=ipipapi.ipi.staging-traveloka.com
+4 &lt; Set-Cookie: AWSALBCORS=t5BCG/m0V5DnmG9vDyrG3Dh4CyzAGBwtqWGE7nrBQrIhzeCmmQbdEV58KP+kaEG1gNa0TeJko8+mYZviJVzjYH09YO2ZeX6hPFeIGeF3JuO9YVAC7aixvjZedrhp; Max-Age=1658807821000; Expires=Sun, 27 Jan 54588 18:13:41 GMT; Domain=ipipapi.ipi.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;apiStatus&quot;:&quot;SUCCESS&quot;,&quot;message&quot;:null,&quot;sessionData&quot;:{&quot;sessionId&quot;:&quot;617ef280-c387-4295-83b0-96fc6dcbb6a2&quot;,&quot;bookingId&quot;:&quot;89704438&quot;,&quot;refundSessionInfo&quot;:{&quot;productTypes&quot;:[&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;],&quot;hook&quot;:&quot;SUBITEM_REASON&quot;,&quot;uploadedDocuments&quot;:{&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;:[]},&quot;selectedItemGroupIds&quot;:{&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;:[&quot;36125&quot;]},&quot;selectedItems&quot;:{&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;:[]}},&quot;expiredTimeMillis&quot;:{&quot;year&quot;:&quot;2022&quot;,&quot;month&quot;:&quot;7&quot;,&quot;day&quot;:&quot;19&quot;,&quot;timestamp&quot;:&quot;1658206575168&quot;,&quot;afterNow&quot;:false,&quot;beforeNow&quot;:false},&quot;createdTimeMillis&quot;:{&quot;year&quot;:&quot;2022&quot;,&quot;month&quot;:&quot;7&quot;,&quot;day&quot;:&quot;19&quot;,&quot;timestamp&quot;:&quot;1658201581307&quot;,&quot;afterNow&quot;:false,&quot;beforeNow&quot;:false},&quot;updatedTimeMillis&quot;:{&quot;year&quot;:&quot;2022&quot;,&quot;month&quot;:&quot;7&quot;,&quot;day&quot;:&quot;19&quot;,&quot;timestamp&quot;:&quot;1658202975168&quot;,&quot;afterNow&quot;:false,&quot;beforeNow&quot;:false}},&quot;status&quot;:&quot;OK&quot;,&quot;hasActiveSession&quot;:true},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;,&quot;nonce&quot;:&quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.22.0.call">
+    <div class="step-container" id="0.22.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match response.data.apiStatus == &quot;SUCCESS&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print refundsessioncheck</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.23">10:57:01.158 [print] {
+  &quot;requestbodyCheckSession&quot;: {
+    &quot;fields&quot;: [
+    ],
+    &quot;data&quot;: {
+      &quot;bookingId&quot;: &quot;89704438&quot;
+    },
+    &quot;context&quot;: {
+      &quot;nonce&quot;: &quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;,
+      &quot;tvLifetime&quot;: &quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,
+      &quot;tvSession&quot;: &quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;
+    },
+    &quot;clientInterface&quot;: &quot;mobile-iOS&quot;
+  },
+  &quot;responseHeaders&quot;: {
+    &quot;Date&quot;: [
+      &quot;Tue, 19 Jul 2022 03:57:01 GMT&quot;
+    ],
+    &quot;Content-Type&quot;: [
+      &quot;application/json;charset=utf-8&quot;
+    ],
+    &quot;Transfer-Encoding&quot;: [
+      &quot;chunked&quot;
+    ],
+    &quot;Connection&quot;: [
+      &quot;keep-alive&quot;
+    ],
+    &quot;Cache-Control&quot;: [
+      &quot;no-cache&quot;
+    ],
+    &quot;Access-Control-Allow-Credentials&quot;: [
+      &quot;true&quot;
+    ],
+    &quot;X-Nonce&quot;: [
+      &quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;
+    ],
+    &quot;vary&quot;: [
+      &quot;accept-encoding&quot;
+    ],
+    &quot;Set-Cookie&quot;: [
+      &quot;AWSALB=t5BCG/m0V5DnmG9vDyrG3Dh4CyzAGBwtqWGE7nrBQrIhzeCmmQbdEV58KP+kaEG1gNa0TeJko8+mYZviJVzjYH09YO2ZeX6hPFeIGeF3JuO9YVAC7aixvjZedrhp; Max-Age=1658807821000; Expires=Sun, 27 Jan 54588 18:13:41 GMT; Domain=ipipapi.ipi.staging-traveloka.com&quot;,
+      &quot;AWSALBCORS=t5BCG/m0V5DnmG9vDyrG3Dh4CyzAGBwtqWGE7nrBQrIhzeCmmQbdEV58KP+kaEG1gNa0TeJko8+mYZviJVzjYH09YO2ZeX6hPFeIGeF3JuO9YVAC7aixvjZedrhp; Max-Age=1658807821000; Expires=Sun, 27 Jan 54588 18:13:41 GMT; Domain=ipipapi.ipi.staging-traveloka.com; Secure&quot;
+    ]
+  },
+  &quot;responseStatus&quot;: 200,
+  &quot;response&quot;: {
+    &quot;data&quot;: {
+      &quot;apiStatus&quot;: &quot;SUCCESS&quot;,
+      &quot;message&quot;: null,
+      &quot;sessionData&quot;: {
+        &quot;sessionId&quot;: &quot;617ef280-c387-4295-83b0-96fc6dcbb6a2&quot;,
+        &quot;bookingId&quot;: &quot;89704438&quot;,
+        &quot;refundSessionInfo&quot;: {
+          &quot;productTypes&quot;: [
+            &quot;SHUTTLE_AIRPORT_TRANSPORT&quot;
+          ],
+          &quot;hook&quot;: &quot;SUBITEM_REASON&quot;,
+          &quot;uploadedDocuments&quot;: {
+            &quot;SHUTTLE_AIRPORT_TRANSPORT&quot;: [
+            ]
+          },
+          &quot;selectedItemGroupIds&quot;: {
+            &quot;SHUTTLE_AIRPORT_TRANSPORT&quot;: [
+              &quot;36125&quot;
+            ]
+          },
+          &quot;selectedItems&quot;: {
+            &quot;SHUTTLE_AIRPORT_TRANSPORT&quot;: [
+            ]
+          }
+        },
+        &quot;expiredTimeMillis&quot;: {
+          &quot;year&quot;: &quot;2022&quot;,
+          &quot;month&quot;: &quot;7&quot;,
+          &quot;day&quot;: &quot;19&quot;,
+          &quot;timestamp&quot;: &quot;1658206575168&quot;,
+          &quot;afterNow&quot;: false,
+          &quot;beforeNow&quot;: false
+        },
+        &quot;createdTimeMillis&quot;: {
+          &quot;year&quot;: &quot;2022&quot;,
+          &quot;month&quot;: &quot;7&quot;,
+          &quot;day&quot;: &quot;19&quot;,
+          &quot;timestamp&quot;: &quot;1658201581307&quot;,
+          &quot;afterNow&quot;: false,
+          &quot;beforeNow&quot;: false
+        },
+        &quot;updatedTimeMillis&quot;: {
+          &quot;year&quot;: &quot;2022&quot;,
+          &quot;month&quot;: &quot;7&quot;,
+          &quot;day&quot;: &quot;19&quot;,
+          &quot;timestamp&quot;: &quot;1658202975168&quot;,
+          &quot;afterNow&quot;: false,
+          &quot;beforeNow&quot;: false
+        }
+      },
+      &quot;status&quot;: &quot;OK&quot;,
+      &quot;hasActiveSession&quot;: true
+    },
+    &quot;userContext&quot;: null,
+    &quot;context&quot;: {
+      &quot;tvLifetime&quot;: &quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,
+      &quot;tvSession&quot;: &quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;,
+      &quot;nonce&quot;: &quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;
+    }
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Refund detail TnC</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def refunddetailTnC = call read(&#39;classpath:GeneralRefund/AirportTransport/PreSubmission/detailTnC.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1424</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.26.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">GeneralRefund.AirportTransport.PreSubmission.detailTnC</div>
+      </div>
+      <div class="time-cell passed">1415</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.26.0.call">
+    <div class="step-container" id="0.26.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlIPI</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.26.0.call">
+    <div class="step-container" id="0.26.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>json requestbodydetailTnC = read(&#39;classpath:request/refund/pre/AT/detailTnC.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.26.0.call">
+    <div class="step-container" id="0.26.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path refundDetailTnC</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.26.0.call">
+    <div class="step-container" id="0.26.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers accept</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.26.0.call.0.9">10:57:01.170 did not evaluate to map accept: [type: STRING, value: application/json]
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.26.0.call">
+    <div class="step-container" id="0.26.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestbodydetailTnC</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.26.0.call">
+    <div class="step-container" id="0.26.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1409</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.26.0.call.0.11">10:57:01.171 request:
+5 &gt; POST https://ipipapi.ipi.staging-traveloka.com/en-id/v2/post-issuance/refund/pre/detailed-tnc
+5 &gt; Content-Type: application/json; charset=UTF-8
+5 &gt; Content-Length: 880
+5 &gt; Host: ipipapi.ipi.staging-traveloka.com
+5 &gt; Connection: Keep-Alive
+5 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+5 &gt; Accept-Encoding: gzip,deflate
+{&quot;fields&quot;:[],&quot;data&quot;:{&quot;bookingId&quot;:&quot;89704438&quot;},&quot;context&quot;:{&quot;nonce&quot;:&quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;,&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0\/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE\/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U\/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY\/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;},&quot;clientInterface&quot;:&quot;mobile-iOS&quot;}
+
+10:57:02.578 response time in milliseconds: 1406
+5 &lt; 200
+5 &lt; Date: Tue, 19 Jul 2022 03:57:02 GMT
+5 &lt; Content-Type: application/json;charset=utf-8
+5 &lt; Transfer-Encoding: chunked
+5 &lt; Connection: keep-alive
+5 &lt; Cache-Control: no-cache
+5 &lt; Access-Control-Allow-Credentials: true
+5 &lt; X-Nonce: 2ada945a-2110-4198-a412-e78f1398f9cb
+5 &lt; vary: accept-encoding
+5 &lt; Set-Cookie: AWSALB=mhmnQMWnXNF//xSSazFCzh7ORGVoGEqWB2M+I9j4mmuTlsDskX+9BgvUyTFm1gJzMyXF2DrSPhPYXZWpcDcRJAivWEO3W6kW4QvwjqJoVfJirrCHZPJYOAtfrc/W; Max-Age=1658807821000; Expires=Sun, 27 Jan 54588 18:13:42 GMT; Domain=ipipapi.ipi.staging-traveloka.com
+5 &lt; Set-Cookie: AWSALBCORS=mhmnQMWnXNF//xSSazFCzh7ORGVoGEqWB2M+I9j4mmuTlsDskX+9BgvUyTFm1gJzMyXF2DrSPhPYXZWpcDcRJAivWEO3W6kW4QvwjqJoVfJirrCHZPJYOAtfrc/W; Max-Age=1658807821000; Expires=Sun, 27 Jan 54588 18:13:42 GMT; Domain=ipipapi.ipi.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;apiStatus&quot;:&quot;SUCCESS&quot;,&quot;message&quot;:null,&quot;sessionId&quot;:&quot;1bb2d429-32f2-4cf8-b230-dded9091b04a&quot;,&quot;termsAndConditions&quot;:[{&quot;iconUrl&quot;:&quot;https://static-content.ipi.staging-traveloka.com/static/icon/product/SHUTTLE_AIRPORT_TRANSPORT.png&quot;,&quot;title&quot;:&quot;Airport Transfer&quot;,&quot;items&quot;:[{&quot;apiStatus&quot;:&quot;SUCCESS&quot;,&quot;message&quot;:null,&quot;refundableItem&quot;:{&quot;sectionTitle&quot;:&quot;Item Details&quot;,&quot;title&quot;:&quot;From Soekarno Hatta International Airport (CGK)&quot;,&quot;itemIconUrl&quot;:&quot;https://static-content.ipi.staging-traveloka.com/static/icon/product/SHUTTLE_AIRPORT_TRANSPORT.png&quot;,&quot;subTitles&quot;:[&quot;Tue, 19 Jul 2022 • 15:00&quot;,&quot;Traveloka Airport Transport Supplier 1  - Sedan - 1 car(s)&quot;],&quot;refundableStatus&quot;:&quot;REFUNDABLE&quot;,&quot;refundableStatusColor&quot;:&quot;#00A651&quot;},&quot;contactInformation&quot;:null,&quot;preEstimationTerms&quot;:[{&quot;title&quot;:&quot;General Policy&quot;,&quot;description&quot;:&quot;&lt;ul&gt;\n&lt;li&gt;Refund can only be requested through the Traveloka account used during booking.&lt;/li&gt;\n&lt;li&gt;Refund requests that have been submitted cannot be canceled for any reason.&lt;/li&gt;\n&lt;li&gt;Refund process for Airport Transfer bookings may take up to 14 days, starting from the day your refund request is received and approved by Traveloka. Any inaccuracies of information provided by the customer may result in additional delays.&lt;/li&gt;\n&lt;li&gt;Your Traveloka Points will be canceled and, where necessary, deducted from your Traveloka Account, once you submit a refund request to us. Your redeemed Traveloka Points cannot be returned to you if and when you cancel or change your travel itinerary. We will not return your redeemed and/or cancelled Traveloka Points to you regardless of the outcome of your refund request.&lt;/li&gt;\n&lt;li&gt;In the case of multi-currency transaction, the refund amount will be adjusted to the currency exchange rate at the time of booking.&lt;/li&gt;\n&lt;li&gt;Refund through bank transfer will only be processed if the bank account belongs to the renter (same as contact details). Otherwise, please provide a scanned copy of Power of Attorney/Procuration, signed by the renter, along with a scanned copy of the bank account holder’s ID card.&lt;/li&gt;\n&lt;li&gt;Payment with credit cards cannot be refunded in cash. Refund will be credited back to the same credit card used for payment, with respect to the bank&#39;s terms and conditions.&lt;/li&gt;\n&lt;li&gt;The refund request form should be completed by the renter (same as contact details).&lt;/li&gt;\n&lt;li&gt;Traveloka has the right to request for any supporting documents or additional information required for refund approval.&lt;/li&gt;\n&lt;/ul&gt;&quot;}],&quot;estimationTerm&quot;:{&quot;title&quot;:&quot;Refund Policy&quot;,&quot;invalidReasonNotice&quot;:null,&quot;preEstimationNotice&quot;:&quot;Below is the estimated refund you will receive.&quot;,&quot;reasonPoliciesSelectionTitle&quot;:&quot;Select your refund reason to see your refund amount estimation.&quot;,&quot;reasonPolicies&quot;:[{&quot;reason&quot;:&quot;Self cancellation&quot;,&quot;reasonPolicy&quot;:&quot;&quot;,&quot;estimations&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}]},{&quot;reason&quot;:&quot;Sickness&quot;,&quot;reasonPolicy&quot;:&quot;&quot;,&quot;estimations&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}]},{&quot;reason&quot;:&quot;Pregnancy&quot;,&quot;reasonPolicy&quot;:&quot;&quot;,&quot;estimations&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}]},{&quot;reason&quot;:&quot;Death&quot;,&quot;reasonPolicy&quot;:&quot;&quot;,&quot;estimations&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}]},{&quot;reason&quot;:&quot;Canceled by airline&quot;,&quot;reasonPolicy&quot;:&quot;&quot;,&quot;estimations&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}]},{&quot;reason&quot;:&quot;Wrong booking date&quot;,&quot;reasonPolicy&quot;:&quot;&quot;,&quot;estimations&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}]},{&quot;reason&quot;:&quot;Double booking&quot;,&quot;reasonPolicy&quot;:&quot;&quot;,&quot;estimations&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}]},{&quot;reason&quot;:&quot;Natural disaster&quot;,&quot;reasonPolicy&quot;:&quot;&quot;,&quot;estimations&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}]},{&quot;reason&quot;:&quot;Other&quot;,&quot;reasonPolicy&quot;:&quot;&quot;,&quot;estimations&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}]}],&quot;postEstimationNotice&quot;:null,&quot;disclaimer&quot;:&quot;Refund amount differs based on your refund reason and time of request.&quot;,&quot;productTNCDialogTitle&quot;:&quot;Your Ordered Menus&quot;},&quot;estimationInfoTerm&quot;:{&quot;title&quot;:&quot;Refund Estimation&quot;,&quot;estimationPolicyTitle&quot;:&quot;Estimated based on refund reason:&quot;,&quot;reasonPoliciesSelectionTitle&quot;:&quot;Refund policies differ based on your refund reason.&quot;,&quot;reasonPoliciesSelectionNote&quot;:&quot;PolicyPage_ReasonEstimationInfo_Note&quot;,&quot;reasonMap&quot;:{&quot;OTHERS&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}],&quot;SICKNESS&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}],&quot;FLIGHT_CANCELLATION&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}],&quot;WRONG_BOOKING_DATE&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}],&quot;DEATH&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}],&quot;FORCE_MAJEURE&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}],&quot;DOUBLE_BOOKING&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}],&quot;SELF_CANCELLATION&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}],&quot;PREGNANCY&quot;:[{&quot;title&quot;:&quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;IDR 15.000&quot;}],&quot;selectedByTime&quot;:true,&quot;selectedByTimeText&quot;:&quot;Refund Estimation&quot;},{&quot;title&quot;:&quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,&quot;subTitle&quot;:&quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,&quot;amounts&quot;:[{&quot;title&quot;:&quot; &quot;,&quot;description&quot;:&quot;Non-refundable&quot;}],&quot;selectedByTime&quot;:false,&quot;selectedByTimeText&quot;:null}]},&quot;reasonList&quot;:[{&quot;name&quot;:&quot;SELF_CANCELLATION&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Self cancellation&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;SICKNESS&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Sickness&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;PREGNANCY&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Pregnancy&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;DEATH&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Death&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;FLIGHT_CANCELLATION&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Canceled by airline&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;WRONG_BOOKING_DATE&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Wrong booking date&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;DOUBLE_BOOKING&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Double booking&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;FORCE_MAJEURE&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Natural disaster&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:false,&quot;freeText&quot;:false,&quot;available&quot;:true},{&quot;name&quot;:&quot;OTHERS&quot;,&quot;description&quot;:null,&quot;title&quot;:&quot;Other&quot;,&quot;isAvailable&quot;:true,&quot;placeholder&quot;:&quot;Specify refund reason&quot;,&quot;isFreeText&quot;:true,&quot;freeText&quot;:true,&quot;available&quot;:true}],&quot;showPolicyButton&quot;:false,&quot;infoText&quot;:null,&quot;reasonSelectionDisclaimer&quot;:&quot;Refund is only applicable to certain reasons.&quot;,&quot;preEstimationNotice&quot;:&quot;Below is the estimated refund you will receive.&quot;,&quot;postEstimationNotice&quot;:null,&quot;infoBox&quot;:null,&quot;disclaimer&quot;:&quot;Refund amount differs based on your refund reason and time of request.&quot;,&quot;productTNCDialogTitle&quot;:&quot;Your Ordered Menus&quot;},&quot;postEstimationTerms&quot;:[]}]}],&quot;hook&quot;:&quot;SUBITEM_REASON&quot;},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;,&quot;nonce&quot;:&quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.26.0.call">
+    <div class="step-container" id="0.26.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>match response.data contains { sessionId: &#39;#notnull&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print refunddetailTnC</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.27">10:57:02.586 [print] {
+  &quot;requestbodydetailTnC&quot;: {
+    &quot;fields&quot;: [
+    ],
+    &quot;data&quot;: {
+      &quot;bookingId&quot;: &quot;89704438&quot;
+    },
+    &quot;context&quot;: {
+      &quot;nonce&quot;: &quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;,
+      &quot;tvLifetime&quot;: &quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,
+      &quot;tvSession&quot;: &quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;
+    },
+    &quot;clientInterface&quot;: &quot;mobile-iOS&quot;
+  },
+  &quot;responseHeaders&quot;: {
+    &quot;Date&quot;: [
+      &quot;Tue, 19 Jul 2022 03:57:02 GMT&quot;
+    ],
+    &quot;Content-Type&quot;: [
+      &quot;application/json;charset=utf-8&quot;
+    ],
+    &quot;Transfer-Encoding&quot;: [
+      &quot;chunked&quot;
+    ],
+    &quot;Connection&quot;: [
+      &quot;keep-alive&quot;
+    ],
+    &quot;Cache-Control&quot;: [
+      &quot;no-cache&quot;
+    ],
+    &quot;Access-Control-Allow-Credentials&quot;: [
+      &quot;true&quot;
+    ],
+    &quot;X-Nonce&quot;: [
+      &quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;
+    ],
+    &quot;vary&quot;: [
+      &quot;accept-encoding&quot;
+    ],
+    &quot;Set-Cookie&quot;: [
+      &quot;AWSALB=mhmnQMWnXNF//xSSazFCzh7ORGVoGEqWB2M+I9j4mmuTlsDskX+9BgvUyTFm1gJzMyXF2DrSPhPYXZWpcDcRJAivWEO3W6kW4QvwjqJoVfJirrCHZPJYOAtfrc/W; Max-Age=1658807821000; Expires=Sun, 27 Jan 54588 18:13:42 GMT; Domain=ipipapi.ipi.staging-traveloka.com&quot;,
+      &quot;AWSALBCORS=mhmnQMWnXNF//xSSazFCzh7ORGVoGEqWB2M+I9j4mmuTlsDskX+9BgvUyTFm1gJzMyXF2DrSPhPYXZWpcDcRJAivWEO3W6kW4QvwjqJoVfJirrCHZPJYOAtfrc/W; Max-Age=1658807821000; Expires=Sun, 27 Jan 54588 18:13:42 GMT; Domain=ipipapi.ipi.staging-traveloka.com; Secure&quot;
+    ]
+  },
+  &quot;responseStatus&quot;: 200,
+  &quot;response&quot;: {
+    &quot;data&quot;: {
+      &quot;apiStatus&quot;: &quot;SUCCESS&quot;,
+      &quot;message&quot;: null,
+      &quot;sessionId&quot;: &quot;1bb2d429-32f2-4cf8-b230-dded9091b04a&quot;,
+      &quot;termsAndConditions&quot;: [
+        {
+          &quot;iconUrl&quot;: &quot;https://static-content.ipi.staging-traveloka.com/static/icon/product/SHUTTLE_AIRPORT_TRANSPORT.png&quot;,
+          &quot;title&quot;: &quot;Airport Transfer&quot;,
+          &quot;items&quot;: [
+            {
+              &quot;apiStatus&quot;: &quot;SUCCESS&quot;,
+              &quot;message&quot;: null,
+              &quot;refundableItem&quot;: {
+                &quot;sectionTitle&quot;: &quot;Item Details&quot;,
+                &quot;title&quot;: &quot;From Soekarno Hatta International Airport (CGK)&quot;,
+                &quot;itemIconUrl&quot;: &quot;https://static-content.ipi.staging-traveloka.com/static/icon/product/SHUTTLE_AIRPORT_TRANSPORT.png&quot;,
+                &quot;subTitles&quot;: [
+                  &quot;Tue, 19 Jul 2022 \u2022 15:00&quot;,
+                  &quot;Traveloka Airport Transport Supplier 1  - Sedan - 1 car(s)&quot;
+                ],
+                &quot;refundableStatus&quot;: &quot;REFUNDABLE&quot;,
+                &quot;refundableStatusColor&quot;: &quot;#00A651&quot;
+              },
+              &quot;contactInformation&quot;: null,
+              &quot;preEstimationTerms&quot;: [
+                {
+                  &quot;title&quot;: &quot;General Policy&quot;,
+                  &quot;description&quot;: &quot;&lt;ul&gt;\n&lt;li&gt;Refund can only be requested through the Traveloka account used during booking.&lt;/li&gt;\n&lt;li&gt;Refund requests that have been submitted cannot be canceled for any reason.&lt;/li&gt;\n&lt;li&gt;Refund process for Airport Transfer bookings may take up to 14 days, starting from the day your refund request is received and approved by Traveloka. Any inaccuracies of information provided by the customer may result in additional delays.&lt;/li&gt;\n&lt;li&gt;Your Traveloka Points will be canceled and, where necessary, deducted from your Traveloka Account, once you submit a refund request to us. Your redeemed Traveloka Points cannot be returned to you if and when you cancel or change your travel itinerary. We will not return your redeemed and/or cancelled Traveloka Points to you regardless of the outcome of your refund request.&lt;/li&gt;\n&lt;li&gt;In the case of multi-currency transaction, the refund amount will be adjusted to the currency exchange rate at the time of booking.&lt;/li&gt;\n&lt;li&gt;Refund through bank transfer will only be processed if the bank account belongs to the renter (same as contact details). Otherwise, please provide a scanned copy of Power of Attorney/Procuration, signed by the renter, along with a scanned copy of the bank account holder\u2019s ID card.&lt;/li&gt;\n&lt;li&gt;Payment with credit cards cannot be refunded in cash. Refund will be credited back to the same credit card used for payment, with respect to the bank&#39;s terms and conditions.&lt;/li&gt;\n&lt;li&gt;The refund request form should be completed by the renter (same as contact details).&lt;/li&gt;\n&lt;li&gt;Traveloka has the right to request for any supporting documents or additional information required for refund approval.&lt;/li&gt;\n&lt;/ul&gt;&quot;
+                }
+              ],
+              &quot;estimationTerm&quot;: {
+                &quot;title&quot;: &quot;Refund Policy&quot;,
+                &quot;invalidReasonNotice&quot;: null,
+                &quot;preEstimationNotice&quot;: &quot;Below is the estimated refund you will receive.&quot;,
+                &quot;reasonPoliciesSelectionTitle&quot;: &quot;Select your refund reason to see your refund amount estimation.&quot;,
+                &quot;reasonPolicies&quot;: [
+                  {
+                    &quot;reason&quot;: &quot;Self cancellation&quot;,
+                    &quot;reasonPolicy&quot;: &quot;&quot;,
+                    &quot;estimations&quot;: [
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;IDR 15.000&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: true,
+                        &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                      },
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;Non-refundable&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: false,
+                        &quot;selectedByTimeText&quot;: null
+                      }
+                    ]
+                  },
+                  {
+                    &quot;reason&quot;: &quot;Sickness&quot;,
+                    &quot;reasonPolicy&quot;: &quot;&quot;,
+                    &quot;estimations&quot;: [
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;IDR 15.000&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: true,
+                        &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                      },
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;Non-refundable&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: false,
+                        &quot;selectedByTimeText&quot;: null
+                      }
+                    ]
+                  },
+                  {
+                    &quot;reason&quot;: &quot;Pregnancy&quot;,
+                    &quot;reasonPolicy&quot;: &quot;&quot;,
+                    &quot;estimations&quot;: [
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;IDR 15.000&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: true,
+                        &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                      },
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;Non-refundable&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: false,
+                        &quot;selectedByTimeText&quot;: null
+                      }
+                    ]
+                  },
+                  {
+                    &quot;reason&quot;: &quot;Death&quot;,
+                    &quot;reasonPolicy&quot;: &quot;&quot;,
+                    &quot;estimations&quot;: [
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;IDR 15.000&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: true,
+                        &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                      },
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;Non-refundable&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: false,
+                        &quot;selectedByTimeText&quot;: null
+                      }
+                    ]
+                  },
+                  {
+                    &quot;reason&quot;: &quot;Canceled by airline&quot;,
+                    &quot;reasonPolicy&quot;: &quot;&quot;,
+                    &quot;estimations&quot;: [
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;IDR 15.000&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: true,
+                        &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                      },
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;Non-refundable&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: false,
+                        &quot;selectedByTimeText&quot;: null
+                      }
+                    ]
+                  },
+                  {
+                    &quot;reason&quot;: &quot;Wrong booking date&quot;,
+                    &quot;reasonPolicy&quot;: &quot;&quot;,
+                    &quot;estimations&quot;: [
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;IDR 15.000&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: true,
+                        &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                      },
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;Non-refundable&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: false,
+                        &quot;selectedByTimeText&quot;: null
+                      }
+                    ]
+                  },
+                  {
+                    &quot;reason&quot;: &quot;Double booking&quot;,
+                    &quot;reasonPolicy&quot;: &quot;&quot;,
+                    &quot;estimations&quot;: [
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;IDR 15.000&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: true,
+                        &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                      },
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;Non-refundable&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: false,
+                        &quot;selectedByTimeText&quot;: null
+                      }
+                    ]
+                  },
+                  {
+                    &quot;reason&quot;: &quot;Natural disaster&quot;,
+                    &quot;reasonPolicy&quot;: &quot;&quot;,
+                    &quot;estimations&quot;: [
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;IDR 15.000&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: true,
+                        &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                      },
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;Non-refundable&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: false,
+                        &quot;selectedByTimeText&quot;: null
+                      }
+                    ]
+                  },
+                  {
+                    &quot;reason&quot;: &quot;Other&quot;,
+                    &quot;reasonPolicy&quot;: &quot;&quot;,
+                    &quot;estimations&quot;: [
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;IDR 15.000&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: true,
+                        &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                      },
+                      {
+                        &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                        &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                        &quot;amounts&quot;: [
+                          {
+                            &quot;title&quot;: &quot; &quot;,
+                            &quot;description&quot;: &quot;Non-refundable&quot;
+                          }
+                        ],
+                        &quot;selectedByTime&quot;: false,
+                        &quot;selectedByTimeText&quot;: null
+                      }
+                    ]
+                  }
+                ],
+                &quot;postEstimationNotice&quot;: null,
+                &quot;disclaimer&quot;: &quot;Refund amount differs based on your refund reason and time of request.&quot;,
+                &quot;productTNCDialogTitle&quot;: &quot;Your Ordered Menus&quot;
+              },
+              &quot;estimationInfoTerm&quot;: {
+                &quot;title&quot;: &quot;Refund Estimation&quot;,
+                &quot;estimationPolicyTitle&quot;: &quot;Estimated based on refund reason:&quot;,
+                &quot;reasonPoliciesSelectionTitle&quot;: &quot;Refund policies differ based on your refund reason.&quot;,
+                &quot;reasonPoliciesSelectionNote&quot;: &quot;PolicyPage_ReasonEstimationInfo_Note&quot;,
+                &quot;reasonMap&quot;: {
+                  &quot;OTHERS&quot;: [
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;IDR 15.000&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: true,
+                      &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                    },
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;Non-refundable&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: false,
+                      &quot;selectedByTimeText&quot;: null
+                    }
+                  ],
+                  &quot;SICKNESS&quot;: [
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;IDR 15.000&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: true,
+                      &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                    },
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;Non-refundable&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: false,
+                      &quot;selectedByTimeText&quot;: null
+                    }
+                  ],
+                  &quot;FLIGHT_CANCELLATION&quot;: [
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;IDR 15.000&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: true,
+                      &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                    },
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;Non-refundable&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: false,
+                      &quot;selectedByTimeText&quot;: null
+                    }
+                  ],
+                  &quot;WRONG_BOOKING_DATE&quot;: [
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;IDR 15.000&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: true,
+                      &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                    },
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;Non-refundable&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: false,
+                      &quot;selectedByTimeText&quot;: null
+                    }
+                  ],
+                  &quot;DEATH&quot;: [
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;IDR 15.000&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: true,
+                      &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                    },
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;Non-refundable&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: false,
+                      &quot;selectedByTimeText&quot;: null
+                    }
+                  ],
+                  &quot;FORCE_MAJEURE&quot;: [
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;IDR 15.000&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: true,
+                      &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                    },
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;Non-refundable&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: false,
+                      &quot;selectedByTimeText&quot;: null
+                    }
+                  ],
+                  &quot;DOUBLE_BOOKING&quot;: [
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;IDR 15.000&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: true,
+                      &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                    },
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;Non-refundable&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: false,
+                      &quot;selectedByTimeText&quot;: null
+                    }
+                  ],
+                  &quot;SELF_CANCELLATION&quot;: [
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;IDR 15.000&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: true,
+                      &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                    },
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;Non-refundable&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: false,
+                      &quot;selectedByTimeText&quot;: null
+                    }
+                  ],
+                  &quot;PREGNANCY&quot;: [
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Up to 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;Before 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;IDR 15.000&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: true,
+                      &quot;selectedByTimeText&quot;: &quot;Refund Estimation&quot;
+                    },
+                    {
+                      &quot;title&quot;: &quot;&lt;strong&gt;Less than 1 hour before scheduled time&lt;/strong&gt;&quot;,
+                      &quot;subTitle&quot;: &quot;After 19 July 2022 at (14:00 Jakarta time)&quot;,
+                      &quot;amounts&quot;: [
+                        {
+                          &quot;title&quot;: &quot; &quot;,
+                          &quot;description&quot;: &quot;Non-refundable&quot;
+                        }
+                      ],
+                      &quot;selectedByTime&quot;: false,
+                      &quot;selectedByTimeText&quot;: null
+                    }
+                  ]
+                },
+                &quot;reasonList&quot;: [
+                  {
+                    &quot;name&quot;: &quot;SELF_CANCELLATION&quot;,
+                    &quot;description&quot;: null,
+                    &quot;title&quot;: &quot;Self cancellation&quot;,
+                    &quot;isAvailable&quot;: true,
+                    &quot;placeholder&quot;: &quot;Specify refund reason&quot;,
+                    &quot;isFreeText&quot;: false,
+                    &quot;freeText&quot;: false,
+                    &quot;available&quot;: true
+                  },
+                  {
+                    &quot;name&quot;: &quot;SICKNESS&quot;,
+                    &quot;description&quot;: null,
+                    &quot;title&quot;: &quot;Sickness&quot;,
+                    &quot;isAvailable&quot;: true,
+                    &quot;placeholder&quot;: &quot;Specify refund reason&quot;,
+                    &quot;isFreeText&quot;: false,
+                    &quot;freeText&quot;: false,
+                    &quot;available&quot;: true
+                  },
+                  {
+                    &quot;name&quot;: &quot;PREGNANCY&quot;,
+                    &quot;description&quot;: null,
+                    &quot;title&quot;: &quot;Pregnancy&quot;,
+                    &quot;isAvailable&quot;: true,
+                    &quot;placeholder&quot;: &quot;Specify refund reason&quot;,
+                    &quot;isFreeText&quot;: false,
+                    &quot;freeText&quot;: false,
+                    &quot;available&quot;: true
+                  },
+                  {
+                    &quot;name&quot;: &quot;DEATH&quot;,
+                    &quot;description&quot;: null,
+                    &quot;title&quot;: &quot;Death&quot;,
+                    &quot;isAvailable&quot;: true,
+                    &quot;placeholder&quot;: &quot;Specify refund reason&quot;,
+                    &quot;isFreeText&quot;: false,
+                    &quot;freeText&quot;: false,
+                    &quot;available&quot;: true
+                  },
+                  {
+                    &quot;name&quot;: &quot;FLIGHT_CANCELLATION&quot;,
+                    &quot;description&quot;: null,
+                    &quot;title&quot;: &quot;Canceled by airline&quot;,
+                    &quot;isAvailable&quot;: true,
+                    &quot;placeholder&quot;: &quot;Specify refund reason&quot;,
+                    &quot;isFreeText&quot;: false,
+                    &quot;freeText&quot;: false,
+                    &quot;available&quot;: true
+                  },
+                  {
+                    &quot;name&quot;: &quot;WRONG_BOOKING_DATE&quot;,
+                    &quot;description&quot;: null,
+                    &quot;title&quot;: &quot;Wrong booking date&quot;,
+                    &quot;isAvailable&quot;: true,
+                    &quot;placeholder&quot;: &quot;Specify refund reason&quot;,
+                    &quot;isFreeText&quot;: false,
+                    &quot;freeText&quot;: false,
+                    &quot;available&quot;: true
+                  },
+                  {
+                    &quot;name&quot;: &quot;DOUBLE_BOOKING&quot;,
+                    &quot;description&quot;: null,
+                    &quot;title&quot;: &quot;Double booking&quot;,
+                    &quot;isAvailable&quot;: true,
+                    &quot;placeholder&quot;: &quot;Specify refund reason&quot;,
+                    &quot;isFreeText&quot;: false,
+                    &quot;freeText&quot;: false,
+                    &quot;available&quot;: true
+                  },
+                  {
+                    &quot;name&quot;: &quot;FORCE_MAJEURE&quot;,
+                    &quot;description&quot;: null,
+                    &quot;title&quot;: &quot;Natural disaster&quot;,
+                    &quot;isAvailable&quot;: true,
+                    &quot;placeholder&quot;: &quot;Specify refund reason&quot;,
+                    &quot;isFreeText&quot;: false,
+                    &quot;freeText&quot;: false,
+                    &quot;available&quot;: true
+                  },
+                  {
+                    &quot;name&quot;: &quot;OTHERS&quot;,
+                    &quot;description&quot;: null,
+                    &quot;title&quot;: &quot;Other&quot;,
+                    &quot;isAvailable&quot;: true,
+                    &quot;placeholder&quot;: &quot;Specify refund reason&quot;,
+                    &quot;isFreeText&quot;: true,
+                    &quot;freeText&quot;: true,
+                    &quot;available&quot;: true
+                  }
+                ],
+                &quot;showPolicyButton&quot;: false,
+                &quot;infoText&quot;: null,
+                &quot;reasonSelectionDisclaimer&quot;: &quot;Refund is only applicable to certain reasons.&quot;,
+                &quot;preEstimationNotice&quot;: &quot;Below is the estimated refund you will receive.&quot;,
+                &quot;postEstimationNotice&quot;: null,
+                &quot;infoBox&quot;: null,
+                &quot;disclaimer&quot;: &quot;Refund amount differs based on your refund reason and time of request.&quot;,
+                &quot;productTNCDialogTitle&quot;: &quot;Your Ordered Menus&quot;
+              },
+              &quot;postEstimationTerms&quot;: [
+              ]
+            }
+          ]
+        }
+      ],
+      &quot;hook&quot;: &quot;SUBITEM_REASON&quot;
+    },
+    &quot;userContext&quot;: null,
+    &quot;context&quot;: {
+      &quot;tvLifetime&quot;: &quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,
+      &quot;tvSession&quot;: &quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;,
+      &quot;nonce&quot;: &quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;
+    }
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Refund sub Item</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def refundsubItem = call read(&#39;classpath:GeneralRefund/AirportTransport/Submission/subItem.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">124</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.30.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">GeneralRefund.AirportTransport.Submission.subItem</div>
+      </div>
+      <div class="time-cell passed">115</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.30.0.call">
+    <div class="step-container" id="0.30.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlIPI</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.30.0.call">
+    <div class="step-container" id="0.30.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>json requestbodySubItem = read(&#39;classpath:request/refund/submission/AT/subItems.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.30.0.call">
+    <div class="step-container" id="0.30.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path refundSubItem</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.30.0.call">
+    <div class="step-container" id="0.30.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers accept</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.30.0.call.0.9">10:57:02.597 did not evaluate to map accept: [type: STRING, value: application/json]
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.30.0.call">
+    <div class="step-container" id="0.30.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestbodySubItem</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.30.0.call">
+    <div class="step-container" id="0.30.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">114</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.30.0.call.0.11">10:57:02.598 request:
+6 &gt; POST https://ipipapi.ipi.staging-traveloka.com/en-id/v2/post-issuance/refund/selections/subitems
+6 &gt; Content-Type: application/json; charset=UTF-8
+6 &gt; Content-Length: 908
+6 &gt; Host: ipipapi.ipi.staging-traveloka.com
+6 &gt; Connection: Keep-Alive
+6 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+6 &gt; Accept-Encoding: gzip,deflate
+{&quot;fields&quot;:[],&quot;data&quot;:{&quot;sessionId&quot;:&quot;5502ba2b-3674-4c39-b1da-e39d2560d4d5&quot;},&quot;context&quot;:{&quot;nonce&quot;:&quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;,&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0\/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE\/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U\/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY\/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;},&quot;clientInterface&quot;:&quot;mobile-iOS&quot;}
+
+10:57:02.710 response time in milliseconds: 112
+6 &lt; 500
+6 &lt; Date: Tue, 19 Jul 2022 03:57:02 GMT
+6 &lt; Content-Type: application/json
+6 &lt; Transfer-Encoding: chunked
+6 &lt; Connection: keep-alive
+6 &lt; Access-Control-Allow-Credentials: true
+6 &lt; vary: accept-encoding
+6 &lt; Set-Cookie: AWSALB=XBJa90IwCZE4sUStKzSVzE5r/DMhVOyViKjJx4m3AL3TgOJZ3cpKCbHnkNaFcy53QYS5qGmrQdYYL7I4xdaj7KM+WpfFU55PXbpLcP2TFSP0H5V4uuL0yQzGpdT0; Max-Age=1658807822000; Expires=Sun, 27 Jan 54588 18:30:22 GMT; Domain=ipipapi.ipi.staging-traveloka.com
+6 &lt; Set-Cookie: AWSALBCORS=XBJa90IwCZE4sUStKzSVzE5r/DMhVOyViKjJx4m3AL3TgOJZ3cpKCbHnkNaFcy53QYS5qGmrQdYYL7I4xdaj7KM+WpfFU55PXbpLcP2TFSP0H5V4uuL0yQzGpdT0; Max-Age=1658807822000; Expires=Sun, 27 Jan 54588 18:30:22 GMT; Domain=ipipapi.ipi.staging-traveloka.com; Secure
+{&quot;errorType&quot;:&quot;SERVER_ERROR&quot;,&quot;userErrorMessage&quot;:&quot;Unexpected server error occurred. We apologize for the inconvenience. Please try again later.&quot;,&quot;errorMessage&quot;:&quot;Invalid field: data.selectedProductItemCards - Error: Field should not null. violating Not nullable restriction \nInvalid field: data.selectedProductTypes - Error: Field should not null. violating Not nullable restriction \n&quot;,&quot;statusCode&quot;:&quot;500&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print refundsubItem</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.31">10:57:02.712 [print] {
+  &quot;requestbodySubItem&quot;: {
+    &quot;fields&quot;: [
+    ],
+    &quot;data&quot;: {
+      &quot;sessionId&quot;: &quot;5502ba2b-3674-4c39-b1da-e39d2560d4d5&quot;
+    },
+    &quot;context&quot;: {
+      &quot;nonce&quot;: &quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;,
+      &quot;tvLifetime&quot;: &quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,
+      &quot;tvSession&quot;: &quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;
+    },
+    &quot;clientInterface&quot;: &quot;mobile-iOS&quot;
+  },
+  &quot;responseHeaders&quot;: {
+    &quot;Date&quot;: [
+      &quot;Tue, 19 Jul 2022 03:57:02 GMT&quot;
+    ],
+    &quot;Content-Type&quot;: [
+      &quot;application/json&quot;
+    ],
+    &quot;Transfer-Encoding&quot;: [
+      &quot;chunked&quot;
+    ],
+    &quot;Connection&quot;: [
+      &quot;keep-alive&quot;
+    ],
+    &quot;Access-Control-Allow-Credentials&quot;: [
+      &quot;true&quot;
+    ],
+    &quot;vary&quot;: [
+      &quot;accept-encoding&quot;
+    ],
+    &quot;Set-Cookie&quot;: [
+      &quot;AWSALB=XBJa90IwCZE4sUStKzSVzE5r/DMhVOyViKjJx4m3AL3TgOJZ3cpKCbHnkNaFcy53QYS5qGmrQdYYL7I4xdaj7KM+WpfFU55PXbpLcP2TFSP0H5V4uuL0yQzGpdT0; Max-Age=1658807822000; Expires=Sun, 27 Jan 54588 18:30:22 GMT; Domain=ipipapi.ipi.staging-traveloka.com&quot;,
+      &quot;AWSALBCORS=XBJa90IwCZE4sUStKzSVzE5r/DMhVOyViKjJx4m3AL3TgOJZ3cpKCbHnkNaFcy53QYS5qGmrQdYYL7I4xdaj7KM+WpfFU55PXbpLcP2TFSP0H5V4uuL0yQzGpdT0; Max-Age=1658807822000; Expires=Sun, 27 Jan 54588 18:30:22 GMT; Domain=ipipapi.ipi.staging-traveloka.com; Secure&quot;
+    ]
+  },
+  &quot;responseStatus&quot;: 500,
+  &quot;response&quot;: {
+    &quot;errorType&quot;: &quot;SERVER_ERROR&quot;,
+    &quot;userErrorMessage&quot;: &quot;Unexpected server error occurred. We apologize for the inconvenience. Please try again later.&quot;,
+    &quot;errorMessage&quot;: &quot;Invalid field: data.selectedProductItemCards - Error: Field should not null. violating Not nullable restriction \nInvalid field: data.selectedProductTypes - Error: Field should not null. violating Not nullable restriction \n&quot;,
+    &quot;statusCode&quot;: &quot;500&quot;
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Refund Choose Reason</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref failed">34</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def refundchooseReason = call read(&#39;classpath:GeneralRefund/AirportTransport/Submission/chooseReason.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">139</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.34">10:57:02.851 src/test/java/GeneralRefund/AirportTransport/E2ERefundSubmit.feature:34
+* def refundchooseReason = call read(&#39;classpath:GeneralRefund/AirportTransport/Submission/chooseReason.feature&#39;)
+match failed: CONTAINS
+  $ | actual path does not exist (STRING:MAP)
+  &#39;#notpresent&#39;
+  {&quot;name&quot;:&quot;#notnull&quot;}
+
+classpath:GeneralRefund/AirportTransport/Submission/chooseReason.feature:12
+src/test/java/GeneralRefund/AirportTransport/E2ERefundSubmit.feature:34
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.34.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">GeneralRefund.AirportTransport.Submission.chooseReason</div>
+      </div>
+      <div class="time-cell passed">133</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.34.0.call">
+    <div class="step-container" id="0.34.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlIPI</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.34.0.call">
+    <div class="step-container" id="0.34.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>json requestbodychooseReason = read(&#39;classpath:request/refund/submission/AT/chooseReason.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.34.0.call">
+    <div class="step-container" id="0.34.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path refundChooseReason</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.34.0.call">
+    <div class="step-container" id="0.34.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers accept</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.34.0.call.0.9">10:57:02.719 did not evaluate to map accept: [type: STRING, value: application/json]
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.34.0.call">
+    <div class="step-container" id="0.34.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestbodychooseReason</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.34.0.call">
+    <div class="step-container" id="0.34.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">128</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.34.0.call.0.11">10:57:02.720 request:
+7 &gt; POST https://ipipapi.ipi.staging-traveloka.com/en-id/v2/post-issuance/refund/selections/choose-reason
+7 &gt; Content-Type: application/json; charset=UTF-8
+7 &gt; Content-Length: 968
+7 &gt; Host: ipipapi.ipi.staging-traveloka.com
+7 &gt; Connection: Keep-Alive
+7 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+7 &gt; Accept-Encoding: gzip,deflate
+{&quot;fields&quot;:[],&quot;data&quot;:{&quot;groupId&quot;:&quot;36125&quot;,&quot;productType&quot;:&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;,&quot;sessionId&quot;:&quot;5502ba2b-3674-4c39-b1da-e39d2560d4d5&quot;},&quot;context&quot;:{&quot;nonce&quot;:&quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;,&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0\/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE\/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U\/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY\/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;},&quot;clientInterface&quot;:&quot;mobile-iOS&quot;}
+
+10:57:02.846 response time in milliseconds: 126
+7 &lt; 200
+7 &lt; Date: Tue, 19 Jul 2022 03:57:02 GMT
+7 &lt; Content-Type: application/json;charset=utf-8
+7 &lt; Transfer-Encoding: chunked
+7 &lt; Connection: keep-alive
+7 &lt; Cache-Control: no-cache
+7 &lt; Access-Control-Allow-Credentials: true
+7 &lt; X-Nonce: 2ada945a-2110-4198-a412-e78f1398f9cb
+7 &lt; vary: accept-encoding
+7 &lt; Set-Cookie: AWSALB=7mBmj01SIhVeFc7pvhGG2JJaqRbBJ4VjzGiwElfdzpfNORjhdOTxbAYebomAo8PbCN8tGO/Ml6+c9XtbLXremvn70zXEsll6AwVB4le7ocqpDkKsxXeg/UyCE4wW; Max-Age=1658807822000; Expires=Sun, 27 Jan 54588 18:30:22 GMT; Domain=ipipapi.ipi.staging-traveloka.com
+7 &lt; Set-Cookie: AWSALBCORS=7mBmj01SIhVeFc7pvhGG2JJaqRbBJ4VjzGiwElfdzpfNORjhdOTxbAYebomAo8PbCN8tGO/Ml6+c9XtbLXremvn70zXEsll6AwVB4le7ocqpDkKsxXeg/UyCE4wW; Max-Age=1658807822000; Expires=Sun, 27 Jan 54588 18:30:22 GMT; Domain=ipipapi.ipi.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;apiStatus&quot;:&quot;SESSION_EXPIRED&quot;,&quot;message&quot;:&quot;Session has been expired for sessionId 5502ba2b-3674-4c39-b1da-e39d2560d4d5&quot;,&quot;productType&quot;:&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;,&quot;refundReasonMessageInfo&quot;:&quot;&quot;,&quot;reasons&quot;:[],&quot;sectionTitle&quot;:&quot;&quot;,&quot;refundReasonAdditionalInfo&quot;:null},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=&quot;,&quot;nonce&quot;:&quot;2ada945a-2110-4198-a412-e78f1398f9cb&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.34.0.call">
+    <div class="step-container" id="0.34.0.call.0.12">
+      <div class="step-ref failed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>match response.data.reasons[0] contains { name: &#39;#notnull&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell failed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.34.0.call.0.12">10:57:02.851 classpath:GeneralRefund/AirportTransport/Submission/chooseReason.feature:12
+Then match response.data.reasons[0] contains { name: &#39;#notnull&#39; }
+match failed: CONTAINS
+  $ | actual path does not exist (STRING:MAP)
+  &#39;#notpresent&#39;
+  {&quot;name&quot;:&quot;#notnull&quot;}
+
+classpath:GeneralRefund/AirportTransport/Submission/chooseReason.feature:12
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref skipped">35</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print refundchooseReason</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Refund Submit Sub Item</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref skipped">38</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def refundsubmitSubItem = call read(&#39;classpath:GeneralRefund/AirportTransport/Submission/submitSubItem.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref skipped">39</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print refundsubmitSubItem</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Refund Payment Form</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref skipped">42</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def refundPaymentForm = call read(&#39;classpath:GeneralRefund/AirportTransport/Submission/paymentForm.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.43">
+      <div class="step-ref skipped">43</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print refundPaymentForm</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Refund Submit Payment</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref skipped">46</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def refundsubmitPayment = call read(&#39;classpath:GeneralRefund/AirportTransport/Submission/submitPayment.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.47">
+      <div class="step-ref skipped">47</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print refundsubmitPayment</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Refund Review</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.50">
+      <div class="step-ref skipped">50</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def refundReview = call read(&#39;classpath:GeneralRefund/AirportTransport/Submission/refundReview.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.51">
+      <div class="step-ref skipped">51</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print refundReview</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Refund Submit</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.54">
+      <div class="step-ref skipped">54</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def refundSubmit = call read(&#39;classpath:GeneralRefund/AirportTransport/Submission/submitRefund.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.55">
+      <div class="step-ref skipped">55</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print refundSubmit</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># User Get OTP Info</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.58">
+      <div class="step-ref skipped">58</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def userGetOTP = call read(&#39;classpath:User/Login/getOTPInfo.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.59">
+      <div class="step-ref skipped">59</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print userGetOTP</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># User Send OTP</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.62">
+      <div class="step-ref skipped">62</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def sendOTP = call read(&#39;classpath:User/Login/sendOTP.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.63">
+      <div class="step-ref skipped">63</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print sendOTP</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Verify MFA</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.66">
+      <div class="step-ref skipped">66</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def verifyMFA = call read(&#39;classpath:User/Login/verifyMFA.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.67">
+      <div class="step-ref skipped">67</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print verifyMFA</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Refund Submit</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.70">
+      <div class="step-ref skipped">70</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>def refundSubmit = call read(&#39;classpath:GeneralRefund/AirportTransport/Submission/submitRefund.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.71">
+      <div class="step-ref skipped">71</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print refundSubmit</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

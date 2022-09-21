@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ac47b090-41ca-42aa-b5b1-dd1bb09963b4",{name:"siskaadelinadamanik"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.BookingProductMainFlow.Payment.reauthenticate</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-08-24 03:23:29 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:11]"><span>[1:11]</span> <span>Reauthenticate Page</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/BookingProductMainFlow/Payment/reauthenticate.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Reauthenticate Page</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:11]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:11]</span>
+                <span class="scenario-name">Reauthenticate Page</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>3062</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:11]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlUser</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def reqbodyreauth = read(&#39;classpath:request/booking/payment/reauthenticate.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">73</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodyreauth.context.tvLifetime = tvLifetime</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodyreauth.context.tvSession = tvSession</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path reauthenticate</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request reqbodyreauth</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2986</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">15:23:26.527 request:
+1 &gt; POST https://api.usr.staging-traveloka.com/en-id/v2/user/reauthenticate
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 1000
+1 &gt; Host: api.usr.staging-traveloka.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;clientInterface&quot;:&quot;mobile-android&quot;,&quot;context&quot;:{&quot;nonce&quot;:&quot;5d24671f-0774-45ae-aa37-ebe0cf134e96&quot;,&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zav\/DP3H3oxbg7cdZiIvskNWsDdrU40Mvgy8dAY3fuwpzy5dC2lSi+J5m4ThEzfK3TOlwW9fohpFfCCUgC2fy2BYvB9HAjnqFY+1bn0nvFW3DM6zknKWiSZX2XTS\/MftpxPD7FELaZwaw7u0cQBOjqa9MTvd2ifWrbL0Yl7uqDspNMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg2J02di7wCevjc01jxEACTfO4B8\/FMQhl7y7w75lPH7IHRWCQFs9xGxGSYQysDuY8iRQsoupqxm2GxcX8oyFSCTIVV3fLsByVaMy7VQkMUHLDzskJknNyQ9S0wH4kueeaY1PiZf+qSdVhmynPbcHSQR1gfwMe\/Np\/p37XKnglgPEAWpBf4t1lqjygYnSetmqRSN4oe6dNmOjVng97D0L89lI7IOzfCTrDU1l8kIEe7sDxiZpMaJ\/EdnoH5rCZfTnj59jYGqxRgVYJOWaYsTvD\/AU833c9Gi+r218MDeU4C3N0xV6hrERCF5cLOabRwRrqytYubxOkCsDN89AdbMpJMrD2EZw1ygYrLG2QCSsFa1So2pYSE1YCo1ArTspKKA3O\/B\/g7WjbyUCerAtTPNDjFTg5QuFpCSdkAK3aDKRoRYvE\/mVRR5m+rCDxlr\/mxc7ctk\/7BvfeakecrLGNt93lmVM3eEzMiYVzLO8gLbB5\/F+g==&quot;},&quot;data&quot;:{&quot;password&quot;:&quot;password&quot;},&quot;fields&quot;:[]}
+
+15:23:29.270 response time in milliseconds: 2736
+1 &lt; 200
+1 &lt; Date: Wed, 24 Aug 2022 08:23:29 GMT
+1 &lt; Content-Type: application/json;charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; RequestId: e7f4e889-f1d6-48a5-bbbf-f1aa684ffa39
+1 &lt; Cache-Control: no-cache
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; X-Nonce: 5d24671f-0774-45ae-aa37-ebe0cf134e96
+1 &lt; vary: accept-encoding
+1 &lt; Set-Cookie: AWSALB=HxjaUHEUjM2t+qlbepWKiqPZt+QYw5UnZKWCMgN2fWttwZ6FKNDLvpUWCUxazxYRBm48NbFMcxXy6aaIWqXf4ASsUkPkPQdKd/fBPd6RV9m5PYZ5lgxAiwrbz/yP; Max-Age=1661934208000; Expires=Wed, 30 Mar 54687 23:30:09 GMT; Domain=api.usr.staging-traveloka.com
+1 &lt; Set-Cookie: AWSALBCORS=HxjaUHEUjM2t+qlbepWKiqPZt+QYw5UnZKWCMgN2fWttwZ6FKNDLvpUWCUxazxYRBm48NbFMcxXy6aaIWqXf4ASsUkPkPQdKd/fBPd6RV9m5PYZ5lgxAiwrbz/yP; Max-Age=1661934208000; Expires=Wed, 30 Mar 54687 23:30:09 GMT; Domain=api.usr.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;status&quot;:&quot;SUCCESS&quot;,&quot;message&quot;:&quot;You have logged in successfully&quot;,&quot;rateLimitResult&quot;:{&quot;limit&quot;:&quot;5&quot;,&quot;remaining&quot;:&quot;4&quot;,&quot;retryAfter&quot;:&quot;0&quot;}},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zav/DP3H3oxbg7cdZiIvskNqlcvNnRGNFxEj1Ea5XAVADy5dC2lSi+J5m4ThEzfK3RmU7odit3dJQ1mtw33T7v5cIRcRukGWG+CYsLb7X5UQjM6zknKWiSZX2XTS/MftpxPD7FELaZwaw7u0cQBOjqa9MTvd2ifWrbL0Yl7uqDspNMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg2J02di7wCevjc01jxEACTfO4B8/FMQhl7y7w75lPH7IHRWCQFs9xGxGSYQysDuY8iRQsoupqxm2GxcX8oyFSCTIVV3fLsByVaMy7VQkMUHLDzskJknNyQ9S0wH4kueeaY1PiZf+qSdVhmynPbcHSQR1gfwMe/Np/p37XKnglgPEAWpBf4t1lqjygYnSetmqRSN4oe6dNmOjVng97D0L89lI7IOzfCTrDU1l8kIEe7sDxiZpMaJ/EdnoH5rCZfTnj59jYGqxRgVYJOWaYsTvD/AU833c9Gi+r218MDeU4C3N0xV6hrERCF5cLOabRwRrqytYubxOkCsDN89AdbMpJMrD2EZw1ygYrLG2QCSsFa1So2pYSE1YCo1ArTspKKA3O/B/g7WjbyUCerAtTPNDjFTg5QuFpCSdkAK3aDKRoRYvE/mVRR5m+rCDxlr/mxc7ctk/7BvfeakecrLGNt93lmVM3eEzMiYVzLO8gLbB5/F+g==&quot;,&quot;nonce&quot;:&quot;5d24671f-0774-45ae-aa37-ebe0cf134e96&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

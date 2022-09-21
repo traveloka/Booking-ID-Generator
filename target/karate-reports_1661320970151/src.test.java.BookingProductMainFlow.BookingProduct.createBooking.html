@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ac47b090-41ca-42aa-b5b1-dd1bb09963b4",{name:"siskaadelinadamanik"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.BookingProductMainFlow.BookingProduct.createBooking</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-08-24 01:01:37 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:9]"><span>[1:9]</span> <span>User create booking successful</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/BookingProductMainFlow/BookingProduct/createBooking.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Create Booking Flight</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:9]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:9]</span>
+                <span class="scenario-name">User create booking successful</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1121</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:9]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlTrp</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def reqbodycreatebooking = read(&#39;classpath:request/booking/booking/flight/createbooking.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">114</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodycreatebooking.context.tvLifetime = tvLifetime</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodycreatebooking.context.tvSession = tvSession</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path createbooking</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request reqbodycreatebooking</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1002</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">13:01:37.229 request:
+1 &gt; POST https://api.trp.staging-traveloka.com/en-id/v2/trip/booking/createBooking
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 5617
+1 &gt; Host: api.trp.staging-traveloka.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;clientInterface&quot;:&quot;mobile-ios&quot;,&quot;context&quot;:{&quot;nonce&quot;:&quot;817aaf3f-e8c6-4005-a7d7-e8abf31c6ec2&quot;,&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zav\/DP3H3oxbg7cdZiIvskNWsDdrU40Mvgy8dAY3fuwpzy5dC2lSi+J5m4ThEzfK3TOlwW9fohpFfCCUgC2fy2BYvB9HAjnqFY+1bn0nvFW3DM6zknKWiSZX2XTS\/MftpxPD7FELaZwaw7u0cQBOjqa9MTvd2ifWrbL0Yl7uqDspNMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg2J02di7wCevjc01jxEACTfO4B8\/FMQhl7y7w75lPH7IHRWCQFs9xGxGSYQysDuY8iRQsoupqxm2GxcX8oyFSCTIVV3fLsByVaMy7VQkMUHLDzskJknNyQ9S0wH4kueeaY1PiZf+qSdVhmynPbcHSQR1gfwMe\/Np\/p37XKnglgPEAWpBf4t1lqjygYnSetmqRSN4oe6dNmOjVng97D0L89lI7IOzfCTrDU1l8kIEe7sDxiZpMaJ\/EdnoH5rCZfTnj59jYGqxRgVYJOWaYsTvD\/AU833c9Gi+r218MDeU4C3N0xV6hrERCF5cLOabRwRrqytYubxOkCsDN89AdbMpJMrD2EZw1ygYrLG2QCSsFa1So2pYSE1YCo1ArTspKKA3O\/B\/g7WjbyUCerAtTPNDjFTg5QuFpCSdkAK3aDKRoRYvE\/mVRR5m+rCDxlr\/mxc7ctk\/7BvfeakecrLGNt93lmVM3eEzMiYVzLO8gLbB5\/F+g==&quot;},&quot;data&quot;:{&quot;addOnProductSpecs&quot;:[],&quot;bookingContact&quot;:{&quot;formData&quot;:{&quot;travelerForm&quot;:{&quot;title&quot;:&quot;MISS&quot;,&quot;name.first&quot;:&quot;IPI Front&quot;,&quot;name.noLastName&quot;:false,&quot;name.last&quot;:&quot;End&quot;,&quot;name.regexName&quot;:&quot;DEFAULT&quot;,&quot;phoneNumber&quot;:{&quot;countryCode&quot;:&quot;+62&quot;,&quot;phoneNumber&quot;:&quot;8234567876&quot;},&quot;emailAddress&quot;:&quot;ipi.front.end2@gmail.com&quot;,&quot;nationality&quot;:&quot;ID&quot;,&quot;travelerID.type&quot;:&quot;KTP&quot;,&quot;travelerID.number&quot;:&quot;1234567890987688&quot;},&quot;FLIGHT.FF&quot;:{&quot;boxAccordionFF&quot;:true,&quot;ffAccount[0]&quot;:&quot;&quot;,&quot;ffNumber[0]&quot;:&quot;&quot;}}},&quot;createBookingCrossSellAddOns&quot;:[{&quot;id&quot;:&quot;INSURANCE_796&quot;,&quot;productType&quot;:&quot;INSURANCE&quot;,&quot;type&quot;:&quot;INSURANCE_CHECKBOX&quot;,&quot;displayType&quot;:&quot;CHECKBOX&quot;,&quot;insuranceCreateCrossSellAddOnV2&quot;:{&quot;productType&quot;:&quot;FLIGHT&quot;,&quot;insuranceSpecId&quot;:&quot;34e280a2653f911aa6d8f0b159b3bb25d503b219&quot;,&quot;insurancePlanId&quot;:&quot;796&quot;,&quot;productName&quot;:&quot;FlightInsurance&quot;,&quot;crossSellAddOnType&quot;:&quot;INSURANCE_CHECKBOX&quot;}}],&quot;createBookingProductSpecificAddOns&quot;:[{&quot;flightBaggageAddOn&quot;:{&quot;baggageAddOnItems&quot;:[{&quot;associatedTravelerIndex&quot;:0,&quot;baggagesWithRoute&quot;:[[{&quot;baggageType&quot;:&quot;0&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;amount&quot;:0,&quot;currency&quot;:&quot;IDR&quot;,&quot;nullOrEmpty&quot;:true},&quot;numOfDecimalPoint&quot;:0},&quot;price&quot;:&quot;0&quot;,&quot;priceWithCurrency&quot;:{&quot;amount&quot;:0,&quot;currency&quot;:&quot;IDR&quot;,&quot;nullOrEmpty&quot;:false},&quot;quantity&quot;:&quot;1&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;weight&quot;:&quot;20&quot;}]]}]},&quot;id&quot;:&quot;FLIGHT_BAGGAGE&quot;,&quot;type&quot;:&quot;FLIGHT_BAGGAGE&quot;}],&quot;createBookingSimpleAddOns&quot;:[],&quot;createBookingTravelerSpecs&quot;:{&quot;adultFormData&quot;:[{&quot;travelerForm&quot;:{&quot;title&quot;:&quot;MISS&quot;,&quot;name.first&quot;:&quot;IPI Front&quot;,&quot;name.noLastName&quot;:false,&quot;name.last&quot;:&quot;End&quot;,&quot;name.regexName&quot;:&quot;DEFAULT&quot;,&quot;nationality&quot;:&quot;ID&quot;,&quot;travelerID.type&quot;:&quot;KTP&quot;,&quot;travelerID.number&quot;:&quot;1234567890987688&quot;}}],&quot;childFormData&quot;:[],&quot;infantFormData&quot;:[]},&quot;currency&quot;:&quot;IDR&quot;,&quot;isMultiItem&quot;:false,&quot;selectedPrice&quot;:{&quot;selectedPrice&quot;:{&quot;amount&quot;:935000,&quot;currency&quot;:&quot;IDR&quot;,&quot;nullOrEmpty&quot;:false}},&quot;selectedProductSpec&quot;:{&quot;flightProductBookingSpec&quot;:{&quot;flightItineraryFares&quot;:[{&quot;airlineId&quot;:&quot;JT&quot;,&quot;farePerPaxSearch&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;905400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxExpected&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;955400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxAgentExpected&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;905400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;routeFares&quot;:[{&quot;farePerPaxSearch&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;905400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxExpected&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;955400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxAgentExpected&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;905400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}}}]}],&quot;selectedFlight&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;destinationAirportSpec&quot;:&quot;DPS&quot;,&quot;flightDisplayedDate&quot;:[[[&quot;Thu, 11 Aug 2022&quot;]]],&quot;funnelId&quot;:&quot;flight&quot;,&quot;funnelSource&quot;:&quot;iconHomepage&quot;,&quot;idSelectedUpsellNew&quot;:[],&quot;isBuybackGuarantee&quot;:false,&quot;isReschedule&quot;:false,&quot;isUseDateFlow&quot;:false,&quot;isUsePromoFinder&quot;:true,&quot;numberOfSeats&quot;:{&quot;numAdults&quot;:1,&quot;numChildren&quot;:0,&quot;numInfants&quot;:0},&quot;originAirportSpec&quot;:&quot;JKTA&quot;,&quot;planIds&quot;:[],&quot;searchId&quot;:&quot;f5a53d49-fc13-491b-bc63-b10624493b63&quot;,&quot;searchSource&quot;:&quot;BASIC&quot;,&quot;seatPublishedClass&quot;:&quot;ECONOMY&quot;,&quot;selectedFlightSpecs&quot;:[{&quot;flightIds&quot;:[&quot;3CgbWE8IWKZ+gnQ0cDFUPtZQBbr\/kRLReWsqxt5fdkPDhgt0ncD4gTWGW3Gz\/F1hLnhS5zVenPr5+MsiOJDvOl4PnUeaap7i7smG+cC3deuG9PlM7lBAyS9T4wNSYGYCIScUmZZN1ov095slIVtuZx0OBsDwXv7+wvoFBNmh8Mqu+s84DDNG3HgiieiHAZOGM2rhA9ISV2gcL94nebkhgfUxqKEQRHuqNfiP8eiC2kU=&quot;],&quot;isPackage&quot;:false}],&quot;selectedRecommendationCardIds&quot;:[],&quot;visitId&quot;:&quot;ee480da3-af6a-4035-ae09-38178309e964&quot;,&quot;winnerTypes&quot;:[]}},&quot;productType&quot;:&quot;FLIGHT&quot;},&quot;trackingSpec&quot;:{&quot;bookingFormId&quot;:&quot;6460c50f-97af-405a-a6c9-82677be3899d&quot;,&quot;contexts&quot;:{&quot;std_selectId&quot;:&quot;6460c50f-97af-405a-a6c9-82677be3899d&quot;,&quot;std_preSelectId&quot;:&quot;8d1de2fd-af2f-4158-bc96-50beedeb6a6e&quot;},&quot;marketingContexts&quot;:{&quot;google_play_ads_id&quot;:&quot;27bdfe8d-ce0f-48a0-87b6-56cb4a50c878&quot;},&quot;preBookingId&quot;:&quot;8d1de2fd-af2f-4158-bc96-50beedeb6a6e&quot;,&quot;searchId&quot;:&quot;f5a53d49-fc13-491b-bc63-b10624493b63&quot;}},&quot;fields&quot;:[]}
+
+13:01:37.951 response time in milliseconds: 711
+1 &lt; 500
+1 &lt; Date: Wed, 24 Aug 2022 06:01:37 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Content-Length: 1583
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Set-Cookie: AWSALB=CxEcJuOHWcczCLtEROHme4QyuDJ6CqQUQgSgu9jThjjF61pt7T15IlAwvEXbvgCwtc0JHSPs9TNKzH1y7+4wDsvNCwmA0KPhD/tWpho7mFJzqVToZ8VUEJIfLi7j; Max-Age=1661925697000; Expires=Wed, 22 Dec 54686 08:58:17 GMT; Domain=api.trp.staging-traveloka.com
+1 &lt; Set-Cookie: AWSALBCORS=CxEcJuOHWcczCLtEROHme4QyuDJ6CqQUQgSgu9jThjjF61pt7T15IlAwvEXbvgCwtc0JHSPs9TNKzH1y7+4wDsvNCwmA0KPhD/tWpho7mFJzqVToZ8VUEJIfLi7j; Max-Age=1661925697000; Expires=Wed, 22 Dec 54686 08:58:17 GMT; Domain=api.trp.staging-traveloka.com; Secure
+{&quot;errorType&quot;:&quot;SERVER_ERROR&quot;,&quot;userErrorMessage&quot;:&quot;Unexpected server error occurred. We apologize for the inconvenience. Please try again later.&quot;,&quot;errorMessage&quot;:&quot;Uncaught exception: JSON-RPC code: -32000. org.dk.rpc.common.JsonRpcException: java.lang.NullPointerException  id: -436026006\n\tat org.dk.rpc.serialization.FasterXMLJacksonJsonRpcSerialization.readResponseObject(FasterXMLJacksonJsonRpcSerialization.java:308)\n\tat org.dk.rpc.serialization.FasterXMLJacksonJsonRpcSerialization.readResponseObject(FasterXMLJacksonJsonRpcSerialization.java:266)\n\tat org.dk.rpc.client.JsonRpcJettyHttpClient.readHttpResponse(JsonRpcJettyHttpClient.java:235)\n\tat org.dk.rpc.client.JsonRpcJettyHttpClient.access$000(JsonRpcJettyHttpClient.java:47)\n\tat org.dk.rpc.client.JsonRpcJettyHttpClient$RpcCallback.onComplete(JsonRpcJettyHttpClient.java:358)\n\tat org.dk.rpc.client.JsonRpcJettyHttpClient$RpcCallback.onComplete(JsonRpcJettyHttpClient.java:339)\n\tat com.traveloka.common.http.ManagedHttpClient$ManagedCallback$1.run(ManagedHttpClient.java:208)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref failed">13</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13">13:01:37.954 src/test/java/BookingProductMainFlow/BookingProduct/createBooking.feature:13
+Then status 200
+status code was: 500, expected: 200, response time in milliseconds: 711, url: https://api.trp.staging-traveloka.com/en-id/v2/trip/booking/createBooking, response: 
+{&quot;errorType&quot;:&quot;SERVER_ERROR&quot;,&quot;userErrorMessage&quot;:&quot;Unexpected server error occurred. We apologize for the inconvenience. Please try again later.&quot;,&quot;errorMessage&quot;:&quot;Uncaught exception: JSON-RPC code: -32000. org.dk.rpc.common.JsonRpcException: java.lang.NullPointerException  id: -436026006\n\tat org.dk.rpc.serialization.FasterXMLJacksonJsonRpcSerialization.readResponseObject(FasterXMLJacksonJsonRpcSerialization.java:308)\n\tat org.dk.rpc.serialization.FasterXMLJacksonJsonRpcSerialization.readResponseObject(FasterXMLJacksonJsonRpcSerialization.java:266)\n\tat org.dk.rpc.client.JsonRpcJettyHttpClient.readHttpResponse(JsonRpcJettyHttpClient.java:235)\n\tat org.dk.rpc.client.JsonRpcJettyHttpClient.access$000(JsonRpcJettyHttpClient.java:47)\n\tat org.dk.rpc.client.JsonRpcJettyHttpClient$RpcCallback.onComplete(JsonRpcJettyHttpClient.java:358)\n\tat org.dk.rpc.client.JsonRpcJettyHttpClient$RpcCallback.onComplete(JsonRpcJettyHttpClient.java:339)\n\tat com.traveloka.common.http.ManagedHttpClient$ManagedCallback$1.run(ManagedHttpClient.java:208)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n&quot;}
+src/test/java/BookingProductMainFlow/BookingProduct/createBooking.feature:13
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref skipped">14</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>assert response.data.bookingId != null</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref skipped">15</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>assert response.data.trackingSpec.preBookingId != null</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

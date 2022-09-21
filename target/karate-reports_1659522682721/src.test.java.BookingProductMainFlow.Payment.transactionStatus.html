@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ac47b090-41ca-42aa-b5b1-dd1bb09963b4",{name:"siskaadelinadamanik"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.BookingProductMainFlow.Payment.transactionStatus</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-08-03 05:31:16 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:15]"><span>[1:15]</span> <span>Review Booking Flight</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/BookingProductMainFlow/Payment/transactionStatus.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Transaction Status Page</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:15]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:15]</span>
+                <span class="scenario-name">Review Booking Flight</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>667</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:15]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlPayment</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* def submitpayresponse = call read(&#39;classpath:BookingProductMainFlow/BookingProduct/Payment/submitPayment.feature&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* print submitpayresponse</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def reqbodytrxstatus = read(&#39;classpath:request/booking/payment/transactionstatus.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">127</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref bg-step">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodytrxstatus.context.tvLifetime = tvLifetime</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:15]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref bg-step">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodytrxstatus.context.tvSession = tvSession</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path transactionstatus</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request reqbodytrxstatus</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">535</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">17:31:16.521 request:
+1 &gt; POST https://paypapi.pay.staging-traveloka.com/en-id/v2/payment/transactionstatus
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 768
+1 &gt; Host: paypapi.pay.staging-traveloka.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;clientInterface&quot;:&quot;mobile-android&quot;,&quot;context&quot;:{&quot;nonce&quot;:&quot;c1f779b7-a5e4-4fba-92f9-e517246eca0c&quot;,&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7ZYNUZrZOl2UlDiBuXCxq8sOg7nt46\/VPehcCmOedyJHbu4+FhR7gfEnnStupPqpfTXQPJbgzmVCrU0Pdbi\/QKLyabY+p8NbH9lSwSP+Ce5nZswpljLW8Llze3rktN7ay26Rxolv31kdHn3tiz9ERW82KCajsK1\/t8VOrr22VSxJ+sthjrgAThqmIPWqYdEZpXyHxIZibQPTfMRbtLuDTaX3i7ceDGYgYneH+AfodZMd5A==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3CKqgtVARX\/VDwq+PgoTH1aLb7MdTdXKtCOtHBtffKIrZ9klIk8KMvB\/MfyxJCcFBTWp6Z+ofHQCshoZLtdxlDcQYPDsiAN4MFOZCDaz0psBlJGGb5h16Ee9q0nmyig7qr7ak9+3NllNsZvQ2KW1xxAfzSqLYz+CpT99aR3\/9KlvN9a1xZiWPBBhHS+H96iCM=&quot;},&quot;data&quot;:{&quot;agentId&quot;:&quot;trinusa&quot;,&quot;auth&quot;:&quot;bfd053c01b&quot;,&quot;bookingId&quot;:&quot;89733691&quot;,&quot;invoiceId&quot;:&quot;1740135450296741996&quot;},&quot;fields&quot;:[]}
+
+17:31:16.767 response time in milliseconds: 230
+1 &lt; 502
+1 &lt; Server: awselb/2.0
+1 &lt; Date: Wed, 03 Aug 2022 10:31:16 GMT
+1 &lt; Content-Type: text/html
+1 &lt; Content-Length: 122
+1 &lt; Connection: keep-alive
+1 &lt; Set-Cookie: AWSALB=Yh5SiwuwUfhlP+ruYgeelo/kCfe4maq62UaYey6X9DF4VKfUu/7ZHAko+3IVQvOeffl2bjSjl7gj/Cl5vJ6Ax0wwu4wMTxeLOo1Ke5V0xVxbBK+IJNuVIS5ZYJ4P; Max-Age=1660127476000; Expires=Mon, 07 Dec 54629 19:37:56 GMT; Domain=paypapi.pay.staging-traveloka.com
+1 &lt; Set-Cookie: AWSALBCORS=Yh5SiwuwUfhlP+ruYgeelo/kCfe4maq62UaYey6X9DF4VKfUu/7ZHAko+3IVQvOeffl2bjSjl7gj/Cl5vJ6Ax0wwu4wMTxeLOo1Ke5V0xVxbBK+IJNuVIS5ZYJ4P; Max-Age=1660127476000; Expires=Mon, 07 Dec 54629 19:37:56 GMT; Domain=paypapi.pay.staging-traveloka.com; Secure
+&lt;html&gt;
+&lt;head&gt;&lt;title&gt;502 Bad Gateway&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;
+&lt;center&gt;&lt;h1&gt;502 Bad Gateway&lt;/h1&gt;&lt;/center&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref failed">19</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.19">17:31:16.771 src/test/java/BookingProductMainFlow/Payment/transactionStatus.feature:19
+Then status 200
+status code was: 502, expected: 200, response time in milliseconds: 230, url: https://paypapi.pay.staging-traveloka.com/en-id/v2/payment/transactionstatus, response: 
+&lt;html&gt;
+&lt;head&gt;&lt;title&gt;502 Bad Gateway&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;
+&lt;center&gt;&lt;h1&gt;502 Bad Gateway&lt;/h1&gt;&lt;/center&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+src/test/java/BookingProductMainFlow/Payment/transactionStatus.feature:19
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>assert response.data.bookingStatus == &#39;BOOKED&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref skipped">21</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

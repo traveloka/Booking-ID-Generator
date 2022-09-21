@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ac47b090-41ca-42aa-b5b1-dd1bb09963b4",{name:"siskaadelinadamanik"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.User.Login.verifyMFA</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-07-18 05:13:56 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:7]"><span>[1:7]</span> <span>Verify MFA</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/User/Login/verifyMFA.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Verify MFA</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:7]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:7]</span>
+                <span class="scenario-name">Verify MFA</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1099</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:7]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlUser</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>json requestbodyverifyMFA = read(&#39;classpath:request/user/Login/verifyMFA.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">39</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path verifymfa</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers accept</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">17:13:55.221 did not evaluate to map accept: [type: STRING, value: application/json]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestbodyverifyMFA</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1050</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">17:13:55.488 request:
+1 &gt; POST https://api.usr.staging-traveloka.com/en-id/v2/user/verifymfa
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 1053
+1 &gt; Host: api.usr.staging-traveloka.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;fields&quot;:[],&quot;data&quot;:{&quot;enableTrustedDevice&quot;:&quot;false&quot;,&quot;userAuthSessionId&quot;:&quot;1738309351861405554&quot;,&quot;mfaMethod&quot;:&quot;OTP&quot;,&quot;verificationType&quot;:&quot;OTP&quot;,&quot;authenticationToken&quot;:&quot;123456&quot;},&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJaTsQvP6QXu262U1MW58p2jy5dC2lSi+J5m4ThEzfK3QF9GdN7PMllebdQmCc4OswjzusQcQ42gpaNc1zdVl8oF1QEpRy1xDL9Gi+rx\/xJogQavmtx9pictpACZpmdT9kKF9jP1yNFnmX5HfiACojydMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;nonce&quot;:&quot;2A546813-639A-4646-92AF-F3492221D1E0&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3CKqgtVARX\/VDwq+PgoTH1aLb7MdTdXKtCOtHBtffKIrZ9klIk8KMvB\/MfyxJCcFBTWp6Z+ofHQCshoZLtdxlDcQYPDsiAN4MFOZCDaz0psIXRZaoIKpepteaY4SxjANBnD6kZ\/OTCt6FTY4XfUDSAX3Vxd6ANuDwUUJWfesjata6NM3vlp6x1QBwRfe+8inWR4cxG0L+0E53y7KvESqjZW76HmtFVxwwWyjt0jLBzb\/h5d\/nEuMnNBVJiu72GJBaR84v\/8CECAiZypkyCdE5W7p\/gnMn\/HVMHtU5PG72gW7HSdw78JB77VZnoDSac36Oirf0bwCXn2aNuprREzGe83WGlnSOcmvWmaBAeRxrpnumaURC0pEZeeQCe7188J\/C6CG27OJSUuklXWI0BIrNRCFnqYYpMSCRL8yPQAXFPMQ==&quot;},&quot;clientInterface&quot;:&quot;mobile-iOS&quot;}
+
+17:13:56.269 response time in milliseconds: 776
+1 &lt; 500
+1 &lt; Date: Mon, 18 Jul 2022 10:13:56 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; vary: accept-encoding
+1 &lt; Set-Cookie: AWSALB=OKhkaTejvdF86yxBC+1WPlaC+bS09J8mnzXgFAGeWOKfblnGfeK437qYgi54/lIPaubqrG8F2b0CYD5taa8p6HHr1tdU6R4n6mEbpsOeUHgNV3eyS+NYG0ng3sUi; Max-Age=1658744036000; Expires=Wed, 18 Jan 54586 18:27:16 GMT; Domain=api.usr.staging-traveloka.com
+1 &lt; Set-Cookie: AWSALBCORS=OKhkaTejvdF86yxBC+1WPlaC+bS09J8mnzXgFAGeWOKfblnGfeK437qYgi54/lIPaubqrG8F2b0CYD5taa8p6HHr1tdU6R4n6mEbpsOeUHgNV3eyS+NYG0ng3sUi; Max-Age=1658744036000; Expires=Wed, 18 Jan 54586 18:27:16 GMT; Domain=api.usr.staging-traveloka.com; Secure
+{&quot;errorType&quot;:&quot;SERVER_ERROR&quot;,&quot;userErrorMessage&quot;:&quot;Unexpected server error occurred. We apologize for the inconvenience. Please try again later.&quot;,&quot;errorMessage&quot;:&quot;Uncaught exception: java.lang.NullPointerException\n\tat com.traveloka.user.application.api.v2.PublicUserMultiFactorAuthorizationAPIImpl.verifyMFA(PublicUserMultiFactorAuthorizationAPIImpl.java:405)\n\tat jdk.internal.reflect.GeneratedMethodAccessor201.invoke(Unknown Source)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat com.traveloka.common.ffxcore.controller.DefaultInvoker.invoke(DefaultInvoker.java:235)\n\tat com.traveloka.common.ffxcore.controller.DefaultInvoker.invoke(DefaultInvoker.java:148)\n\tat com.traveloka.common.ffxcore.route.DefaultInternationalRoute.dispatchRoute(DefaultInternationalRoute.java:329)\n\tat com.traveloka.common.ffxcore.route.DefaultInternationalRoute.dispatchRoute(DefaultInternationalRoute.java:335)\n\tat com.traveloka.common.ffxcore.api.InternalInternationalAPIRoute.dispatchRoute(InternalInternationalAPIRoute.java:50)\n\tat com.traveloka.common.ffxcore.servlet.FFXServlet.service(FFXServlet.java:123)\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:764)\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref failed">12</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>match response.data contains {message: &quot;Your account is now active&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell failed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">17:13:56.278 src/test/java/User/Login/verifyMFA.feature:12
+Then match response.data contains {message: &quot;Your account is now active&quot;}
+match failed: CONTAINS
+  $ | actual path does not exist (STRING:MAP)
+  &#39;#notpresent&#39;
+  {&quot;message&quot;:&quot;Your account is now active&quot;}
+
+src/test/java/User/Login/verifyMFA.feature:12
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ac47b090-41ca-42aa-b5b1-dd1bb09963b4",{name:"siskaadelinadamanik"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.User.Login.getOTPInfo</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-07-18 05:02:22 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:7]"><span>[1:7]</span> <span>User Get OTP Info</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/User/Login/getOTPInfo.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Get OTP Info</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:7]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:7]</span>
+                <span class="scenario-name">User Get OTP Info</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>2252</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:7]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlUser</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>json requestbodygetOTP = read(&#39;classpath:request/user/Login/getOTPInfo.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">42</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path getOTP</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers accept</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">17:02:19.819 did not evaluate to map accept: [type: STRING, value: application/json]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestbodygetOTP</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2200</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">17:02:20.050 request:
+1 &gt; POST https://api.usr.staging-traveloka.com/en-id/v2/user/getotpinfo
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 944
+1 &gt; Host: api.usr.staging-traveloka.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;fields&quot;:[],&quot;data&quot;:{&quot;otpSessionId&quot;:&quot;1738682803657131890&quot;},&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJaTsQvP6QXu262U1MW58p2jy5dC2lSi+J5m4ThEzfK3QF9GdN7PMllebdQmCc4OswjzusQcQ42gpaNc1zdVl8oF1QEpRy1xDL9Gi+rx\/xJogQavmtx9pictpACZpmdT9kKF9jP1yNFnmX5HfiACojydMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;nonce&quot;:&quot;B2CC7BB1-FA6B-41A4-9229-1E73D93C75DC&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3CKqgtVARX\/VDwq+PgoTH1aLb7MdTdXKtCOtHBtffKIrZ9klIk8KMvB\/MfyxJCcFBTWp6Z+ofHQCshoZLtdxlDcQYPDsiAN4MFOZCDaz0psIXRZaoIKpepteaY4SxjANBnD6kZ\/OTCt6FTY4XfUDSAX3Vxd6ANuDwUUJWfesjata6NM3vlp6x1QBwRfe+8inWR4cxG0L+0E53y7KvESqjZW76HmtFVxwwWyjt0jLBzb\/h5d\/nEuMnNBVJiu72GJBaR84v\/8CECAiZypkyCdE5W7p\/gnMn\/HVMHtU5PG72gW7HSdw78JB77VZnoDSac36Oirf0bwCXn2aNuprREzGe83WGlnSOcmvWmaBAeRxrpnumaURC0pEZeeQCe7188J\/C6CG27OJSUuklXWI0BIrNRCFnqYYpMSCRL8yPQAXFPMQ==&quot;},&quot;clientInterface&quot;:&quot;mobile-iOS&quot;}
+
+17:02:22.017 response time in milliseconds: 1960
+1 &lt; 200
+1 &lt; Date: Mon, 18 Jul 2022 10:02:21 GMT
+1 &lt; Content-Type: application/json;charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; RequestId: 66485bf0-7b06-4ed5-a2ca-90fe0250b77a
+1 &lt; Cache-Control: no-cache
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; X-Nonce: B2CC7BB1-FA6B-41A4-9229-1E73D93C75DC
+1 &lt; vary: accept-encoding
+1 &lt; Set-Cookie: AWSALB=7roaUKfkLNUmciDN6Av3qP4sUq+mlQG4HpGUxCkt9zuDsl4XuZ8diwhAJe+Z31ep0c4z9BnZxas0e39oxl4E+CgLsSF6q8Ko90LiCieFgaLUq2SjNoQPEGBEcJoP; Max-Age=1658743341000; Expires=Tue, 10 Jan 54586 17:12:22 GMT; Domain=api.usr.staging-traveloka.com
+1 &lt; Set-Cookie: AWSALBCORS=7roaUKfkLNUmciDN6Av3qP4sUq+mlQG4HpGUxCkt9zuDsl4XuZ8diwhAJe+Z31ep0c4z9BnZxas0e39oxl4E+CgLsSF6q8Ko90LiCieFgaLUq2SjNoQPEGBEcJoP; Max-Age=1658743341000; Expires=Tue, 10 Jan 54586 17:12:22 GMT; Domain=api.usr.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;status&quot;:&quot;SUCCESS&quot;,&quot;userOTPNotificationDataList&quot;:[{&quot;maskedUsername&quot;:&quot;ipi.fro*******gmail.com&quot;,&quot;key&quot;:&quot;22061f24-7af9-4e0a-ac81-5d4f87e969fe&quot;,&quot;userLoginMethod&quot;:&quot;TV&quot;}],&quot;userVerificationDataList&quot;:[{&quot;maskedTarget&quot;:&quot;ipi.fro*******gmail.com&quot;,&quot;verificationTargetType&quot;:&quot;EMAIL&quot;,&quot;key&quot;:&quot;22061f24-7af9-4e0a-ac81-5d4f87e969fe&quot;,&quot;verificationMethod&quot;:&quot;OTP&quot;,&quot;verificationSender&quot;:null,&quot;verificationContent&quot;:{&quot;label&quot;:null,&quot;targetLabel&quot;:&quot;email&quot;,&quot;verificationTitle&quot;:&quot;Verify Your Account&quot;,&quot;verificationIcon&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2021/10/18/1634552728435-9b596ec237e6faa64ee0206001e8dbc6.png?tr=q-75&quot;,&quot;verificationDescription&quot;:&quot;To enable login verification code, you need to confirm your Traveloka account. Please select the intended destination for your confirmation code:&quot;}}],&quot;title&quot;:&quot;Confirmation Needed&quot;,&quot;description&quot;:&quot;To enable login verification code, you need to confirm your Traveloka account. Please select the intended destination for your confirmation code:&quot;,&quot;footerDescription&quot;:&quot;Need to send verification code to other destination? Add the destination to &lt;b&gt;&lt;a href=\&quot;traveloka://user/edit_profile\&quot; style=\&quot;text-decoration:none,\&quot;&gt;my account&lt;/a&gt;&lt;/b&gt;. Please contact CS for Paylater or Pay upon Check-in transactions.&quot;,&quot;verificationTitle&quot;:&quot;Verify Your Account&quot;},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7ZZ2zVpkzUiSJkhnn9YB7RjQAhYUeikOmM+KVW4746Ci6G7HfkHlzzXhogq8rsfrCtLKbWQ34N9iW2XvE9vD+KRota9mFY2ccRJge72WeFlGdyzkCOd/LM1jMC/2fm8I+Wl3wpII/cVdkpViiOPR3rdtws7gdVgVFvJwfZ4VmzYea2FZEgTADA+O57fsDuzjLWJ2kZx35+IiC+/BzVhWDrmk&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3CKqgtVARX/VDwq+PgoTH1aLb7MdTdXKtCOtHBtffKIrZ9klIk8KMvB/MfyxJCcFBTWp6Z+ofHQCshoZLtdxlDcQYPDsiAN4MFOZCDaz0psIXRZaoIKpepteaY4SxjANBnD6kZ/OTCt6FTY4XfUDSAX3Vxd6ANuDwUUJWfesjata6NM3vlp6x1QBwRfe+8inWR4cxG0L+0E53y7KvESqjZW76HmtFVxwwWyjt0jLBzb/h5d/nEuMnNBVJiu72GJBaR84v/8CECAiZypkyCdE5W7p/gnMn/HVMHtU5PG72gW7HSdw78JB77VZnoDSac36Oirf0bwCXn2aNuprREzGe83WGlnSOcmvWmaBAeRxrpnumaURC0pEZeeQCe7188J/C6CG27OJSUuklXWI0BIrNRCFnqYYpMSCRL8yPQAXFPMQ==&quot;,&quot;nonce&quot;:&quot;B2CC7BB1-FA6B-41A4-9229-1E73D93C75DC&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref failed">12</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>match response.data.userOTPNotificationDataList[*] contains { key: &#39;#notnull&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell failed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">17:02:22.027 src/test/java/User/Login/getOTPInfo.feature:12
+Then match response.data.userOTPNotificationDataList[*] contains { key: &#39;#notnull&#39; }
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - {&quot;key&quot;:&quot;#notnull&quot;} (LIST:MAP)
+  [{&quot;maskedUsername&quot;:&quot;ipi.fro*******gmail.com&quot;,&quot;key&quot;:&quot;22061f24-7af9-4e0a-ac81-5d4f87e969fe&quot;,&quot;userLoginMethod&quot;:&quot;TV&quot;}]
+  {&quot;key&quot;:&quot;#notnull&quot;}
+
+    $[0] | not equal | actual has 2 more key(s) than expected - {&quot;maskedUsername&quot;:&quot;ipi.fro*******gmail.com&quot;,&quot;userLoginMethod&quot;:&quot;TV&quot;} (MAP:MAP)
+    {&quot;maskedUsername&quot;:&quot;ipi.fro*******gmail.com&quot;,&quot;key&quot;:&quot;22061f24-7af9-4e0a-ac81-5d4f87e969fe&quot;,&quot;userLoginMethod&quot;:&quot;TV&quot;}
+    {&quot;key&quot;:&quot;#notnull&quot;}
+
+
+src/test/java/User/Login/getOTPInfo.feature:12
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

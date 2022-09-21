@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ac47b090-41ca-42aa-b5b1-dd1bb09963b4",{name:"siskaadelinadamanik"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.BookingProductMainFlow.BookingProduct.createBooking</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-08-24 01:02:58 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:9]"><span>[1:9]</span> <span>User create booking successful</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/BookingProductMainFlow/BookingProduct/createBooking.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Create Booking Flight</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:9]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:9]</span>
+                <span class="scenario-name">User create booking successful</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>7254</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:9]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlTrp</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def reqbodycreatebooking = read(&#39;classpath:request/booking/booking/flight/createbooking.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">81</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodycreatebooking.context.tvLifetime = tvLifetime</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodycreatebooking.context.tvSession = tvSession</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path createbooking</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request reqbodycreatebooking</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7159</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">13:02:51.299 request:
+1 &gt; POST https://api.trp.staging-traveloka.com/en-id/v2/trip/booking/createBooking
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 6356
+1 &gt; Host: api.trp.staging-traveloka.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;fields&quot;:[],&quot;data&quot;:{&quot;selectedProductSpec&quot;:{&quot;productType&quot;:&quot;FLIGHT&quot;,&quot;flightProductBookingSpec&quot;:{&quot;selectedFlight&quot;:{&quot;searchFareType&quot;:&quot;STANDALONE&quot;,&quot;planIds&quot;:[],&quot;flightPromotion&quot;:{&quot;changeSpecBannerPriorityActual&quot;:0,&quot;changeSpecBannerPriorityDefault&quot;:0,&quot;filterBannerPriorityDefault&quot;:0,&quot;filterBannerPriorityActual&quot;:0},&quot;visitId&quot;:&quot;5D3608BF-E83C-4618-870F-4A631F45F412&quot;,&quot;utmId&quot;:&quot;&quot;,&quot;searchSource&quot;:&quot;BASIC&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;funnelId&quot;:&quot;flight&quot;,&quot;isUseDateFlow&quot;:false,&quot;originAirportSpec&quot;:&quot;JKTA&quot;,&quot;initialSelectedSeatClass&quot;:&quot;ECONOMY&quot;,&quot;reschedule&quot;:false,&quot;destinationAirportSpec&quot;:&quot;DPS&quot;,&quot;selectedFlightSpecs&quot;:[{&quot;flightIds&quot;:[&quot;3CgbWE8IWKZ+gnQ0cDFUPqnSOxU2jLwbFrSJNYLcsKOmJ6ePbfJ+Y4e6AG7nW8vjwZdYsHBQykEA3Es3laA+EZAWOTAQU0r2TBIC1tR\/orElFSaIe6Qqb9IFsMoPrFoA3N46UJ4tMxl9ILpVcVVD3u9JF31I7ZlF6ZqmsotiISPe+RDkHVMcG21JyV7dfxC8dWylfeZeUcPqZulOrI4fawdtpVAvNHcuCqgQmPx5vKk=&quot;],&quot;isPackage&quot;:&quot;false&quot;}],&quot;funnelSource&quot;:&quot;iconHomepage&quot;,&quot;flightDisplayedDate&quot;:[[[&quot;Wed, 31 Aug 2022&quot;]]],&quot;isBuybackGuarantee&quot;:&quot;false&quot;,&quot;agentId&quot;:&quot;trinusa&quot;,&quot;numberOfSeats&quot;:{&quot;numChildren&quot;:&quot;0&quot;,&quot;numAdults&quot;:&quot;1&quot;,&quot;numInfants&quot;:&quot;0&quot;},&quot;isUsePromoFinder&quot;:true,&quot;searchId&quot;:&quot;13DBF5D5-C482-49B3-8172-B1613E6B6C64&quot;,&quot;seatPublishedClass&quot;:&quot;ECONOMY&quot;,&quot;isReschedule&quot;:false},&quot;flightItineraryFares&quot;:[{&quot;airlineId&quot;:&quot;QG&quot;,&quot;routeFares&quot;:[{&quot;farePerPaxExpected&quot;:{&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;1196844&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxSearch&quot;:{&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;996844&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxAgentExpected&quot;:{&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;996844&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}}}],&quot;farePerPaxAgentExpected&quot;:{&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;996844&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxSearch&quot;:{&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;996844&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxExpected&quot;:{&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;1196844&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}}}]}},&quot;bookingContact&quot;:{&quot;formData&quot;:{&quot;travelerForm&quot;:{&quot;name.regexName&quot;:&quot;DEFAULT&quot;,&quot;name.first&quot;:&quot;IPI Front&quot;,&quot;emailAddress&quot;:&quot;ipi.front.end2@gmail.com&quot;,&quot;name.last&quot;:&quot;End&quot;,&quot;title&quot;:&quot;MISS&quot;,&quot;name.noLastName&quot;:&quot;false&quot;,&quot;phoneNumber&quot;:{&quot;countryCode&quot;:&quot;+62&quot;,&quot;phoneNumber&quot;:&quot;8234567876&quot;}},&quot;FLIGHT.FF&quot;:{&quot;ffAccount[0]&quot;:&quot;&quot;,&quot;ffNumber[0]&quot;:&quot;&quot;,&quot;boxAccordionFF&quot;:true}}},&quot;selectedPrice&quot;:{&quot;selectedPrice&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;1026444&quot;}},&quot;currency&quot;:&quot;IDR&quot;,&quot;addOnProductSpecs&quot;:[],&quot;createBookingCrossSellAddOns&quot;:[{&quot;productType&quot;:&quot;INSURANCE&quot;,&quot;id&quot;:&quot;INSURANCE_796&quot;,&quot;displayType&quot;:&quot;CHECKBOX&quot;,&quot;type&quot;:&quot;INSURANCE_CHECKBOX&quot;,&quot;insuranceCreateCrossSellAddOnV2&quot;:{&quot;insuranceSpecId&quot;:&quot;81fd6ea0217ca55f2df507739f2484fd3b2869de&quot;,&quot;productName&quot;:&quot;FlightInsurance&quot;,&quot;crossSellAddOnType&quot;:&quot;INSURANCE_CHECKBOX&quot;,&quot;productType&quot;:&quot;FLIGHT&quot;,&quot;insurancePlanId&quot;:&quot;796&quot;}}],&quot;isMultiItem&quot;:false,&quot;createBookingTravelerSpecs&quot;:{&quot;infantFormData&quot;:[],&quot;childFormData&quot;:[],&quot;adultFormData&quot;:[{&quot;travelerForm&quot;:{&quot;name.last&quot;:&quot;End&quot;,&quot;title&quot;:&quot;MISS&quot;,&quot;name.regexName&quot;:&quot;DEFAULT&quot;,&quot;name.first&quot;:&quot;IPI Front&quot;,&quot;name.noLastName&quot;:&quot;false&quot;},&quot;FLIGHT.FF&quot;:{&quot;boxAccordionFF&quot;:&quot;true&quot;}}]},&quot;createBookingProductSpecificAddOns&quot;:[{&quot;type&quot;:&quot;FLIGHT_BAGGAGE&quot;,&quot;id&quot;:&quot;FLIGHT_BAGGAGE&quot;,&quot;flightBaggageAddOn&quot;:{&quot;baggageAddOnItems&quot;:[{&quot;baggagesWithRoute&quot;:[[{&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;baggageType&quot;:&quot;0&quot;,&quot;priceWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;},&quot;currency&quot;:&quot;IDR&quot;,&quot;price&quot;:&quot;0&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;fare&quot;:{&quot;numOfDecimalPoint&quot;:&quot;0&quot;,&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;}},&quot;weight&quot;:&quot;20&quot;}]],&quot;associatedTravelerIndex&quot;:&quot;0&quot;}]}},{&quot;type&quot;:&quot;FLIGHT_SEAT_SELECTION&quot;,&quot;id&quot;:&quot;FLIGHT_SEAT_SELECTION&quot;,&quot;flightSeatSelectionAddOn&quot;:{&quot;seatSelectionAddOnItems&quot;:[]}},{&quot;type&quot;:&quot;FLIGHT_GENERAL_ADDON&quot;,&quot;id&quot;:&quot;FLIGHT_GENERAL_ADDON&quot;,&quot;flightGeneralSelectionAddOn&quot;:{&quot;flightGeneralAddOnList&quot;:[{&quot;generalAddOnItem&quot;:[{&quot;associatedTravelerIndex&quot;:0,&quot;selectedGeneralFlightAddOnItem&quot;:[]}],&quot;addOnType&quot;:&quot;AIRPORT_TRANSFER&quot;},{&quot;addOnType&quot;:&quot;AIRPORT_LOUNGE&quot;,&quot;generalAddOnItem&quot;:[{&quot;associatedTravelerIndex&quot;:0,&quot;selectedGeneralFlightAddOnItem&quot;:[]}]},{&quot;addOnType&quot;:&quot;OVERSIZED_BAGGAGE&quot;,&quot;generalAddOnItem&quot;:[{&quot;associatedTravelerIndex&quot;:0,&quot;selectedGeneralFlightAddOnItem&quot;:[]}]},{&quot;generalAddOnItem&quot;:[{&quot;associatedTravelerIndex&quot;:0,&quot;selectedGeneralFlightAddOnItem&quot;:[]}],&quot;addOnType&quot;:&quot;PRIORITY_CHECK_IN&quot;}]}}],&quot;trackingSpec&quot;:{&quot;contexts&quot;:{&quot;std_preSelectId&quot;:&quot;6ac226c8-c291-40fe-ae4a-dd4a7a9cf330&quot;,&quot;std_selectId&quot;:&quot;787047a5-036c-4ec0-89aa-f00a76cffddc&quot;},&quot;searchId&quot;:&quot;13DBF5D5-C482-49B3-8172-B1613E6B6C64&quot;,&quot;preBookingId&quot;:&quot;6ac226c8-c291-40fe-ae4a-dd4a7a9cf330&quot;,&quot;marketingContexts&quot;:{&quot;idfa&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;idfv&quot;:&quot;F17B5F81-7B06-4D44-A7E3-04AA52243C66&quot;},&quot;bookingFormId&quot;:&quot;787047a5-036c-4ec0-89aa-f00a76cffddc&quot;},&quot;createBookingSimpleAddOns&quot;:[]},&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zav\/DP3H3oxbg7cdZiIvskNWsDdrU40Mvgy8dAY3fuwpzy5dC2lSi+J5m4ThEzfK3TOlwW9fohpFfCCUgC2fy2BYvB9HAjnqFY+1bn0nvFW3DM6zknKWiSZX2XTS\/MftpxPD7FELaZwaw7u0cQBOjqa9MTvd2ifWrbL0Yl7uqDspNMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg2J02di7wCevjc01jxEACTfO4B8\/FMQhl7y7w75lPH7IHRWCQFs9xGxGSYQysDuY8iRQsoupqxm2GxcX8oyFSCTIVV3fLsByVaMy7VQkMUHLDzskJknNyQ9S0wH4kueeaY1PiZf+qSdVhmynPbcHSQR1gfwMe\/Np\/p37XKnglgPEAWpBf4t1lqjygYnSetmqRSN4oe6dNmOjVng97D0L89lI7IOzfCTrDU1l8kIEe7sDxiZpMaJ\/EdnoH5rCZfTnj59jYGqxRgVYJOWaYsTvD\/AU833c9Gi+r218MDeU4C3N0xV6hrERCF5cLOabRwRrqytYubxOkCsDN89AdbMpJMrD2EZw1ygYrLG2QCSsFa1So2pYSE1YCo1ArTspKKA3O\/B\/g7WjbyUCerAtTPNDjFTg5QuFpCSdkAK3aDKRoRYvE\/mVRR5m+rCDxlr\/mxc7ctk\/7BvfeakecrLGNt93lmVM3eEzMiYVzLO8gLbB5\/F+g==&quot;},&quot;clientInterface&quot;:&quot;mobile-iOS&quot;}
+
+13:02:58.220 response time in milliseconds: 6914
+1 &lt; 200
+1 &lt; Date: Wed, 24 Aug 2022 06:02:58 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Connection: keep-alive
+1 &lt; RequestId: c7286cb4-7b78-46ab-b5b7-23895f00f0db
+1 &lt; Cache-Control: no-cache
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; X-Nonce: 
+1 &lt; Vary: Accept-Encoding, User-Agent
+1 &lt; Set-Cookie: AWSALB=f5JECyiYcw73WZWujeWlCYRqc44cqZ1N/E9xphADmZXnEVOgzXtdFxIoDpAUepyDesTG6qnq35TrDII1x/eILsc0mOfHz6Q2qq30tvmXwfkz6Dz8aepuwBil+zgU; Max-Age=1661925771000; Expires=Thu, 23 Dec 54686 05:32:58 GMT; Domain=api.trp.staging-traveloka.com
+1 &lt; Set-Cookie: AWSALBCORS=f5JECyiYcw73WZWujeWlCYRqc44cqZ1N/E9xphADmZXnEVOgzXtdFxIoDpAUepyDesTG6qnq35TrDII1x/eILsc0mOfHz6Q2qq30tvmXwfkz6Dz8aepuwBil+zgU; Max-Age=1661925771000; Expires=Thu, 23 Dec 54686 05:32:58 GMT; Domain=api.trp.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;trackingSpec&quot;:{&quot;searchId&quot;:&quot;13DBF5D5-C482-49B3-8172-B1613E6B6C64&quot;,&quot;preBookingId&quot;:&quot;6ac226c8-c291-40fe-ae4a-dd4a7a9cf330&quot;,&quot;bookingFormId&quot;:&quot;787047a5-036c-4ec0-89aa-f00a76cffddc&quot;,&quot;contexts&quot;:{&quot;std_selectId&quot;:&quot;787047a5-036c-4ec0-89aa-f00a76cffddc&quot;,&quot;std_preSelectId&quot;:&quot;6ac226c8-c291-40fe-ae4a-dd4a7a9cf330&quot;},&quot;marketingContexts&quot;:{&quot;idfa&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;idfv&quot;:&quot;F17B5F81-7B06-4D44-A7E3-04AA52243C66&quot;}},&quot;bookingId&quot;:&quot;89751995&quot;,&quot;invoiceId&quot;:&quot;1742021305917517596&quot;,&quot;auth&quot;:&quot;9725fba301&quot;,&quot;status&quot;:{&quot;code&quot;:&quot;OK&quot;,&quot;travelerErrors&quot;:null,&quot;addOnErrors&quot;:null,&quot;productErrors&quot;:null,&quot;dialog&quot;:null,&quot;nextFlow&quot;:{&quot;isReviewPage&quot;:false,&quot;isPostBookingPage&quot;:false,&quot;otherFlow&quot;:null,&quot;reviewPage&quot;:false,&quot;postBookingPage&quot;:false}}},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7ZbhjXaM9Ao6M49DYgjnP18DXAzTC8jCf47+g+Es536M2HZYcOIWd8AEyZgFMB6jI1Utc9NUhj+oAHMXx0fBXrcc1GrPaEcYYEyDCHXpppenVzB9PmyhUhYkPavLEoKYkV7PSvMFdu0mtFI2gf9eCjRf/NAXfk2jgnGFyLpIRerejLBY4KfoSXnDLFJSMHmFFdrnqhq90d8nXW6B0sw4X76M&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg2J02di7wCevjc01jxEACTfO4B8/FMQhl7y7w75lPH7IHRWCQFs9xGxGSYQysDuY8iRQsoupqxm2GxcX8oyFSCTIVV3fLsByVaMy7VQkMUHLDzskJknNyQ9S0wH4kueeaY1PiZf+qSdVhmynPbcHSQR1gfwMe/Np/p37XKnglgPEAWpBf4t1lqjygYnSetmqRQCo9qwocIRs22HwdR/PB8zmLjV4L/a7nDDXR9dBEmeIf3641Zt1agZw68pFntmFg59jYGqxRgVYJOWaYsTvD/AjGFsSsd4d7OerbuVDxpioUxV6hrERCF5cLOabRwRrqy8OhuCQX7RKb/Bha8IzYT/E4lg4TTR9o6BB+5UXXZM4Y2pYSE1YCo1ArTspKKA3O/B/g7WjbyUCerAtTPNDjFTg5QuFpCSdkAK3aDKRoRYvE/mVRR5m+rCDxlr/mxc7ctk/7BvfeakecrLGNt93lmVM3eEzMiYVzLO8gLbB5/F+g==&quot;,&quot;nonce&quot;:&quot;&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert response.data.bookingId != null</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert response.data.trackingSpec.preBookingId != null</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

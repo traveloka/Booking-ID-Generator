@@ -1,0 +1,337 @@
+{
+  "fields": [],
+  "data": {
+    "selectedProductSpec": {
+      "productType": "FLIGHT",
+      "flightProductBookingSpec": {
+        "selectedFlight": {
+          "searchFareType": "STANDALONE",
+          "planIds": [],
+          "flightPromotion": {
+            "changeSpecBannerPriorityActual": 0,
+            "changeSpecBannerPriorityDefault": 0,
+            "filterBannerPriorityDefault": 0,
+            "filterBannerPriorityActual": 0
+          },
+          "visitId": "5D3608BF-E83C-4618-870F-4A631F45F412",
+          "utmId": "",
+          "searchSource": "BASIC",
+          "currency": "IDR",
+          "funnelId": "flight",
+          "isUseDateFlow": false,
+          "originAirportSpec": "JKTA",
+          "initialSelectedSeatClass": "ECONOMY",
+          "reschedule": false,
+          "destinationAirportSpec": "DPS",
+          "selectedFlightSpecs": [
+            {
+              "flightIds": [
+                "3CgbWE8IWKZ+gnQ0cDFUPqnSOxU2jLwbFrSJNYLcsKOmJ6ePbfJ+Y4e6AG7nW8vjwZdYsHBQykEA3Es3laA+EZAWOTAQU0r2TBIC1tR/orElFSaIe6Qqb9IFsMoPrFoA3N46UJ4tMxl9ILpVcVVD3u9JF31I7ZlF6ZqmsotiISPe+RDkHVMcG21JyV7dfxC8dWylfeZeUcPqZulOrI4fawdtpVAvNHcuCqgQmPx5vKk="
+              ],
+              "isPackage": "false"
+            }
+          ],
+          "funnelSource": "iconHomepage",
+          "flightDisplayedDate": [
+            [
+              [
+                "Wed, 31 Aug 2022"
+              ]
+            ]
+          ],
+          "isBuybackGuarantee": "false",
+          "agentId": "trinusa",
+          "numberOfSeats": {
+            "numChildren": "0",
+            "numAdults": "1",
+            "numInfants": "0"
+          },
+          "isUsePromoFinder": true,
+          "searchId": "13DBF5D5-C482-49B3-8172-B1613E6B6C64",
+          "seatPublishedClass": "ECONOMY",
+          "isReschedule": false
+        },
+        "flightItineraryFares": [
+          {
+            "airlineId": "QG",
+            "routeFares": [
+              {
+                "farePerPaxExpected": {
+                  "infantFareWithCurrency": {
+                    "currency": "IDR",
+                    "amount": "0",
+                    "nullOrEmpty": true
+                  },
+                  "adultFareWithCurrency": {
+                    "currency": "IDR",
+                    "amount": "1196844",
+                    "nullOrEmpty": false
+                  },
+                  "childFareWithCurrency": {
+                    "currency": "IDR",
+                    "amount": "0",
+                    "nullOrEmpty": true
+                  }
+                },
+                "farePerPaxSearch": {
+                  "infantFareWithCurrency": {
+                    "currency": "IDR",
+                    "amount": "0",
+                    "nullOrEmpty": true
+                  },
+                  "adultFareWithCurrency": {
+                    "currency": "IDR",
+                    "amount": "996844",
+                    "nullOrEmpty": false
+                  },
+                  "childFareWithCurrency": {
+                    "currency": "IDR",
+                    "amount": "0",
+                    "nullOrEmpty": true
+                  }
+                },
+                "farePerPaxAgentExpected": {
+                  "infantFareWithCurrency": {
+                    "currency": "IDR",
+                    "amount": "0",
+                    "nullOrEmpty": true
+                  },
+                  "adultFareWithCurrency": {
+                    "currency": "IDR",
+                    "amount": "996844",
+                    "nullOrEmpty": false
+                  },
+                  "childFareWithCurrency": {
+                    "currency": "IDR",
+                    "amount": "0",
+                    "nullOrEmpty": true
+                  }
+                }
+              }
+            ],
+            "farePerPaxAgentExpected": {
+              "infantFareWithCurrency": {
+                "currency": "IDR",
+                "amount": "0",
+                "nullOrEmpty": true
+              },
+              "adultFareWithCurrency": {
+                "currency": "IDR",
+                "amount": "996844",
+                "nullOrEmpty": false
+              },
+              "childFareWithCurrency": {
+                "currency": "IDR",
+                "amount": "0",
+                "nullOrEmpty": true
+              }
+            },
+            "farePerPaxSearch": {
+              "infantFareWithCurrency": {
+                "currency": "IDR",
+                "amount": "0",
+                "nullOrEmpty": true
+              },
+              "adultFareWithCurrency": {
+                "currency": "IDR",
+                "amount": "996844",
+                "nullOrEmpty": false
+              },
+              "childFareWithCurrency": {
+                "currency": "IDR",
+                "amount": "0",
+                "nullOrEmpty": true
+              }
+            },
+            "farePerPaxExpected": {
+              "infantFareWithCurrency": {
+                "currency": "IDR",
+                "amount": "0",
+                "nullOrEmpty": true
+              },
+              "adultFareWithCurrency": {
+                "currency": "IDR",
+                "amount": "1196844",
+                "nullOrEmpty": false
+              },
+              "childFareWithCurrency": {
+                "currency": "IDR",
+                "amount": "0",
+                "nullOrEmpty": true
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bookingContact": {
+      "formData": {
+        "travelerForm": {
+          "name.regexName": "DEFAULT",
+          "name.first": "IPI Front",
+          "emailAddress": "ipi.front.end2@gmail.com",
+          "name.last": "End",
+          "title": "MISS",
+          "name.noLastName": "false",
+          "phoneNumber": {
+            "countryCode": "+62",
+            "phoneNumber": "8234567876"
+          }
+        },
+        "FLIGHT.FF": {
+          "ffAccount[0]": "",
+          "ffNumber[0]": "",
+          "boxAccordionFF": true
+        }
+      }
+    },
+    "selectedPrice": {
+      "selectedPrice": {
+        "currency": "IDR",
+        "amount": "1026444"
+      }
+    },
+    "currency": "IDR",
+    "addOnProductSpecs": [],
+    "createBookingCrossSellAddOns": [
+      {
+        "productType": "INSURANCE",
+        "id": "INSURANCE_796",
+        "displayType": "CHECKBOX",
+        "type": "INSURANCE_CHECKBOX",
+        "insuranceCreateCrossSellAddOnV2": {
+          "insuranceSpecId": "81fd6ea0217ca55f2df507739f2484fd3b2869de",
+          "productName": "FlightInsurance",
+          "crossSellAddOnType": "INSURANCE_CHECKBOX",
+          "productType": "FLIGHT",
+          "insurancePlanId": "796"
+        }
+      }
+    ],
+    "isMultiItem": false,
+    "createBookingTravelerSpecs": {
+      "infantFormData": [],
+      "childFormData": [],
+      "adultFormData": [
+        {
+          "travelerForm": {
+            "name.last": "End",
+            "title": "MISS",
+            "name.regexName": "DEFAULT",
+            "name.first": "IPI Front",
+            "name.noLastName": "false"
+          },
+          "FLIGHT.FF": {
+            "boxAccordionFF": "true"
+          }
+        }
+      ]
+    },
+    "createBookingProductSpecificAddOns": [
+      {
+        "type": "FLIGHT_BAGGAGE",
+        "id": "FLIGHT_BAGGAGE",
+        "flightBaggageAddOn": {
+          "baggageAddOnItems": [
+            {
+              "baggagesWithRoute": [
+                [
+                  {
+                    "unitOfMeasure": "KG",
+                    "baggageType": "0",
+                    "priceWithCurrency": {
+                      "currency": "IDR",
+                      "amount": "0"
+                    },
+                    "currency": "IDR",
+                    "price": "0",
+                    "quantity": "1",
+                    "fare": {
+                      "numOfDecimalPoint": "0",
+                      "currencyValue": {
+                        "currency": "IDR",
+                        "amount": "0"
+                      }
+                    },
+                    "weight": "20"
+                  }
+                ]
+              ],
+              "associatedTravelerIndex": "0"
+            }
+          ]
+        }
+      },
+      {
+        "type": "FLIGHT_SEAT_SELECTION",
+        "id": "FLIGHT_SEAT_SELECTION",
+        "flightSeatSelectionAddOn": {
+          "seatSelectionAddOnItems": []
+        }
+      },
+      {
+        "type": "FLIGHT_GENERAL_ADDON",
+        "id": "FLIGHT_GENERAL_ADDON",
+        "flightGeneralSelectionAddOn": {
+          "flightGeneralAddOnList": [
+            {
+              "generalAddOnItem": [
+                {
+                  "associatedTravelerIndex": 0,
+                  "selectedGeneralFlightAddOnItem": []
+                }
+              ],
+              "addOnType": "AIRPORT_TRANSFER"
+            },
+            {
+              "addOnType": "AIRPORT_LOUNGE",
+              "generalAddOnItem": [
+                {
+                  "associatedTravelerIndex": 0,
+                  "selectedGeneralFlightAddOnItem": []
+                }
+              ]
+            },
+            {
+              "addOnType": "OVERSIZED_BAGGAGE",
+              "generalAddOnItem": [
+                {
+                  "associatedTravelerIndex": 0,
+                  "selectedGeneralFlightAddOnItem": []
+                }
+              ]
+            },
+            {
+              "generalAddOnItem": [
+                {
+                  "associatedTravelerIndex": 0,
+                  "selectedGeneralFlightAddOnItem": []
+                }
+              ],
+              "addOnType": "PRIORITY_CHECK_IN"
+            }
+          ]
+        }
+      }
+    ],
+    "trackingSpec": {
+      "contexts": {
+        "std_preSelectId": "6ac226c8-c291-40fe-ae4a-dd4a7a9cf330",
+        "std_selectId": "787047a5-036c-4ec0-89aa-f00a76cffddc"
+      },
+      "searchId": "13DBF5D5-C482-49B3-8172-B1613E6B6C64",
+      "preBookingId": "6ac226c8-c291-40fe-ae4a-dd4a7a9cf330",
+      "marketingContexts": {
+        "idfa": "00000000-0000-0000-0000-000000000000",
+        "idfv": "F17B5F81-7B06-4D44-A7E3-04AA52243C66"
+      },
+      "bookingFormId": "787047a5-036c-4ec0-89aa-f00a76cffddc"
+    },
+    "createBookingSimpleAddOns": []
+  },
+  "context": {
+    "tvLifetime": "{{tvLifetime}}",
+    "tvSession": "{{tvSession}}"
+  },
+  "clientInterface": "mobile-iOS"
+}

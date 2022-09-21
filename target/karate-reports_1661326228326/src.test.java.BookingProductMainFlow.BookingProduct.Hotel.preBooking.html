@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ac47b090-41ca-42aa-b5b1-dd1bb09963b4",{name:"siskaadelinadamanik"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.BookingProductMainFlow.BookingProduct.Hotel.preBooking</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-08-24 02:28:55 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:9]"><span>[1:9]</span> <span>PreBooking Hotel</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/BookingProductMainFlow/BookingProduct/Hotel/preBooking.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">PreBooking Hotel</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:9]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:9]</span>
+                <span class="scenario-name">PreBooking Hotel</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>8565</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:9]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlHotel</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def reqPreBookingHotel = read(&#39;classpath:request/booking/booking/hotel/prebooking.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">143</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqPreBookingHotel.context.tvLifetime = tvLifetime</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqPreBookingHotel.context.tvSession = tvSession</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path prebookingHotel</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request reqPreBookingHotel</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8378</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">14:28:47.843 request:
+1 &gt; POST https://room-api.acd.staging-traveloka.com/en-id/v2/hotel/prebooking
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 3121
+1 &gt; Host: room-api.acd.staging-traveloka.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;fields&quot;:[],&quot;data&quot;:{&quot;numberOfExtraBeds&quot;:0,&quot;contexts&quot;:{&quot;funnelId&quot;:&quot;hotel&quot;,&quot;userLocation&quot;:{&quot;lat&quot;:&quot;0.000000&quot;,&quot;lon&quot;:&quot;0.000000&quot;},&quot;funnelSource&quot;:&quot;iconHomepage&quot;},&quot;labelContext&quot;:{},&quot;previousState&quot;:{&quot;roomTotalFare&quot;:&quot;232750&quot;},&quot;checkInDate&quot;:{&quot;month&quot;:9,&quot;day&quot;:9,&quot;year&quot;:2022},&quot;currency&quot;:&quot;IDR&quot;,&quot;prevSearchId&quot;:&quot;1742023263303764711&quot;,&quot;checkOutDate&quot;:{&quot;month&quot;:9,&quot;day&quot;:10,&quot;year&quot;:2022},&quot;numOfNights&quot;:1,&quot;numInfants&quot;:0,&quot;numRooms&quot;:1,&quot;lastMinute&quot;:false,&quot;sid&quot;:&quot;tcode-7797-696E-mf-01&quot;,&quot;roomInfoSpecs&quot;:[{&quot;guests&quot;:[],&quot;promoIds&quot;:null,&quot;rateType&quot;:&quot;PAY_NOW&quot;,&quot;guestInfo&quot;:{&quot;numChildren&quot;:0,&quot;childAges&quot;:[],&quot;numInfant&quot;:0,&quot;numAdult&quot;:1},&quot;numberOfExtraBeds&quot;:0,&quot;hotelRoomId&quot;:&quot;1000060171&quot;,&quot;contexts&quot;:{&quot;NEWROOMDATAAVAILABLE&quot;:true,&quot;bookingId&quot;:&quot;0&quot;,&quot;numChildren&quot;:&quot;0&quot;,&quot;numAdults&quot;:&quot;1&quot;,&quot;childAges&quot;:[],&quot;inventoryRateKey&quot;:&quot;povEwB3ZzsU2C6pd+6MdUxPQfH0zjQrhnrQN8muKP1k1PIxvkWni5SHY5PMCw2bix9Z2LvBe+SoYFyNDTPSTRN+7Axu2VFbhp6585eFic44vxaB\/+bOpybDc+t1Q34LibSAr1eTChthH4BLj8YLfeKgNuww9aKA0MjtHxsoTW00h9SPbF6a8qkPtExeI3NLRzsQNBGWd+b7ECHij54tjQVPb4h2Va6UYWLa9HdDMmDFIOpGL3bqIn8Wx86UBgidryBIUNSrKUGXC8PFeBKStTzS5\/vakKJLW8g1nvg6NAgCgTt34TUfY8THAXITVy3KEWzfZRyjdgMKHa8qcMW7bMo7IxANe4fOys8DB92XtwdbEWiYgkgHJzlt5MTHObYCO+D2yaQaTXOW7zRWfooCLGWxhCFe8KWu2o9VdB18FqSa8r9nPDIEQOOJdpZt5wy2sMRjBUNjcxcseice5r9V6HWHxHBXT3Fv1V3dlGUu0lz5qXOfrY0vGmrWN0cP5qGuAMzSB+M5HdIZfCGDaE0OEJDmz\/izkcPYEEea52IR7iL6+GbOgxb+dw0RSv\/rY8EkC9i6mpa6Sj7NnrzfnGoZNERsn+0qTYne0YnyF\/ouzRtioV+q+ONkYVRLu6Wrp26bL7ko1n32uKMMI3lUzAOQutsHTQH0v+cw1gqJudbDKGSIAB0Liq27fzSt8RTD5DMhSp+GLnYvPU3nPgDTvII\/66Bav0WAp1+9VlRj011S7oLbU8S5zmdwM1b3\/+rFkoDXL6BVNI82Fwt63RMpetNb88qO75QxGTLKZH1lP9rw4II\/R1ev5wMKWdpCqiSRmigACNRNhqdMzSsBMtw3UQYGuX5uNZqE0LtPsOV6+8p66FzvBLBhXuSAk2y+vhHWwzja14nOBw4eWSAofuXx6z+tfQ7r09ovFpzNU8dczKtJ4RtA6fSxitSKmEiMgnB7WjkZRI1dPMbeJb\/6ygu0fWYH16LKpibFJ6dEoUR9IdLRc7eQ2DejU2UETitDpPfhc7yGRGjUXAPBQKNR1QGLbdHx7sA==&quot;,&quot;isEligibleRefundGuarantee&quot;:false,&quot;numRooms&quot;:&quot;1&quot;,&quot;searchId&quot;:&quot;1742023265228976462&quot;,&quot;numInfants&quot;:&quot;0&quot;}}],&quot;providerId&quot;:&quot;traveloka_mobile&quot;,&quot;originalSearchOccupancySpec&quot;:{&quot;numChildren&quot;:0,&quot;numAdults&quot;:1,&quot;numRooms&quot;:1,&quot;childAges&quot;:[]},&quot;isExtraBedIncluded&quot;:true,&quot;numAdults&quot;:1,&quot;numChildren&quot;:0,&quot;backdate&quot;:false,&quot;hotelId&quot;:&quot;3000020000251&quot;,&quot;childAges&quot;:[]},&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zav\/DP3H3oxbg7cdZiIvskNWsDdrU40Mvgy8dAY3fuwpzy5dC2lSi+J5m4ThEzfK3TOlwW9fohpFfCCUgC2fy2BYvB9HAjnqFY+1bn0nvFW3DM6zknKWiSZX2XTS\/MftpxPD7FELaZwaw7u0cQBOjqa9MTvd2ifWrbL0Yl7uqDspNMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;nonce&quot;:&quot;4E562B70-26EF-40A8-B610-C36631E65C00&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg2J02di7wCevjc01jxEACTfO4B8\/FMQhl7y7w75lPH7IHRWCQFs9xGxGSYQysDuY8iRQsoupqxm2GxcX8oyFSCTIVV3fLsByVaMy7VQkMUHLDzskJknNyQ9S0wH4kueeaY1PiZf+qSdVhmynPbcHSQR1gfwMe\/Np\/p37XKnglgPEAWpBf4t1lqjygYnSetmqRSN4oe6dNmOjVng97D0L89lI7IOzfCTrDU1l8kIEe7sDxiZpMaJ\/EdnoH5rCZfTnj59jYGqxRgVYJOWaYsTvD\/AU833c9Gi+r218MDeU4C3N0xV6hrERCF5cLOabRwRrqytYubxOkCsDN89AdbMpJMrD2EZw1ygYrLG2QCSsFa1So2pYSE1YCo1ArTspKKA3O\/B\/g7WjbyUCerAtTPNDjFTg5QuFpCSdkAK3aDKRoRYvE\/mVRR5m+rCDxlr\/mxc7ctk\/7BvfeakecrLGNt93lmVM3eEzMiYVzLO8gLbB5\/F+g==&quot;},&quot;clientInterface&quot;:&quot;mobile-iOS&quot;}
+
+14:28:55.887 response time in milliseconds: 8032
+1 &lt; 200
+1 &lt; Date: Wed, 24 Aug 2022 07:28:54 GMT
+1 &lt; Content-Type: application/json;charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; RequestId: a933966d-ab84-4425-be43-410b1451ca5e
+1 &lt; Cache-Control: no-cache
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; X-Nonce: 4E562B70-26EF-40A8-B610-C36631E65C00
+1 &lt; vary: accept-encoding
+1 &lt; Set-Cookie: AWSALB=WuGcHMaesOiThLrN7JXH3W2cO1C3T3KDEH/M4+0hWerx//64j1uKojwe9cSM+RF+ecXHI4/qXZbxrwWbn31S4Ho36/AdTrleaCvZRwNXElHxUostkhH5VkITZ2BH; Max-Age=1661930931000; Expires=Mon, 21 Feb 54687 00:18:55 GMT; Domain=room-api.acd.staging-traveloka.com
+1 &lt; Set-Cookie: AWSALBCORS=WuGcHMaesOiThLrN7JXH3W2cO1C3T3KDEH/M4+0hWerx//64j1uKojwe9cSM+RF+ecXHI4/qXZbxrwWbn31S4Ho36/AdTrleaCvZRwNXElHxUostkhH5VkITZ2BH; Max-Age=1661930931000; Expires=Mon, 21 Feb 54687 00:18:55 GMT; Domain=room-api.acd.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;preBookingId&quot;:&quot;1742026710046495322&quot;,&quot;message&quot;:null,&quot;status&quot;:&quot;SUCCESS&quot;,&quot;result&quot;:{&quot;hotelRoomId&quot;:&quot;1000060171&quot;,&quot;providerId&quot;:&quot;jxPDxYuVs/bBY+WXYUpzqiFZ+dbN7sqlreetj6HoOs0aNRcA8FAo1HVAYtt0fHuw&quot;,&quot;name&quot;:&quot;Room Non-Prebuy&quot;,&quot;roomImages&quot;:[&quot;https://ik.imagekit.io/tvlkdev/generic-asset/-yob2odzirDF7GYSrvhGqi5NXRDI2uXhyb3sVOlM6qqkiDwaUSggleJNPRgIHCX6/hotel/asset/20000251-01c0d241dddc18870d25bc772ceb581b.jpeg?tr=q-40,w-519,h-390&amp;_src=imagekit&quot;,&quot;https://ik.imagekit.io/tvlkdev/generic-asset/-yob2odzirDF7GYSrvhGqi5NXRDI2uXhyb3sVOlM6qqkiDwaUSggleJNPRgIHCX6/hotel/asset/20000251-041c8df019c9e52f7d9de776f90ed8c0.jpeg?tr=q-40,w-519,h-390&amp;_src=imagekit&quot;],&quot;description&quot;:&quot;&lt;p&gt;ROOM NON-PREBUY&lt;/p&gt;&quot;,&quot;originalDescription&quot;:&quot;&lt;p&gt;ROOM NON-PREBUY&lt;/p&gt;&quot;,&quot;bedDescription&quot;:null,&quot;maxOccupancy&quot;:&quot;1&quot;,&quot;baseOccupancy&quot;:&quot;1&quot;,&quot;maxChildOccupancy&quot;:&quot;0&quot;,&quot;maxChildAge&quot;:&quot;6&quot;,&quot;numExtraBeds&quot;:&quot;0&quot;,&quot;numChargedRooms&quot;:&quot;1&quot;,&quot;numRemainingRooms&quot;:&quot;100&quot;,&quot;numBreakfastIncluded&quot;:null,&quot;isBreakfastIncluded&quot;:true,&quot;isWifiIncluded&quot;:true,&quot;isRefundable&quot;:true,&quot;hasLivingRoom&quot;:true,&quot;extraBedIsIncluded&quot;:null,&quot;size&quot;:&quot;10.0&quot;,&quot;rateDisplay&quot;:{&quot;baseFare&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;186379&quot;,&quot;nullOrEmpty&quot;:false},&quot;fees&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;taxes&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;46371&quot;,&quot;nullOrEmpty&quot;:false},&quot;totalFare&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;232750&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;,&quot;hotelRoomTaxOrFeeBreakdownDisplays&quot;:[{&quot;label&quot;:&quot;Taxes and fees&quot;,&quot;info&quot;:null,&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;46371&quot;}],&quot;roomFareDisplays&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;186379&quot;,&quot;nullOrEmpty&quot;:false}},&quot;originalRateDisplay&quot;:{&quot;baseFare&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;186379&quot;,&quot;nullOrEmpty&quot;:false},&quot;fees&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;taxes&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;46371&quot;,&quot;nullOrEmpty&quot;:false},&quot;totalFare&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;232750&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;,&quot;hotelRoomTaxOrFeeBreakdownDisplays&quot;:[{&quot;label&quot;:&quot;Taxes and fees&quot;,&quot;info&quot;:null,&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;46371&quot;}],&quot;roomFareDisplays&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;186379&quot;,&quot;nullOrEmpty&quot;:false}},&quot;strikethroughRateDisplay&quot;:null,&quot;propertyCurrencyRateDisplay&quot;:{&quot;baseFare&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;196188&quot;,&quot;nullOrEmpty&quot;:false},&quot;fees&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;taxes&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;48812&quot;,&quot;nullOrEmpty&quot;:false},&quot;totalFare&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;245000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;,&quot;hotelRoomTaxOrFeeBreakdownDisplays&quot;:[{&quot;label&quot;:&quot;Taxes and fees&quot;,&quot;info&quot;:null,&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;48812&quot;}],&quot;roomFareDisplays&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;196188&quot;,&quot;nullOrEmpty&quot;:false}},&quot;propertyCurrencyOriginalRateDisplay&quot;:{&quot;baseFare&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;196188&quot;,&quot;nullOrEmpty&quot;:false},&quot;fees&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;taxes&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;48812&quot;,&quot;nullOrEmpty&quot;:false},&quot;totalFare&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;245000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;,&quot;hotelRoomTaxOrFeeBreakdownDisplays&quot;:[{&quot;label&quot;:&quot;Taxes and fees&quot;,&quot;info&quot;:null,&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;48812&quot;}],&quot;roomFareDisplays&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;196188&quot;,&quot;nullOrEmpty&quot;:false}},&quot;rescheduleRateDisplay&quot;:null,&quot;strikethroughDisplayFlag&quot;:null,&quot;isCashback&quot;:null,&quot;rateInfo&quot;:{&quot;savings&quot;:&quot;0&quot;,&quot;fees&quot;:[{&quot;description&quot;:&quot;Service Fee&quot;,&quot;amount&quot;:&quot;0&quot;}],&quot;taxes&quot;:[{&quot;description&quot;:&quot;Tax&quot;,&quot;amount&quot;:&quot;46371&quot;}],&quot;surcharges&quot;:[]},&quot;extraBedRate&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;baseExtraBedPrice&quot;:&quot;100000&quot;,&quot;totalExtraBedPrice&quot;:&quot;100000&quot;,&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;vatInvoice&quot;:null,&quot;roomCancellationPolicy&quot;:{&quot;cancellationPolicyLabel&quot;:&quot;Free cancellation before 08-Sep-2022&quot;,&quot;cancellationPolicyString&quot;:&quot;Reschedule policy: Additional reschedule charge might apply based on the price difference of the new stay date.\nCancellation policy: Free cancellation before 08-Sep-2022 09:00. If cancelled or modified after 08-Sep-2022 09:01, a cancellation fee will be charged.&quot;,&quot;providerCancellationPolicyString&quot;:&quot;Cancellation after 08 September 2022 10:00 local hotel time, will have to pay IDR 245000 for cancellation.Cancellation after 09 September 2022 10:00 local hotel time, will have to pay IDR 245000 for cancellation.&quot;,&quot;freeCancel&quot;:true,&quot;refundable&quot;:true,&quot;cancellationPolicyInfos&quot;:null,&quot;additionalCancellationPolicyInfo&quot;:null},&quot;roomReschedulePolicy&quot;:null,&quot;extraBedSummaries&quot;:[],&quot;promoFlag&quot;:false,&quot;contexts&quot;:{&quot;inventoryRateKey&quot;:&quot;povEwB3ZzsU2C6pd+6MdUxPQfH0zjQrhnrQN8muKP1k1PIxvkWni5SHY5PMCw2bix9Z2LvBe+SoYFyNDTPSTRN+7Axu2VFbhp6585eFic44vxaB/+bOpybDc+t1Q34LibSAr1eTChthH4BLj8YLfeKgNuww9aKA0MjtHxsoTW00h9SPbF6a8qkPtExeI3NLRzsQNBGWd+b7ECHij54tjQVPb4h2Va6UYWLa9HdDMmDFIOpGL3bqIn8Wx86UBgidryBIUNSrKUGXC8PFeBKStTzS5/vakKJLW8g1nvg6NAgCgTt34TUfY8THAXITVy3KEWzfZRyjdgMKHa8qcMW7bMo7IxANe4fOys8DB92XtwdbEWiYgkgHJzlt5MTHObYCO+D2yaQaTXOW7zRWfooCLGWxhCFe8KWu2o9VdB18FqSa8r9nPDIEQOOJdpZt5wy2sMRjBUNjcxcseice5r9V6HWHxHBXT3Fv1V3dlGUu0lz5qXOfrY0vGmrWN0cP5qGuAMzSB+M5HdIZfCGDaE0OEJDmz/izkcPYEEea52IR7iL6+GbOgxb+dw0RSv/rY8EkC9i6mpa6Sj7NnrzfnGoZNERsn+0qTYne0YnyF/ouzRtioV+q+ONkYVRLu6Wrp26bL7ko1n32uKMMI3lUzAOQutsHTQH0v+cw1gqJudbDKGSIAB0Liq27fzSt8RTD5DMhSp+GLnYvPU3nPgDTvII/66Bav0WAp1+9VlRj011S7oLbU8S5zmdwM1b3/+rFkoDXL6BVNI82Fwt63RMpetNb88qO75QxGTLKZH1lP9rw4II/R1ev5wMKWdpCqiSRmigACNRNhqdMzSsBMtw3UQYGuX5uNZqE0LtPsOV6+8p66FzvBLBhXuSAk2y+vhHWwzja14nOBw4eWSAofuXx6z+tfQ7r09ovFpzNU8dczKtJ4RtA6fSxitSKmEiMgnB7WjkZRI1dPMbeJb/6ygu0fWYH16LKpibFJ6dEoUR9IdLRc7eQ2DejU2UETitDpPfhc7yGRGjUXAPBQKNR1QGLbdHx7sA==&quot;,&quot;prevSearchId&quot;:&quot;1742023265228976462&quot;,&quot;searchId&quot;:&quot;1742026711537578318&quot;,&quot;NEWROOMDATAAVAILABLE&quot;:true,&quot;bookingId&quot;:&quot;0&quot;,&quot;childAges&quot;:null,&quot;prebookingRateTotalFare&quot;:&quot;232750&quot;},&quot;amenitiesExcluded&quot;:[],&quot;amenitiesIncluded&quot;:[&quot;KITCHEN&quot;,&quot;PRIVATE_BATHROOM&quot;],&quot;amenitiesByCategory&quot;:null,&quot;roomHighlightFacilityDisplay&quot;:null,&quot;promoIds&quot;:null,&quot;hotelPromoType&quot;:null,&quot;labelDisplayData&quot;:null,&quot;hotelBedType&quot;:[&quot;2 double bed, 5 king bed, 4 queen bed, 1 single bed and 3 twin bed&quot;],&quot;bedArrangements&quot;:{&quot;bedroomSummary&quot;:&quot;2 double bed, 5 king bed, 4 queen bed, 1 single bed and 3 twin bed&quot;,&quot;numOfBedroom&quot;:&quot;5&quot;,&quot;bedrooms&quot;:[{&quot;defaultArrangement&quot;:[{&quot;bedName&quot;:&quot;single bed&quot;,&quot;total&quot;:&quot;1&quot;,&quot;bedIcon&quot;:&quot;&quot;}],&quot;alternativeArrangement&quot;:[],&quot;arrangements&quot;:{&quot;default&quot;:[{&quot;bedName&quot;:&quot;single bed&quot;,&quot;total&quot;:&quot;1&quot;,&quot;bedIcon&quot;:&quot;&quot;}]}},{&quot;defaultArrangement&quot;:[{&quot;bedName&quot;:&quot;double bed&quot;,&quot;total&quot;:&quot;2&quot;,&quot;bedIcon&quot;:&quot;&quot;}],&quot;alternativeArrangement&quot;:[],&quot;arrangements&quot;:{&quot;default&quot;:[{&quot;bedName&quot;:&quot;double bed&quot;,&quot;total&quot;:&quot;2&quot;,&quot;bedIcon&quot;:&quot;&quot;}]}},{&quot;defaultArrangement&quot;:[{&quot;bedName&quot;:&quot;twin bed&quot;,&quot;total&quot;:&quot;3&quot;,&quot;bedIcon&quot;:&quot;&quot;}],&quot;alternativeArrangement&quot;:[],&quot;arrangements&quot;:{&quot;default&quot;:[{&quot;bedName&quot;:&quot;twin bed&quot;,&quot;total&quot;:&quot;3&quot;,&quot;bedIcon&quot;:&quot;&quot;}]}},{&quot;defaultArrangement&quot;:[{&quot;bedName&quot;:&quot;queen bed&quot;,&quot;total&quot;:&quot;4&quot;,&quot;bedIcon&quot;:&quot;&quot;}],&quot;alternativeArrangement&quot;:[],&quot;arrangements&quot;:{&quot;default&quot;:[{&quot;bedName&quot;:&quot;queen bed&quot;,&quot;total&quot;:&quot;4&quot;,&quot;bedIcon&quot;:&quot;&quot;}]}},{&quot;defaultArrangement&quot;:[{&quot;bedName&quot;:&quot;king bed&quot;,&quot;total&quot;:&quot;5&quot;,&quot;bedIcon&quot;:&quot;&quot;}],&quot;alternativeArrangement&quot;:[],&quot;arrangements&quot;:{&quot;default&quot;:[{&quot;bedName&quot;:&quot;king bed&quot;,&quot;total&quot;:&quot;5&quot;,&quot;bedIcon&quot;:&quot;&quot;}]}}]},&quot;hotelRoomSizeDisplay&quot;:null,&quot;hotelRoomType&quot;:null,&quot;smokingPreferences&quot;:null,&quot;rateType&quot;:&quot;PAY_NOW&quot;,&quot;ccGuaranteeRequirement&quot;:null,&quot;additionalCharges&quot;:null,&quot;propertyCurrencyAdditionalCharges&quot;:null,&quot;loyaltyAmount&quot;:&quot;6983&quot;,&quot;hotelLoyaltyDisplay&quot;:{&quot;display&quot;:&quot;Yay, you&#39;ll get &lt;strong&gt;&lt;font color=\&quot;#00875A\&quot;&gt;6983 Points cashback&lt;/font&gt;&lt;/strong&gt;!&quot;,&quot;amount&quot;:&quot;6983&quot;},&quot;accomLoyaltyEligibilityStatus&quot;:&quot;ELIGIBLE&quot;,&quot;checkInInstruction&quot;:null,&quot;walletPromoDisplay&quot;:null,&quot;imageWithCaptions&quot;:[{&quot;caption&quot;:&quot;BEDROOM&quot;,&quot;url&quot;:&quot;https://ik.imagekit.io/tvlkdev/generic-asset/-yob2odzirDF7GYSrvhGqi5NXRDI2uXhyb3sVOlM6qqkiDwaUSggleJNPRgIHCX6/hotel/asset/20000251-01c0d241dddc18870d25bc772ceb581b.jpeg?tr=q-40,c-at_max,w-1280,h-720&amp;_src=imagekit&quot;,&quot;width&quot;:&quot;960&quot;,&quot;height&quot;:&quot;550&quot;,&quot;thumbnailUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/generic-asset/-yob2odzirDF7GYSrvhGqi5NXRDI2uXhyb3sVOlM6qqkiDwaUSggleJNPRgIHCX6/hotel/asset/20000251-01c0d241dddc18870d25bc772ceb581b.jpeg?tr=q-40,w-100,h-100&amp;_src=imagekit&quot;,&quot;assetOrder&quot;:&quot;0&quot;},{&quot;caption&quot;:&quot;BATHROOM&quot;,&quot;url&quot;:&quot;https://ik.imagekit.io/tvlkdev/generic-asset/-yob2odzirDF7GYSrvhGqi5NXRDI2uXhyb3sVOlM6qqkiDwaUSggleJNPRgIHCX6/hotel/asset/20000251-041c8df019c9e52f7d9de776f90ed8c0.jpeg?tr=q-40,c-at_max,w-1280,h-720&amp;_src=imagekit&quot;,&quot;width&quot;:&quot;1024&quot;,&quot;height&quot;:&quot;683&quot;,&quot;thumbnailUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/generic-asset/-yob2odzirDF7GYSrvhGqi5NXRDI2uXhyb3sVOlM6qqkiDwaUSggleJNPRgIHCX6/hotel/asset/20000251-041c8df019c9e52f7d9de776f90ed8c0.jpeg?tr=q-40,w-100,h-100&amp;_src=imagekit&quot;,&quot;assetOrder&quot;:&quot;0&quot;}],&quot;caption&quot;:null,&quot;inventoryName&quot;:null,&quot;inventoryTags&quot;:null,&quot;extraBedSearchSummary&quot;:{&quot;maxExtraBeds&quot;:&quot;0&quot;,&quot;numExtraBedIncluded&quot;:&quot;0&quot;,&quot;extraBedRateDisplay&quot;:{&quot;baseExtraBedPrice&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;100000&quot;,&quot;nullOrEmpty&quot;:false},&quot;totalExtraBedPrice&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;100000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoints&quot;:&quot;0&quot;},&quot;propertyCurrencyExtraBedRateDisplay&quot;:{&quot;baseExtraBedPrice&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;100000&quot;,&quot;nullOrEmpty&quot;:false},&quot;totalExtraBedPrice&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;100000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoints&quot;:&quot;0&quot;}},&quot;extraBedRateSummary&quot;:null,&quot;childOccupancyPolicyDisplay&quot;:{&quot;childPolicyEligibility&quot;:{&quot;childPolicyStatus&quot;:&quot;FREE&quot;,&quot;numberOfEligibleChild&quot;:&quot;0&quot;},&quot;shortChildPolicyDisplayString&quot;:null,&quot;fullChildPolicyDisplayString&quot;:null},&quot;disabilitySupport&quot;:null,&quot;bookingPolicy&quot;:null,&quot;isBookable&quot;:null,&quot;inventoryLabelDisplay&quot;:null,&quot;supportedAddOns&quot;:null,&quot;inventoryLabels&quot;:null,&quot;couponEligibilityStatus&quot;:null,&quot;boosterCoupons&quot;:null,&quot;extraBenefitList&quot;:[],&quot;hotelRoomInventoryId&quot;:null,&quot;hotelId&quot;:&quot;3000020000251&quot;,&quot;hotelName&quot;:&quot;Viva la villa&quot;,&quot;hotelGlobalName&quot;:&quot;Viva la villa&quot;,&quot;hotelStar&quot;:&quot;5.0&quot;,&quot;hotelGeoRegionId&quot;:&quot;103126&quot;,&quot;checkInTime&quot;:{&quot;hour&quot;:&quot;10&quot;,&quot;minute&quot;:&quot;0&quot;},&quot;checkOutTime&quot;:{&quot;hour&quot;:&quot;22&quot;,&quot;minute&quot;:&quot;0&quot;},&quot;checkInTimeRange&quot;:{&quot;start&quot;:{&quot;hour&quot;:&quot;10&quot;,&quot;minute&quot;:&quot;0&quot;},&quot;end&quot;:null},&quot;checkOutTimeRange&quot;:{&quot;start&quot;:null,&quot;end&quot;:{&quot;hour&quot;:&quot;22&quot;,&quot;minute&quot;:&quot;0&quot;}},&quot;hotelAttributeDisplay&quot;:{&quot;description&quot;:&quot;&amp;lt;br&amp;gt;\n&amp;lt;b&amp;gt;Overview&amp;lt;/b&amp;gt;\n&amp;lt;p&amp;gt;Testing property description - Viva la Villa is a very good property. Located in the central of Jakarta, the capital city of Indonesia, you will have a lot of activity options. Please write down the highlight of your property, such as the reasons why your accommodation is worth to book. This section will be displayed as property description in Traveloka App. Please note that character limit applies.&amp;lt;/p&amp;gt;\n&amp;lt;br&amp;gt;\n&amp;lt;b&amp;gt;Unique Selling Point&amp;lt;/b&amp;gt;\n&amp;lt;p&amp;gt;Please write down the key features that make your accommodation stands out among others in the area. For example, you can highlight the view from the room, the delightful breakfast, or even your property&amp;rsquo;s unique partnerships with local communities. Please write down the key features that make your accommodation stands out among others in the area. &amp;lt;/p&amp;gt;\n&amp;lt;br&amp;gt;\n&amp;lt;b&amp;gt;Facilities&amp;lt;/b&amp;gt;\n&amp;lt;p&amp;gt;Please describe the facilities in your accommodation. You can try to elaborate how the facilities can cater your guests&amp;rsquo; need and may attract guest to book your accommodation. Please describe the facilities in your accommodation. You can try to elaborate how the facilities can cater your guests&amp;rsquo; need and may attract guest to book your accommodation.&amp;lt;/p&amp;gt;\n&amp;lt;br&amp;gt;\n&amp;lt;b&amp;gt;Things to Note&amp;lt;/b&amp;gt;\n&amp;lt;p&amp;gt;This resort has been cooperating with local business to provide local-sourced food and beverages.&amp;lt;/p&amp;gt;\n&quot;,&quot;overview&quot;:&quot;&amp;lt;p&amp;gt;Testing property description - Viva la Villa is a very good property. Located in the central of Jakarta, the capital city of Indonesia, you will have a lot of activity options. Please write down the highlight of your property, such as the reasons why your accommodation is worth to book. This section will be displayed as property description in Traveloka App. Please note that character limit applies.&amp;lt;/p&amp;gt;&quot;,&quot;propertyInformation&quot;:null,&quot;areaInformation&quot;:null,&quot;hotelPolicy&quot;:&quot;\n\n\n\n            &lt;p&gt;  \n        Accommodation does not serve free extra breakfast.\n        &lt;/p&gt;\n    \n\n\n\n\n\n\n\n\n\n\n            &lt;p&gt;  \n                    Breakfast at the accommodation will be provided from 05:00 - 08:00.\n                &lt;/p&gt;\n    \n\n\n\n\n\n\n\n\n\n\n    \t\t\t&lt;p&gt;\n      Smoking is prohibited in the accommodation.\n      &lt;/p&gt;\n    \n\n\n\n\n\n\n\n\n\n\n    &lt;p&gt; \n            Pets are not allowed in the accommodation.      \n        &lt;/p&gt;\n\n\n\n\n\n\n\n\n\n\n\n\n\n    &lt;p&gt; \n            Any parties or events are not allowed in this accommodation.      \n        &lt;/p&gt;\n\n\n\n\n\n\n\n\n\n                                        &lt;p&gt;additional policies&lt;/p&gt;\n                        \n\n\n\n\n\n\n\n\n    \t\t\t\t\t\t\t\t\t&lt;p&gt;\n\t\t\t\t\tAirport transfer is available for IDR 2,424,242/person.\n\t\t\t\t\t&lt;/p&gt;\n\t\t\t\t    \n\n\n  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t &lt;p&gt;Your room price includes the price of gala dinner (gala dinner included) on 11-7-2022 - 25-7-2022&lt;/p&gt;\n\t\t\t\t\t\t\t\t\t  \n\n\n\n\n\n\n\n\n\n&quot;,&quot;roomInformation&quot;:null,&quot;drivingDirections&quot;:null,&quot;checkInInstructions&quot;:&quot;&lt;b&gt;Contact Accommodation Before Arrival Policy&lt;/b&gt;&lt;br /&gt;\nGuests should contact hotel 1 day(s) prior to arrival\n&lt;br /&gt;&lt;br /&gt;\n&lt;b&gt;General Check-in Instructions (English Only)&lt;/b&gt;&lt;br /&gt;\nLet your guests know how to check-in to your accommodation, what to prepare before check-in, and who to contact prior to their check-in date.\n&lt;br /&gt;&lt;br /&gt;\n&lt;b&gt;Early Check-in Policy&lt;/b&gt;&lt;br /&gt;\nYou&#39;re not allowed to check-in before the accommodation’s check-in time.\n&lt;br /&gt;&lt;br /&gt;\n&lt;b&gt;Late Check-out Policy&lt;/b&gt;&lt;br /&gt;\nYou&#39;re not allowed to check-out past the accommodation&#39;s check-out time.\n&lt;br /&gt;&lt;br /&gt;\n&lt;b&gt;Tourism Tax Policy&lt;/b&gt;&lt;br /&gt;\nTourism tax IDR 242,424 will be charged upon check-in (per guest).\n&lt;br /&gt;&lt;br /&gt;\n&quot;,&quot;knowBeforeYouGoDescription&quot;:null,&quot;locationDescription&quot;:&quot;&lt;p&gt;The hill-top location offers exceptional view right from your window. Our resort is located inside the sacred village Karangsrengseng which offers authentic Bali living experience. It is very good location. You can reach our resort by bus number 111 or we can arrange pick-up service for you. You can also try to elaborate the main attractions nearby. &lt;/p&gt;&quot;,&quot;diningDescription&quot;:null,&quot;amenitiesDescription&quot;:null,&quot;businessAmenitiesDescription&quot;:null,&quot;roomDetailDescription&quot;:null,&quot;importantNotice&quot;:&quot;&lt;b&gt;MUST READ BEFORE CHECK-IN: &lt;/b&gt;&lt;br /&gt;&lt;b&gt;As COVID-19 situation evolves, make sure the cancellation policy suits your needs.&lt;/b&gt; &lt;br /&gt;&lt;br /&gt; &lt;p&gt;In reference to the circular letter by the government regarding the spread control of Covid-19, please ensure that you are aware of your booking&#39;s refund, cancellation, and reschedule policy.&lt;br /&gt;\n&lt;br /&gt;\n &lt;b&gt;Document Policy&lt;/b&gt;&lt;br /&gt;\nUpon check-in, you are required to bring ID Card. Please bring the required documents in hard copy.\n&lt;br /&gt;&lt;br /&gt;\nUpon check-in, you are required to bring Marriage Certificate, test. The required documents can be in the form of soft copy.\n&lt;br /&gt;&lt;br /&gt;\nUpon check-in, you are required to bring Boarding Pass. Please bring the required documents in hard copy.\n&lt;br /&gt;&lt;br /&gt;\nUpon check-in, you are required to bring Antigen Test Result, Boarding Pass, ID Card, Marriage Certificate, PCR Test Result. The required documents can be in the form of soft copy.\n&lt;br /&gt;&lt;br /&gt;\n &lt;b&gt;Facility Notice&lt;/b&gt;&lt;br /&gt;\nBusiness Facilities, Gym, Lobby, Spa, closed closed temporarily from 19-7-2022 to 26-7-2022.\n&lt;br /&gt;&lt;br /&gt;\nHallway, Lounge, Restaurant / Bar, Swimming Pool open for limited number of guests per day from 19-7-2022 to 26-7-2022.\n&lt;br /&gt;&lt;br /&gt;\n &lt;b&gt;Deposit Policy&lt;/b&gt;&lt;br /&gt;\n Deposit IDR 0 is required upon check-in. The accommodation accepts cash and debit card.\n&lt;br /&gt;&lt;br /&gt;\n &lt;b&gt;Minimum Age for Check-in Policy&lt;/b&gt;&lt;br /&gt;\nMinimum age to check-in is 17. Minor guests must be accompanied by adults upon check-in.\n&lt;br /&gt;&lt;br /&gt;\n &lt;b&gt;Genders Policy&lt;/b&gt;&lt;br /&gt;\n Accommodation only accepts FEMALE guests.\n&lt;br /&gt;&lt;br /&gt;\n&lt;/p&gt;&quot;,&quot;customImportantNotice&quot;:&quot;As COVID-19 situation evolves, make sure the cancellation policy suits your needs.&lt;br /&gt;In reference to the circular letter by the government regarding the spread control of Covid-19, please ensure that you are aware of your booking&#39;s refund, cancellation, and reschedule policy.&quot;,&quot;policyDisplayType&quot;:&quot;POLICY_FORMATTED&quot;,&quot;policies&quot;:[{&quot;policyTitle&quot;:&quot;Required Documents&quot;,&quot;policyDescription&quot;:&quot;Upon check-in, you are required to bring ID Card. Please bring the required documents in hard copy.&lt;br /&gt;Upon check-in, you are required to bring Marriage Certificate, test. The required documents can be in the form of soft copy.&lt;br /&gt;Upon check-in, you are required to bring Boarding Pass. Please bring the required documents in hard copy.&lt;br /&gt;Upon check-in, you are required to bring Antigen Test Result, Boarding Pass, ID Card, Marriage Certificate, PCR Test Result. The required documents can be in the form of soft copy.&lt;br /&gt;&quot;,&quot;policyIconUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2022/06/24/1656054965879-c797fed0080f1c893ee254f3d163c60a.png?tr=q-75&quot;,&quot;policyType&quot;:&quot;IMPORTANT_NOTICE&quot;},{&quot;policyTitle&quot;:&quot;Facility&quot;,&quot;policyDescription&quot;:&quot;Business Facilities, Gym, Lobby, Spa, closed closed temporarily from 19-7-2022 to 26-7-2022.&lt;br /&gt;Hallway, Lounge, Restaurant / Bar, Swimming Pool open for limited number of guests per day from 19-7-2022 to 26-7-2022.&lt;br /&gt;&quot;,&quot;policyIconUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2022/06/23/1655980004237-f0c5f785bbb18b6f4e77a672392d4e3e.png?tr=q-75&quot;,&quot;policyType&quot;:&quot;IMPORTANT_NOTICE&quot;},{&quot;policyTitle&quot;:&quot;Deposit&quot;,&quot;policyDescription&quot;:&quot;Deposit IDR 0 is required upon check-in. The accommodation accepts cash and debit card.&quot;,&quot;policyIconUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2022/06/23/1655979993571-4a376cb507f39e01efb21bc7751d6f86.png?tr=q-75&quot;,&quot;policyType&quot;:&quot;IMPORTANT_NOTICE&quot;},{&quot;policyTitle&quot;:&quot;Minimum Age Policy&quot;,&quot;policyDescription&quot;:&quot;Minimum age to check-in is 17. Minor guests must be accompanied by adults upon check-in.&quot;,&quot;policyIconUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2022/06/23/1655980022785-ed0361a4ca0c02ea50c2a23f1c6c28a0.png?tr=q-75&quot;,&quot;policyType&quot;:&quot;IMPORTANT_NOTICE&quot;},{&quot;policyTitle&quot;:&quot;Gender Policy&quot;,&quot;policyDescription&quot;:&quot;Accommodation only accepts FEMALE guests.&quot;,&quot;policyIconUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2022/06/23/1655980013300-8f9d26e440bb6a5555a629e4e9e8469a.png?tr=q-75&quot;,&quot;policyType&quot;:&quot;IMPORTANT_NOTICE&quot;}]},&quot;prebookingDisplayInfo&quot;:{&quot;finalPriceInfo&quot;:&quot;Inclusive of Taxes&quot;},&quot;accomRoomServiceTaxDisplay&quot;:{&quot;serviceTaxText&quot;:&quot;Tax Recovery Charges&quot;,&quot;serviceTaxValueString&quot;:&quot;Included&quot;,&quot;serviceTaxValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;46371&quot;,&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},&quot;propertyListing&quot;:{&quot;unitType&quot;:&quot;Private Villa&quot;,&quot;propertyInfoDescription&quot;:&quot;This property offers entire villa only for yourself.&quot;,&quot;unitInfoDescription&quot;:&quot;Great for when you need large space with extra privacy&quot;},&quot;accommodationType&quot;:&quot;Villa&quot;,&quot;priceDetailsCommunicationBanner&quot;:null,&quot;bookingSummaryBanner&quot;:{&quot;imageUrl&quot;:null,&quot;title&quot;:null,&quot;description&quot;:null},&quot;breakfastIncluded&quot;:true,&quot;cashback&quot;:null,&quot;wifiIncluded&quot;:true,&quot;refundable&quot;:true},&quot;loginId&quot;:&quot;ipi.front.end2@gmail.com&quot;,&quot;fbGeoInformation&quot;:{&quot;fbCountry&quot;:&quot;ID&quot;,&quot;fbRegion&quot;:&quot;Jakarta&quot;,&quot;fbCity&quot;:&quot;Jakarta Barat&quot;},&quot;variantContexts&quot;:null,&quot;layout&quot;:{&quot;detail&quot;:&quot;NEW&quot;},&quot;isReschedule&quot;:false,&quot;userTagContext&quot;:null,&quot;corporateTravelPolicy&quot;:null,&quot;failedStatusReason&quot;:null,&quot;showResponseAfterLogin&quot;:true,&quot;preferredCheckinTimeRange&quot;:null,&quot;additionalInfo&quot;:{&quot;otpAddContactInformation&quot;:null,&quot;otpContactDetailsInformation&quot;:null},&quot;inventoryUnitDisplay&quot;:{&quot;singular&quot;:&quot;unit&quot;,&quot;plural&quot;:&quot;units&quot;,&quot;pluralParentheses&quot;:&quot;unit(s)&quot;},&quot;contexts&quot;:{&quot;metasearchToken&quot;:null,&quot;standardBookingVariant&quot;:&quot;new&quot;,&quot;encryptedAccessCode&quot;:null},&quot;prebookingStatus&quot;:{&quot;result&quot;:&quot;SUCCESS&quot;,&quot;code&quot;:null},&quot;enabledMultipleGuestName&quot;:false,&quot;displayInventoryEligibilityStatus&quot;:{&quot;isRefundGuaranteeEligible&quot;:false},&quot;couponSummaryDisplay&quot;:null,&quot;groupBuyInfoResult&quot;:null,&quot;reschedule&quot;:false},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJEJysENXY97Cajdj/Ixwx6Dy5dC2lSi+J5m4ThEzfK3RmU7odit3dJQ1mtw33T7v535XPt9tGTbo6VNwAkhYLHzM6zknKWiSZX2XTS/MftpxPD7FELaZwaw7u0cQBOjqa9MTvd2ifWrbL0Yl7uqDspNMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg2J02di7wCevjc01jxEACTfO4B8/FMQhl7y7w75lPH7IHRWCQFs9xGxGSYQysDuY8iRQsoupqxm2GxcX8oyFSCTIVV3fLsByVaMy7VQkMUHLDzskJknNyQ9S0wH4kueeaY1PiZf+qSdVhmynPbcHSQR1gfwMe/Np/p37XKnglgPEAWpBf4t1lqjygYnSetmqRSN4oe6dNmOjVng97D0L89lI7IOzfCTrDU1l8kIEe7sDxiZpMaJ/EdnoH5rCZfTnj59jYGqxRgVYJOWaYsTvD/AU833c9Gi+r218MDeU4C3N0xV6hrERCF5cLOabRwRrqzek/P2dR/4jJPM6Eo89HSqdJkxk3sct+N9gCJYL0Vt8I2pYSE1YCo1ArTspKKA3O/B/g7WjbyUCerAtTPNDjFTg5QuFpCSdkAK3aDKRoRYvE/mVRR5m+rCDxlr/mxc7ctk/7BvfeakecrLGNt93lmVM3eEzMiYVzLO8gLbB5/F+g==&quot;,&quot;nonce&quot;:&quot;4E562B70-26EF-40A8-B610-C36631E65C00&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref failed">14</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>assert response.data.preBookingId != NULL</span>
+      </div>
+    </div>
+    <div class="time-cell failed">37</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">14:28:55.930 src/test/java/BookingProductMainFlow/BookingProduct/Hotel/preBooking.feature:14
+And assert response.data.preBookingId != NULL
+js failed:
+&gt;&gt;&gt;&gt;
+01: response.data.preBookingId != NULL
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;NULL&quot; is not defined
+- &lt;js&gt;.:program(Unnamed:1)
+
+src/test/java/BookingProductMainFlow/BookingProduct/Hotel/preBooking.feature:14
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

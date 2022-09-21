@@ -1,0 +1,42 @@
+{
+  "clientInterface": "mobile-iOS",
+  "context": {
+    "nonce": "71fc2c8a-08f7-4ab8-a197-61a70858cc36",
+    "tvLifetime": "qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJAEl0rVWkhb63Iw2pnVMDOTy5dC2lSi+J5m4ThEzfK3R2ngHsqu/c2XnL0frPi/1kk5vwlu4wEkgiuFFHXSHznEf7ZjchNqUvW83c/+YGfcWVpThw5YFNmBy4ScJ/+3+G/BejrnaUgukJfx1YV1Cw7NMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==",
+    "tvSession": "qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlf8Vk8LITl4FLcI0qLd8U3ep1EUFlvfAVhmCZXrY9a3tjexrfmCFfq+1OkuEMzrU8dhlDJNK+Zv+xPIjAlumQwCE3hi7baSP8UZUVxyX3j/0bSoX2NqGeNHdclrta9gAMMQwv0gZge0Z7vlNhHw/rwWRJrWBZ/OiWpn9E+Mpta8i+NPdeLbRQ4adBWQQR2L1rOYot5BmcGPfA715rpmiog1NU4H0P8241Yhmw//vxoHHA0HgryifXmGUoZPMoEp4qvCcESXx0xB0wenWPQO43cgH6m+Hi6tdZMxSEO4QKg4jPsse4M6K/PRYvmGqcJBEcq04/685u5+0QdqHul+APaojDqK1V/RtLLbJfJvxeWbw="
+  },
+  "data": {
+    "isSpecialFareAvailableInSearchResult": false,
+    "isUpsellAvailableInSearchResult": false,
+    "requestType": "INITIAL_DATA",
+    "selectedFlightProductBookingSpec": {
+      "currency": "IDR",
+      "destinationAirportSpec": "DPS",
+      "funnelId": "flight",
+      "funnelSource": "iconHomepage",
+      "isBuybackGuarantee": false,
+      "isReschedule": false,
+      "isUseDateFlow": false,
+      "isUsePromoFinder": true,
+      "numberOfSeats": {
+        "numAdults": 1,
+        "numChildren": 0,
+        "numInfants": 0
+      },
+      "originAirportSpec": "JKTA",
+      "searchId": "f5a53d49-fc13-491b-bc63-b10624493b63",
+      "searchSource": "BASIC",
+      "seatPublishedClass": "ECONOMY",
+      "selectedFlightSpecs": [
+        {
+          "flightIds": [
+            "3CgbWE8IWKZ+gnQ0cDFUPtZQBbr/kRLReWsqxt5fdkPDhgt0ncD4gTWGW3Gz/F1hLnhS5zVenPr5+MsiOJDvOl4PnUeaap7i7smG+cC3deuG9PlM7lBAyS9T4wNSYGYCIScUmZZN1ov095slIVtuZx0OBsDwXv7+wvoFBNmh8Mqu+s84DDNG3HgiieiHAZOGM2rhA9ISV2gcL94nebkhgfUxqKEQRHuqNfiP8eiC2kU="
+          ],
+          "isPackage": false
+        }
+      ],
+      "visitId": "ee480da3-af6a-4035-ae09-38178309e964"
+    }
+  },
+  "fields": []
+}

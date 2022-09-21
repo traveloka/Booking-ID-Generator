@@ -1,0 +1,15 @@
+{
+  "fields": [],
+  "data": {
+    "username": "tdm.sanity@gmail.com",
+    "password": "password3",
+    "rememberMe": "true",
+    "firstInstall": "false"
+  },
+  "context": {
+    "tvLifetime": "qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Za8b5qp/SOupDaK35RnszhjFRpb7S/z2+dKYDdOtXfdxzy5dC2lSi+J5m4ThEzfK3SXDHwFJgl7TCHlwZd8Ps7/6WHK1vLkZaSOKJjWSvFg/pBukuuxRXBP8wZct//39SyB100UTVfwJhVWsjKN8G54/+WEm5TdIXdy761FalvTUNMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==",
+    "nonce": "5C602E68-FAEA-425D-8707-9070CDA74F98",
+    "tvSession": "qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg0BXahxaplHHHHPPF6HgcwfCSd05dedUPSI8JvG/Bm2F0bRWNEcRi7pOAYn+/KajceFxmj9xN9dJRkIfFhZtx8s2mndY7ZYVVIZeFgjwA/Zu36nyqI5NxkwZq+A3MllyKrOkrhmB5vwt3pNj6kQOqY8tq0wrqx21p2kzicJ6CT52RbLSNiER2UwtLNo3xN9L/mRrV1zNwymAVZ3afIV8iPBNRWn+puzlvAUEgk+RHbjtZG/p1rxr192kb4xZCMZtb6MUqwIcCnOnK8vKxV20sZ1STPHzalY6nXHMw/EVEfbfFtx0TcYYmfwtYFiJuDX3gtVXHHUZic3JuOKGlG6WItwP8YHU4DVidA5aB/3ZcDuif97H1C26C+afYVCoPJN0OQPfkRDXeAUltQrKV37VX0f"
+  },
+  "clientInterface": "mobile-iOS"
+}

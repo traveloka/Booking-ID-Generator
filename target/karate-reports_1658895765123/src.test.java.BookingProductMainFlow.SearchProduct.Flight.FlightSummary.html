@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ac47b090-41ca-42aa-b5b1-dd1bb09963b4",{name:"siskaadelinadamanik"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.BookingProductMainFlow.SearchProduct.Flight.FlightSummary</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-07-27 11:18:50 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:9]"><span>[1:9]</span> <span>User Get Flight Summary Successful</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/BookingProductMainFlow/SearchProduct/Flight/FlightSummary.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Booking Flight Summary</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:9]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:9]</span>
+                <span class="scenario-name">User Get Flight Summary Successful</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>35578</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:9]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlFlight</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def reqbodyflightsummary = read(&#39;classpath:request/booking/search/flight/booking-flightsummary.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">71</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodyflightsummary.context.tvLifetime = tvLifetime</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:9]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodyflightsummary.context.tvSession = tvSession</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path flightSummary</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request reqbodyflightsummary</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">35469</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">11:18:15.274 request:
+1 &gt; POST https://origin-flight-api.fpr.staging-traveloka.com/en-id/v2/flight/booking/flightSummary
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 1751
+1 &gt; Host: origin-flight-api.fpr.staging-traveloka.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;clientInterface&quot;:&quot;mobile-iOS&quot;,&quot;context&quot;:{&quot;nonce&quot;:&quot;71fc2c8a-08f7-4ab8-a197-61a70858cc36&quot;,&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJAEl0rVWkhb63Iw2pnVMDOTy5dC2lSi+J5m4ThEzfK3R2ngHsqu\/c2XnL0frPi\/1kk5vwlu4wEkgiuFFHXSHznEf7ZjchNqUvW83c\/+YGfcWVpThw5YFNmBy4ScJ\/+3+G\/BejrnaUgukJfx1YV1Cw7NMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3zmfHCt9QQnuDPM7k3pLYlf8Vk8LITl4FLcI0qLd8U3ep1EUFlvfAVhmCZXrY9a3tjexrfmCFfq+1OkuEMzrU8dhlDJNK+Zv+xPIjAlumQwCE3hi7baSP8UZUVxyX3j\/0bSoX2NqGeNHdclrta9gAMMQwv0gZge0Z7vlNhHw\/rwWRJrWBZ\/OiWpn9E+Mpta8i+NPdeLbRQ4adBWQQR2L1rOYot5BmcGPfA715rpmiog1NU4H0P8241Yhmw\/\/vxoHHA0HgryifXmGUoZPMoEp4qvCcESXx0xB0wenWPQO43cgH6m+Hi6tdZMxSEO4QKg4jPsse4M6K\/PRYvmGqcJBEcq04\/685u5+0QdqHul+APaojDqK1V\/RtLLbJfJvxeWbw=&quot;},&quot;data&quot;:{&quot;isSpecialFareAvailableInSearchResult&quot;:false,&quot;isUpsellAvailableInSearchResult&quot;:false,&quot;requestType&quot;:&quot;INITIAL_DATA&quot;,&quot;selectedFlightProductBookingSpec&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;destinationAirportSpec&quot;:&quot;DPS&quot;,&quot;funnelId&quot;:&quot;flight&quot;,&quot;funnelSource&quot;:&quot;iconHomepage&quot;,&quot;isBuybackGuarantee&quot;:false,&quot;isReschedule&quot;:false,&quot;isUseDateFlow&quot;:false,&quot;isUsePromoFinder&quot;:true,&quot;numberOfSeats&quot;:{&quot;numAdults&quot;:1,&quot;numChildren&quot;:0,&quot;numInfants&quot;:0},&quot;originAirportSpec&quot;:&quot;JKTA&quot;,&quot;searchId&quot;:&quot;f5a53d49-fc13-491b-bc63-b10624493b63&quot;,&quot;searchSource&quot;:&quot;BASIC&quot;,&quot;seatPublishedClass&quot;:&quot;ECONOMY&quot;,&quot;selectedFlightSpecs&quot;:[{&quot;flightIds&quot;:[&quot;3CgbWE8IWKZ+gnQ0cDFUPtZQBbr\/kRLReWsqxt5fdkPDhgt0ncD4gTWGW3Gz\/F1hLnhS5zVenPr5+MsiOJDvOl4PnUeaap7i7smG+cC3deuG9PlM7lBAyS9T4wNSYGYCIScUmZZN1ov095slIVtuZx0OBsDwXv7+wvoFBNmh8Mqu+s84DDNG3HgiieiHAZOGM2rhA9ISV2gcL94nebkhgfUxqKEQRHuqNfiP8eiC2kU=&quot;],&quot;isPackage&quot;:false}],&quot;visitId&quot;:&quot;ee480da3-af6a-4035-ae09-38178309e964&quot;}},&quot;fields&quot;:[]}
+
+11:18:50.505 response time in milliseconds: 35228
+1 &lt; 200
+1 &lt; Date: Wed, 27 Jul 2022 04:18:49 GMT
+1 &lt; Content-Type: application/json;charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; RequestId: aa1154b1-22fe-4c3b-b9df-c6a374fdfc3b
+1 &lt; Cache-Control: no-cache
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; X-Nonce: 71fc2c8a-08f7-4ab8-a197-61a70858cc36
+1 &lt; vary: accept-encoding
+{&quot;data&quot;:{&quot;selectedFlightProductBookingSpec&quot;:{&quot;flightDisplayedDate&quot;:[],&quot;selectedFlightSpecs&quot;:[{&quot;flightIds&quot;:[&quot;3CgbWE8IWKZ+gnQ0cDFUPtZQBbr/kRLReWsqxt5fdkPDhgt0ncD4gTWGW3Gz/F1hLnhS5zVenPr5+MsiOJDvOl4PnUeaap7i7smG+cC3deuG9PlM7lBAyS9T4wNSYGYCIScUmZZN1ov095slIVtuZx0OBsDwXv7+wvoFBNmh8Mqu+s84DDNG3HgiieiHAZOGM2rhA9ISV2gcL94nebkhgfUxqKEQRHuqNfiP8eiC2kU=&quot;],&quot;isPackage&quot;:false,&quot;package&quot;:false}],&quot;numberOfSeats&quot;:{&quot;numAdults&quot;:&quot;1&quot;,&quot;numChildren&quot;:&quot;0&quot;,&quot;numInfants&quot;:&quot;0&quot;},&quot;currency&quot;:&quot;IDR&quot;,&quot;seatPublishedClass&quot;:&quot;ECONOMY&quot;,&quot;originAirportSpec&quot;:&quot;JKTA&quot;,&quot;destinationAirportSpec&quot;:&quot;DPS&quot;,&quot;searchId&quot;:&quot;f5a53d49-fc13-491b-bc63-b10624493b63&quot;,&quot;searchFareType&quot;:&quot;STANDALONE&quot;,&quot;isReschedule&quot;:false,&quot;agentId&quot;:&quot;trinusa&quot;,&quot;isUsePromoFinder&quot;:true,&quot;isUseDateFlow&quot;:false,&quot;flightPromotion&quot;:null,&quot;affiliateId&quot;:null,&quot;funnelId&quot;:&quot;flight&quot;,&quot;funnelSource&quot;:&quot;iconHomepage&quot;,&quot;utmId&quot;:&quot;&quot;,&quot;utmSource&quot;:null,&quot;searchSource&quot;:&quot;BASIC&quot;,&quot;isCorporateBooking&quot;:false,&quot;isBuybackGuarantee&quot;:false,&quot;planIds&quot;:[],&quot;visitId&quot;:&quot;ee480da3-af6a-4035-ae09-38178309e964&quot;,&quot;initialSelectedSeatClass&quot;:null,&quot;idSelectedUpsell&quot;:null,&quot;idSelectedUpsellNew&quot;:[],&quot;selectedSpecialFareType&quot;:null,&quot;metasearchClickId&quot;:null,&quot;winnerTypes&quot;:[],&quot;selectedRecommendationCardIds&quot;:[],&quot;buybackGuarantee&quot;:false,&quot;reschedule&quot;:false,&quot;corporateBooking&quot;:false,&quot;usePromoFinder&quot;:true,&quot;useDateFlow&quot;:false},&quot;inventoryId&quot;:&quot;(1-0-0.STANDALONE.ECONOMY.1.(false.1.(CGK.DPS.REGULAR.1.(CGK.DPS.JT-32.11-08-2022.18:00.20:50))))&quot;,&quot;flightJourneys&quot;:[{&quot;connectingFlightRoutes&quot;:[{&quot;departureAirport&quot;:&quot;CGK&quot;,&quot;arrivalAirport&quot;:&quot;DPS&quot;,&quot;providerId&quot;:&quot;JT_backup_c&quot;,&quot;dateTimeStamp&quot;:&quot;1658895503820&quot;,&quot;numDayOffset&quot;:&quot;0&quot;,&quot;totalNumStop&quot;:&quot;0&quot;,&quot;flightRefundInfo&quot;:{&quot;refundableStatus&quot;:&quot;YES&quot;,&quot;refundInfoSummary&quot;:&quot;For refund request submitted up to 10 days after departure, refund is subject to a cancellation fee 0% of the basic fare per pax.&quot;,&quot;policyDetails&quot;:[&quot;For refund request submitted up to 10 days after departure, refund is subject to a cancellation fee 0% of the basic fare per pax.&quot;]},&quot;flightRescheduleInfo&quot;:{&quot;rescheduleStatus&quot;:&quot;YES&quot;,&quot;rescheduleInfoSummary&quot;:&quot;&lt;p&gt;To see your flight reschedule policy, please select &lt;strong&gt;flight&lt;/strong&gt;.&lt;/p&gt;&quot;,&quot;policyDetails&quot;:[&quot;&lt;p&gt;To see your flight reschedule policy, please select &lt;strong&gt;flight&lt;/strong&gt;.&lt;/p&gt;&quot;]},&quot;routeInventories&quot;:[{&quot;seatPublishedClass&quot;:&quot;ECONOMY&quot;,&quot;seatClass&quot;:&quot;M&quot;,&quot;numSeatLeft&quot;:&quot;1&quot;,&quot;seatsLeftVisibility&quot;:false,&quot;budgetId&quot;:null}],&quot;segments&quot;:[{&quot;departureAirport&quot;:&quot;CGK&quot;,&quot;arrivalAirport&quot;:&quot;DPS&quot;,&quot;departureTerminalName&quot;:&quot;Terminal 1C&quot;,&quot;arrivalTerminalName&quot;:&quot;Terminal Domestic&quot;,&quot;flightNumber&quot;:&quot;JT-32&quot;,&quot;airlineCode&quot;:&quot;JT&quot;,&quot;brandCode&quot;:&quot;JT&quot;,&quot;operatingAirlineCode&quot;:&quot;JT&quot;,&quot;fareBasisCode&quot;:null,&quot;segmentInventories&quot;:[{&quot;seatClass&quot;:&quot;M&quot;,&quot;numSeatsLeft&quot;:null,&quot;seatsLeftVisibility&quot;:false,&quot;publishedClass&quot;:&quot;ECONOMY&quot;,&quot;fareBasis&quot;:null,&quot;refundable&quot;:&quot;UNKNOWN&quot;,&quot;subclassInfo&quot;:null}],&quot;aircraftType&quot;:&quot;Boeing 740-800&quot;,&quot;hasMeal&quot;:false,&quot;freeBaggageInfo&quot;:{&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;weight&quot;:&quot;20&quot;,&quot;quantity&quot;:&quot;1&quot;},&quot;facilities&quot;:{&quot;baggage&quot;:{&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;weight&quot;:&quot;20&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;availableToBuy&quot;:true},&quot;wifi&quot;:{&quot;cost&quot;:&quot;NA&quot;,&quot;chance&quot;:&quot;NA&quot;,&quot;available&quot;:false,&quot;copyText&quot;:&quot;WiFi not available&quot;,&quot;iconUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2021/02/05/1612517136423-95abe04d4c615509e3c76fde880677c8.png?tr=q-75&quot;},&quot;freeMeal&quot;:{&quot;available&quot;:false},&quot;entertainment&quot;:{&quot;available&quot;:false,&quot;copyText&quot;:&quot;In-flight entertainment not available&quot;,&quot;iconUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2021/02/05/1612517121573-90f2ef463b23c2bb887343ecb26b18bd.png?tr=q-75&quot;},&quot;usbAndPower&quot;:{&quot;usb&quot;:false,&quot;power&quot;:false,&quot;chance&quot;:&quot;NA&quot;,&quot;available&quot;:false,&quot;copyText&quot;:&quot;Power/USB port not available&quot;,&quot;iconUrl&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2021/02/05/1612517115980-c6849d7bf18c4c331be3ab9ed2897e09.png?tr=q-75&quot;},&quot;order&quot;:[&quot;baggage&quot;,&quot;freeMeal&quot;,&quot;entertainment&quot;,&quot;wifi&quot;,&quot;usbAndPower&quot;]},&quot;aircraftInformation&quot;:{&quot;aircraft&quot;:{&quot;model&quot;:&quot;Boeing 737&quot;,&quot;type&quot;:null,&quot;seatInformation&quot;:{&quot;layout&quot;:&quot;3-3&quot;,&quot;pitch&quot;:&quot;29&quot;,&quot;type&quot;:&quot;STANDARD_LEGROOM&quot;}},&quot;cabinBaggage&quot;:{&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;weight&quot;:&quot;7&quot;,&quot;quantity&quot;:&quot;1&quot;}},&quot;flightLegInfoList&quot;:[],&quot;numTransit&quot;:&quot;0&quot;,&quot;durationMinute&quot;:&quot;110&quot;,&quot;routeNumDaysOffset&quot;:&quot;0&quot;,&quot;tzDepartureMinuteOffset&quot;:&quot;420&quot;,&quot;tzArrivalMinuteOffset&quot;:&quot;480&quot;,&quot;departureDate&quot;:{&quot;month&quot;:&quot;8&quot;,&quot;day&quot;:&quot;11&quot;,&quot;year&quot;:&quot;2022&quot;},&quot;arrivalDate&quot;:{&quot;month&quot;:&quot;8&quot;,&quot;day&quot;:&quot;11&quot;,&quot;year&quot;:&quot;2022&quot;},&quot;departureTime&quot;:{&quot;hour&quot;:&quot;18&quot;,&quot;minute&quot;:&quot;0&quot;},&quot;arrivalTime&quot;:{&quot;hour&quot;:&quot;20&quot;,&quot;minute&quot;:&quot;50&quot;},&quot;visaRequired&quot;:false,&quot;mayReCheckIn&quot;:false,&quot;upsellAvailable&quot;:false,&quot;transitInfo&quot;:null}],&quot;purchaseableBaggageInformation&quot;:[],&quot;promoLabels&quot;:[{&quot;id&quot;:&quot;specialticket_ticketconfig&quot;,&quot;promoType&quot;:&quot;CUSTOM_SPECIAL_FARE&quot;,&quot;displayedText&quot;:{&quot;label&quot;:&quot;special fare search result title&quot;,&quot;tooltip&quot;:&quot;special fare search result tooltip&quot;,&quot;priceDetail&quot;:&quot;special fare search result description&quot;,&quot;iconUrl&quot;:null},&quot;conditionList&quot;:[{&quot;parameter&quot;:&quot;SPECIAL_TICKET&quot;,&quot;sign&quot;:&quot;EQUAL_TO&quot;,&quot;value&quot;:[&quot;TRUE&quot;]},{&quot;parameter&quot;:&quot;ROUTE_TYPE&quot;,&quot;sign&quot;:&quot;EQUAL_TO&quot;,&quot;value&quot;:[&quot;ONEWAY&quot;]}],&quot;bgColor&quot;:null,&quot;textColor&quot;:null,&quot;priority&quot;:&quot;1355&quot;,&quot;placeholder&quot;:&quot;TOP_LEFT&quot;,&quot;timeLimitInHour&quot;:&quot;154212&quot;,&quot;timeLimitInMinutes&quot;:&quot;9252761&quot;,&quot;timeLimitVisibility&quot;:false,&quot;actionType&quot;:null,&quot;actionContent&quot;:null,&quot;displayLocations&quot;:[&quot;PRICE_BREAKDOWN&quot;,&quot;PRICE_INCLUSION&quot;,&quot;PROMO_LABEL&quot;],&quot;freebies&quot;:[],&quot;quickFilter&quot;:null,&quot;belongsToFlight&quot;:null,&quot;ancillaryType&quot;:&quot;ADDITIONAL_PERKS&quot;},{&quot;id&quot;:&quot;VTL_nonSmartcombo&quot;,&quot;promoType&quot;:&quot;CUSTOM_SPECIAL_FARE&quot;,&quot;displayedText&quot;:{&quot;label&quot;:&quot;JT-CGKDPS&quot;,&quot;tooltip&quot;:&quot;We give out free tickets to Hong Kong Disneyland! Check the e-ticket in your email to see if you win.&quot;,&quot;priceDetail&quot;:&quot;We give out free tickets to Hong Kong Disneyland! Check the e-ticket in your email to see if you win.&quot;,&quot;iconUrl&quot;:null},&quot;conditionList&quot;:[{&quot;parameter&quot;:&quot;AIRLINE_BRAND&quot;,&quot;sign&quot;:&quot;EQUAL_TO&quot;,&quot;value&quot;:[&quot;JT&quot;]},{&quot;parameter&quot;:&quot;NUMBER_OF_TRANSIT&quot;,&quot;sign&quot;:&quot;EQUAL_TO&quot;,&quot;value&quot;:[&quot;0&quot;]},{&quot;parameter&quot;:&quot;ROUTE_PAIR&quot;,&quot;sign&quot;:&quot;EQUAL_TO&quot;,&quot;value&quot;:[&quot;CGK-DPS&quot;]},{&quot;parameter&quot;:&quot;LOCALE&quot;,&quot;sign&quot;:&quot;EQUAL_TO&quot;,&quot;value&quot;:[&quot;id_ID&quot;,&quot;en_ID&quot;,&quot;en_SG&quot;]}],&quot;bgColor&quot;:null,&quot;textColor&quot;:null,&quot;priority&quot;:&quot;32010&quot;,&quot;placeholder&quot;:&quot;TOP_LEFT&quot;,&quot;timeLimitInHour&quot;:&quot;3756&quot;,&quot;timeLimitInMinutes&quot;:&quot;225401&quot;,&quot;timeLimitVisibility&quot;:false,&quot;actionType&quot;:null,&quot;actionContent&quot;:null,&quot;displayLocations&quot;:[&quot;PRICE_INCLUSION&quot;,&quot;PROMO_LABEL&quot;],&quot;freebies&quot;:[&quot;vtl_nonSC&quot;],&quot;quickFilter&quot;:null,&quot;belongsToFlight&quot;:null,&quot;ancillaryType&quot;:&quot;ADDITIONAL_PERKS&quot;}],&quot;applicablePromo&quot;:[],&quot;loyaltyPoint&quot;:&quot;0&quot;,&quot;durationInMinutes&quot;:&quot;0&quot;,&quot;upsellInfoRoute&quot;:null}],&quot;flightMetadata&quot;:[],&quot;totalNumStop&quot;:&quot;0&quot;,&quot;mobileAppDeal&quot;:false,&quot;tripDuration&quot;:&quot;110&quot;,&quot;additionalInfo&quot;:{&quot;seatClassLabel&quot;:&quot;NONE&quot;,&quot;isNcMu&quot;:false},&quot;flexibleTicket&quot;:false,&quot;upsellInfoJourney&quot;:null,&quot;primaryPriceHighlighter&quot;:[],&quot;secondaryPriceHighlighter&quot;:[],&quot;topPickInformation&quot;:null}],&quot;specialFareData&quot;:null,&quot;upsellData&quot;:null,&quot;loyaltyPointAmount&quot;:&quot;0&quot;,&quot;status&quot;:{&quot;code&quot;:&quot;OK&quot;,&quot;title&quot;:null,&quot;message&quot;:null},&quot;recommendationFacilities&quot;:[],&quot;priceFreezeData&quot;:null},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJAEl0rVWkhb63Iw2pnVMDOTy5dC2lSi+J5m4ThEzfK3R2ngHsqu/c2XnL0frPi/1kk5vwlu4wEkgiuFFHXSHznEf7ZjchNqUvW83c/+YGfcWVpThw5YFNmBy4ScJ/+3+G/BejrnaUgukJfx1YV1Cw7NMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PWL3Nd74xArIuT+JzcRMbKdyMsMY59glbNmbzcqFfkZGekrl/22yH9AhfnQD8pHIuchoOp9FGRksSzkHvfsT5J0y3IjlhrvF3ytdO0Gt+ZaZA9M8wOZ4DAEQFXJeUQ05O4iiLEs2uij0+JycihnuoI1jq21S/if6h6YrRE6jAWb/Wo6NDxrTImWKQeCQ1EH+6dEaVYqrYIjSgrjf7/8fGM5Be2jFRkh7rzvjuV5tPkS4d+Gq7xI0CmTDWbpjM5rI3BxrCHWzbm/4xjUlxoDj3EcMSQbuZEzucWbLIOjU/ki8w5JzGiw4DlJYz0L1kdjsgq7KE1pzee4IRDdaDpK7944DN1dzxHmHbLfcHJXcM9SfdCOA5K1gAS0LBp9QqaJlaPGiLBWlMKRGagwyQ1Bcy4ry/U/AsjDAwglYXZxzaMmsgHva0oKghh5wYCRL57aTmfT2DdGSiCT523GygxGkUdt8KTGPdQGBcyeofM2v70q56g5WNunmP28DCtmO6/bdag==&quot;,&quot;nonce&quot;:&quot;71fc2c8a-08f7-4ab8-a197-61a70858cc36&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>assert response.data.flightJourneys != null</span>
+      </div>
+    </div>
+    <div class="time-cell passed">15</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref failed">14</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>print response.data.selectedFlightProductBookingSpec.selectedFlightSpecs.flightIds[0]</span>
+      </div>
+    </div>
+    <div class="time-cell failed">20</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">11:18:50.543 src/test/java/BookingProductMainFlow/SearchProduct/Flight/FlightSummary.feature:14
+* print response.data.selectedFlightProductBookingSpec.selectedFlightSpecs.flightIds[0]
+js failed:
+&gt;&gt;&gt;&gt;
+01: karate.log(&#39;[print]&#39;,response.data.selectedFlightProductBookingSpec.selectedFlightSpecs.flightIds[0])
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property &quot;0&quot; from undefined
+- &lt;js&gt;.:program(Unnamed:1)
+
+src/test/java/BookingProductMainFlow/SearchProduct/Flight/FlightSummary.feature:14
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref skipped">15</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>assert response.data.selectedFlightProductBookingSpec.selectedFlightSpecs.flightIds[0] != null</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ac47b090-41ca-42aa-b5b1-dd1bb09963b4",{name:"siskaadelinadamanik"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.BookingProductMainFlow.BookingProduct.reviewBooking</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-07-27 03:17:32 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:18]"><span>[1:18]</span> <span>Review Booking Flight</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/BookingProductMainFlow/BookingProduct/reviewBooking.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Review Booking Flight</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:18]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:18]</span>
+                <span class="scenario-name">Review Booking Flight</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>11990</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:18]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlTrp</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def createbookingresponse = call read(&#39;classpath:BookingProductMainFlow/BookingProduct/createBooking.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9318</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.6.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">BookingProductMainFlow.BookingProduct.createBooking</div>
+      </div>
+      <div class="time-cell passed">9267</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlTrp</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def reqbodycreatebooking = read(&#39;classpath:request/booking/booking/flight/createbooking.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">51</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodycreatebooking.context.tvLifetime = tvLifetime</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodycreatebooking.context.tvSession = tvSession</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path createbooking</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.11">
+      <div class="step-ref bg-step">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request reqbodycreatebooking</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.12">
+      <div class="step-ref bg-step">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9205</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.6.0.call.0.12">15:17:20.725 request:
+1 &gt; POST https://api.trp.staging-traveloka.com/en-id/v2/trip/booking/createBooking
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 5749
+1 &gt; Host: api.trp.staging-traveloka.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;clientInterface&quot;:&quot;mobile-ios&quot;,&quot;context&quot;:{&quot;nonce&quot;:&quot;817aaf3f-e8c6-4005-a7d7-e8abf31c6ec2&quot;,&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJAEl0rVWkhb63Iw2pnVMDOTy5dC2lSi+J5m4ThEzfK3R2ngHsqu\/c2XnL0frPi\/1kk5vwlu4wEkgiuFFHXSHznEf7ZjchNqUvW83c\/+YGfcWVpThw5YFNmBy4ScJ\/+3+G\/BejrnaUgukJfx1YV1Cw7NMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3zmfHCt9QQnuDPM7k3pLYlf8Vk8LITl4FLcI0qLd8U3ep1EUFlvfAVhmCZXrY9a3tjexrfmCFfq+1OkuEMzrU8dhlDJNK+Zv+xPIjAlumQwCE3hi7baSP8UZUVxyX3j\/0bSoX2NqGeNHdclrta9gAMMQwv0gZge0Z7vlNhHw\/rwWRJrWBZ\/OiWpn9E+Mpta8i+NPdeLbRQ4adBWQQR2L1rOYot5BmcGPfA715rpmiog1NU4H0P8241Yhmw\/\/vxoHHA0HgryifXmGUoZPMoEp4qvCcESXx0xB0wenWPQO43cuND+cdW4U2uLG\/qKLuhXOEC6jjW9KWSrmsU4rbbpICICIR8No\/I72JT7xk0vDFzFmcPqRn85MK3oVNjhd9QNIC+\/6lDzkrCJVzrAoxemiKMro0ze+WnrHVAHBF977yKdRn9SGq\/zTumgE91tsy8ksgHLgXpMtjp01Ro2osSk4MF0Vr4xJyOY0MDPh\/niS3pjsBJx\/eQr8OlsPwq0oIjAF8kswteV1CMFkPWSCd\/+x+Zzo8sTR7E4pSRVMoyclAjhlqyf99twBZMAsstw4mr3qmZTR+tkXrsTZJbHX41nIZNi7ceDGYgYneH+AfodZMd5A==&quot;},&quot;data&quot;:{&quot;addOnProductSpecs&quot;:[],&quot;bookingContact&quot;:{&quot;formData&quot;:{&quot;travelerForm&quot;:{&quot;title&quot;:&quot;MISS&quot;,&quot;name.first&quot;:&quot;IPI Front&quot;,&quot;name.noLastName&quot;:false,&quot;name.last&quot;:&quot;End&quot;,&quot;name.regexName&quot;:&quot;DEFAULT&quot;,&quot;phoneNumber&quot;:{&quot;countryCode&quot;:&quot;+62&quot;,&quot;phoneNumber&quot;:&quot;8234567876&quot;},&quot;emailAddress&quot;:&quot;ipi.front.end2@gmail.com&quot;,&quot;nationality&quot;:&quot;ID&quot;,&quot;travelerID.type&quot;:&quot;KTP&quot;,&quot;travelerID.number&quot;:&quot;1234567890987688&quot;},&quot;FLIGHT.FF&quot;:{&quot;boxAccordionFF&quot;:true,&quot;ffAccount[0]&quot;:&quot;&quot;,&quot;ffNumber[0]&quot;:&quot;&quot;}}},&quot;createBookingCrossSellAddOns&quot;:[{&quot;id&quot;:&quot;INSURANCE_796&quot;,&quot;productType&quot;:&quot;INSURANCE&quot;,&quot;type&quot;:&quot;INSURANCE_CHECKBOX&quot;,&quot;displayType&quot;:&quot;CHECKBOX&quot;,&quot;insuranceCreateCrossSellAddOnV2&quot;:{&quot;productType&quot;:&quot;FLIGHT&quot;,&quot;insuranceSpecId&quot;:&quot;34e280a2653f911aa6d8f0b159b3bb25d503b219&quot;,&quot;insurancePlanId&quot;:&quot;796&quot;,&quot;productName&quot;:&quot;FlightInsurance&quot;,&quot;crossSellAddOnType&quot;:&quot;INSURANCE_CHECKBOX&quot;}}],&quot;createBookingProductSpecificAddOns&quot;:[{&quot;flightBaggageAddOn&quot;:{&quot;baggageAddOnItems&quot;:[{&quot;associatedTravelerIndex&quot;:0,&quot;baggagesWithRoute&quot;:[[{&quot;baggageType&quot;:&quot;0&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;amount&quot;:0,&quot;currency&quot;:&quot;IDR&quot;,&quot;nullOrEmpty&quot;:true},&quot;numOfDecimalPoint&quot;:0},&quot;price&quot;:&quot;0&quot;,&quot;priceWithCurrency&quot;:{&quot;amount&quot;:0,&quot;currency&quot;:&quot;IDR&quot;,&quot;nullOrEmpty&quot;:false},&quot;quantity&quot;:&quot;1&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;weight&quot;:&quot;20&quot;}]]}]},&quot;id&quot;:&quot;FLIGHT_BAGGAGE&quot;,&quot;type&quot;:&quot;FLIGHT_BAGGAGE&quot;}],&quot;createBookingSimpleAddOns&quot;:[],&quot;createBookingTravelerSpecs&quot;:{&quot;adultFormData&quot;:[{&quot;travelerForm&quot;:{&quot;title&quot;:&quot;MISS&quot;,&quot;name.first&quot;:&quot;IPI Front&quot;,&quot;name.noLastName&quot;:false,&quot;name.last&quot;:&quot;End&quot;,&quot;name.regexName&quot;:&quot;DEFAULT&quot;,&quot;nationality&quot;:&quot;ID&quot;,&quot;travelerID.type&quot;:&quot;KTP&quot;,&quot;travelerID.number&quot;:&quot;1234567890987688&quot;}}],&quot;childFormData&quot;:[],&quot;infantFormData&quot;:[]},&quot;currency&quot;:&quot;IDR&quot;,&quot;isMultiItem&quot;:false,&quot;selectedPrice&quot;:{&quot;selectedPrice&quot;:{&quot;amount&quot;:935000,&quot;currency&quot;:&quot;IDR&quot;,&quot;nullOrEmpty&quot;:false}},&quot;selectedProductSpec&quot;:{&quot;flightProductBookingSpec&quot;:{&quot;flightItineraryFares&quot;:[{&quot;airlineId&quot;:&quot;JT&quot;,&quot;farePerPaxSearch&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;905400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxExpected&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;955400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxAgentExpected&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;905400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;routeFares&quot;:[{&quot;farePerPaxSearch&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;905400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxExpected&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;955400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxAgentExpected&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;905400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}}}]}],&quot;selectedFlight&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;destinationAirportSpec&quot;:&quot;DPS&quot;,&quot;flightDisplayedDate&quot;:[[[&quot;Thu, 11 Aug 2022&quot;]]],&quot;funnelId&quot;:&quot;flight&quot;,&quot;funnelSource&quot;:&quot;iconHomepage&quot;,&quot;idSelectedUpsellNew&quot;:[],&quot;isBuybackGuarantee&quot;:false,&quot;isReschedule&quot;:false,&quot;isUseDateFlow&quot;:false,&quot;isUsePromoFinder&quot;:true,&quot;numberOfSeats&quot;:{&quot;numAdults&quot;:1,&quot;numChildren&quot;:0,&quot;numInfants&quot;:0},&quot;originAirportSpec&quot;:&quot;JKTA&quot;,&quot;planIds&quot;:[],&quot;searchId&quot;:&quot;f5a53d49-fc13-491b-bc63-b10624493b63&quot;,&quot;searchSource&quot;:&quot;BASIC&quot;,&quot;seatPublishedClass&quot;:&quot;ECONOMY&quot;,&quot;selectedFlightSpecs&quot;:[{&quot;flightIds&quot;:[&quot;3CgbWE8IWKZ+gnQ0cDFUPtZQBbr\/kRLReWsqxt5fdkPDhgt0ncD4gTWGW3Gz\/F1hLnhS5zVenPr5+MsiOJDvOl4PnUeaap7i7smG+cC3deuG9PlM7lBAyS9T4wNSYGYCIScUmZZN1ov095slIVtuZx0OBsDwXv7+wvoFBNmh8Mqu+s84DDNG3HgiieiHAZOGM2rhA9ISV2gcL94nebkhgfUxqKEQRHuqNfiP8eiC2kU=&quot;],&quot;isPackage&quot;:false}],&quot;selectedRecommendationCardIds&quot;:[],&quot;visitId&quot;:&quot;ee480da3-af6a-4035-ae09-38178309e964&quot;,&quot;winnerTypes&quot;:[]}},&quot;productType&quot;:&quot;FLIGHT&quot;},&quot;trackingSpec&quot;:{&quot;bookingFormId&quot;:&quot;6460c50f-97af-405a-a6c9-82677be3899d&quot;,&quot;contexts&quot;:{&quot;std_selectId&quot;:&quot;6460c50f-97af-405a-a6c9-82677be3899d&quot;,&quot;std_preSelectId&quot;:&quot;8d1de2fd-af2f-4158-bc96-50beedeb6a6e&quot;},&quot;marketingContexts&quot;:{&quot;google_play_ads_id&quot;:&quot;27bdfe8d-ce0f-48a0-87b6-56cb4a50c878&quot;},&quot;preBookingId&quot;:&quot;8d1de2fd-af2f-4158-bc96-50beedeb6a6e&quot;,&quot;searchId&quot;:&quot;f5a53d49-fc13-491b-bc63-b10624493b63&quot;}},&quot;fields&quot;:[]}
+
+15:17:29.658 response time in milliseconds: 8926
+1 &lt; 200
+1 &lt; Date: Wed, 27 Jul 2022 08:17:29 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Connection: keep-alive
+1 &lt; RequestId: d1104a3c-5180-4ab4-9f77-efff32be77e0
+1 &lt; Cache-Control: no-cache
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; X-Nonce: 817aaf3f-e8c6-4005-a7d7-e8abf31c6ec2
+1 &lt; Vary: Accept-Encoding, User-Agent
+1 &lt; Set-Cookie: AWSALB=I+gwFo6kiRBQlgMnMtLVVy4B6SEuAJXZWsxgNMIc0mjOeCP0iyEvXVJzMMHLEBICI6B4v7HhB+1TW0ZnAzjth2C3m3iORCB6ZNTKo1OMK8a7/T7q1oSLdZpzxlbu; Max-Age=1659514643000; Expires=Sat, 30 Jun 54610 18:00:49 GMT; Domain=api.trp.staging-traveloka.com
+1 &lt; Set-Cookie: AWSALBCORS=I+gwFo6kiRBQlgMnMtLVVy4B6SEuAJXZWsxgNMIc0mjOeCP0iyEvXVJzMMHLEBICI6B4v7HhB+1TW0ZnAzjth2C3m3iORCB6ZNTKo1OMK8a7/T7q1oSLdZpzxlbu; Max-Age=1659514643000; Expires=Sat, 30 Jun 54610 18:00:49 GMT; Domain=api.trp.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;trackingSpec&quot;:{&quot;searchId&quot;:&quot;f5a53d49-fc13-491b-bc63-b10624493b63&quot;,&quot;preBookingId&quot;:&quot;8d1de2fd-af2f-4158-bc96-50beedeb6a6e&quot;,&quot;bookingFormId&quot;:&quot;6460c50f-97af-405a-a6c9-82677be3899d&quot;,&quot;contexts&quot;:{&quot;std_selectId&quot;:&quot;6460c50f-97af-405a-a6c9-82677be3899d&quot;,&quot;std_preSelectId&quot;:&quot;8d1de2fd-af2f-4158-bc96-50beedeb6a6e&quot;},&quot;marketingContexts&quot;:{&quot;google_play_ads_id&quot;:&quot;27bdfe8d-ce0f-48a0-87b6-56cb4a50c878&quot;}},&quot;bookingId&quot;:&quot;89723149&quot;,&quot;invoiceId&quot;:&quot;1739493054180500548&quot;,&quot;auth&quot;:&quot;b7731146d8&quot;,&quot;status&quot;:{&quot;code&quot;:&quot;OK&quot;,&quot;travelerErrors&quot;:null,&quot;addOnErrors&quot;:null,&quot;productErrors&quot;:null,&quot;dialog&quot;:null,&quot;nextFlow&quot;:{&quot;isReviewPage&quot;:false,&quot;isPostBookingPage&quot;:false,&quot;otherFlow&quot;:null,&quot;postBookingPage&quot;:false,&quot;reviewPage&quot;:false}}},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJSzR7e+UxwwnDq8/oC2kAcTy5dC2lSi+J5m4ThEzfK3Qs5sxKg8amorBx8sQKfVWU+E2oiNgWZfe0YKMqMewuDkf7ZjchNqUvW83c/+YGfcWVpThw5YFNmBy4ScJ/+3+G/BejrnaUgukJfx1YV1Cw7NMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlf8Vk8LITl4FLcI0qLd8U3ep1EUFlvfAVhmCZXrY9a3tjexrfmCFfq+1OkuEMzrU8dhlDJNK+Zv+xPIjAlumQwCE3hi7baSP8UZUVxyX3j/0bSoX2NqGeNHdclrta9gAMMQwv0gZge0Z7vlNhHw/rwWRJrWBZ/OiWpn9E+Mpta8i+NPdeLbRQ4adBWQQR2L1rOYot5BmcGPfA715rpmiog1NU4H0P8241Yhmw//vxoHHA0HgryifXmGUoZPMoEp4qvCcESXx0xB0wenWPQO43cuND+cdW4U2uLG/qKLuhXOEC6jjW9KWSrmsU4rbbpICICIR8No/I72JT7xk0vDFzFmcPqRn85MK3oVNjhd9QNIC+/6lDzkrCJVzrAoxemiKMro0ze+WnrHVAHBF977yKdRn9SGq/zTumgE91tsy8kshj5yBDnqEw4+5DmDgUejq50Vr4xJyOY0MDPh/niS3pjsBJx/eQr8OlsPwq0oIjAF8kswteV1CMFkPWSCd/+x+Zzo8sTR7E4pSRVMoyclAjhlqyf99twBZMAsstw4mr3qmZTR+tkXrsTZJbHX41nIZNi7ceDGYgYneH+AfodZMd5A==&quot;,&quot;nonce&quot;:&quot;817aaf3f-e8c6-4005-a7d7-e8abf31c6ec2&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.13">
+      <div class="step-ref bg-step">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.14">
+      <div class="step-ref bg-step">14</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert response.data.bookingId != null</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.6.0.call">
+    <div class="step-container" id="0.6.0.call.0.15">
+      <div class="step-ref bg-step">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert response.data.trackingSpec.preBookingId != null</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print createbookingresponse</span>
+      </div>
+    </div>
+    <div class="time-cell passed">26</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">15:17:29.697 [print] {
+  &quot;responseHeaders&quot;: {
+    &quot;Date&quot;: [
+      &quot;Wed, 27 Jul 2022 08:17:29 GMT&quot;
+    ],
+    &quot;Content-Type&quot;: [
+      &quot;application/json; charset=utf-8&quot;
+    ],
+    &quot;Connection&quot;: [
+      &quot;keep-alive&quot;
+    ],
+    &quot;RequestId&quot;: [
+      &quot;d1104a3c-5180-4ab4-9f77-efff32be77e0&quot;
+    ],
+    &quot;Cache-Control&quot;: [
+      &quot;no-cache&quot;
+    ],
+    &quot;Access-Control-Allow-Credentials&quot;: [
+      &quot;true&quot;
+    ],
+    &quot;X-Nonce&quot;: [
+      &quot;817aaf3f-e8c6-4005-a7d7-e8abf31c6ec2&quot;
+    ],
+    &quot;Vary&quot;: [
+      &quot;Accept-Encoding, User-Agent&quot;
+    ],
+    &quot;Set-Cookie&quot;: [
+      &quot;AWSALB=I+gwFo6kiRBQlgMnMtLVVy4B6SEuAJXZWsxgNMIc0mjOeCP0iyEvXVJzMMHLEBICI6B4v7HhB+1TW0ZnAzjth2C3m3iORCB6ZNTKo1OMK8a7/T7q1oSLdZpzxlbu; Max-Age=1659514643000; Expires=Sat, 30 Jun 54610 18:00:49 GMT; Domain=api.trp.staging-traveloka.com&quot;,
+      &quot;AWSALBCORS=I+gwFo6kiRBQlgMnMtLVVy4B6SEuAJXZWsxgNMIc0mjOeCP0iyEvXVJzMMHLEBICI6B4v7HhB+1TW0ZnAzjth2C3m3iORCB6ZNTKo1OMK8a7/T7q1oSLdZpzxlbu; Max-Age=1659514643000; Expires=Sat, 30 Jun 54610 18:00:49 GMT; Domain=api.trp.staging-traveloka.com; Secure&quot;
+    ]
+  },
+  &quot;responseStatus&quot;: 200,
+  &quot;reqbodycreatebooking&quot;: {
+    &quot;clientInterface&quot;: &quot;mobile-ios&quot;,
+    &quot;context&quot;: {
+      &quot;nonce&quot;: &quot;817aaf3f-e8c6-4005-a7d7-e8abf31c6ec2&quot;,
+      &quot;tvLifetime&quot;: &quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJAEl0rVWkhb63Iw2pnVMDOTy5dC2lSi+J5m4ThEzfK3R2ngHsqu/c2XnL0frPi/1kk5vwlu4wEkgiuFFHXSHznEf7ZjchNqUvW83c/+YGfcWVpThw5YFNmBy4ScJ/+3+G/BejrnaUgukJfx1YV1Cw7NMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,
+      &quot;tvSession&quot;: &quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlf8Vk8LITl4FLcI0qLd8U3ep1EUFlvfAVhmCZXrY9a3tjexrfmCFfq+1OkuEMzrU8dhlDJNK+Zv+xPIjAlumQwCE3hi7baSP8UZUVxyX3j/0bSoX2NqGeNHdclrta9gAMMQwv0gZge0Z7vlNhHw/rwWRJrWBZ/OiWpn9E+Mpta8i+NPdeLbRQ4adBWQQR2L1rOYot5BmcGPfA715rpmiog1NU4H0P8241Yhmw//vxoHHA0HgryifXmGUoZPMoEp4qvCcESXx0xB0wenWPQO43cuND+cdW4U2uLG/qKLuhXOEC6jjW9KWSrmsU4rbbpICICIR8No/I72JT7xk0vDFzFmcPqRn85MK3oVNjhd9QNIC+/6lDzkrCJVzrAoxemiKMro0ze+WnrHVAHBF977yKdRn9SGq/zTumgE91tsy8ksgHLgXpMtjp01Ro2osSk4MF0Vr4xJyOY0MDPh/niS3pjsBJx/eQr8OlsPwq0oIjAF8kswteV1CMFkPWSCd/+x+Zzo8sTR7E4pSRVMoyclAjhlqyf99twBZMAsstw4mr3qmZTR+tkXrsTZJbHX41nIZNi7ceDGYgYneH+AfodZMd5A==&quot;
+    },
+    &quot;data&quot;: {
+      &quot;addOnProductSpecs&quot;: [
+      ],
+      &quot;bookingContact&quot;: {
+        &quot;formData&quot;: {
+          &quot;travelerForm&quot;: {
+            &quot;title&quot;: &quot;MISS&quot;,
+            &quot;name.first&quot;: &quot;IPI Front&quot;,
+            &quot;name.noLastName&quot;: false,
+            &quot;name.last&quot;: &quot;End&quot;,
+            &quot;name.regexName&quot;: &quot;DEFAULT&quot;,
+            &quot;phoneNumber&quot;: {
+              &quot;countryCode&quot;: &quot;+62&quot;,
+              &quot;phoneNumber&quot;: &quot;8234567876&quot;
+            },
+            &quot;emailAddress&quot;: &quot;ipi.front.end2@gmail.com&quot;,
+            &quot;nationality&quot;: &quot;ID&quot;,
+            &quot;travelerID.type&quot;: &quot;KTP&quot;,
+            &quot;travelerID.number&quot;: &quot;1234567890987688&quot;
+          },
+          &quot;FLIGHT.FF&quot;: {
+            &quot;boxAccordionFF&quot;: true,
+            &quot;ffAccount[0]&quot;: &quot;&quot;,
+            &quot;ffNumber[0]&quot;: &quot;&quot;
+          }
+        }
+      },
+      &quot;createBookingCrossSellAddOns&quot;: [
+        {
+          &quot;id&quot;: &quot;INSURANCE_796&quot;,
+          &quot;productType&quot;: &quot;INSURANCE&quot;,
+          &quot;type&quot;: &quot;INSURANCE_CHECKBOX&quot;,
+          &quot;displayType&quot;: &quot;CHECKBOX&quot;,
+          &quot;insuranceCreateCrossSellAddOnV2&quot;: {
+            &quot;productType&quot;: &quot;FLIGHT&quot;,
+            &quot;insuranceSpecId&quot;: &quot;34e280a2653f911aa6d8f0b159b3bb25d503b219&quot;,
+            &quot;insurancePlanId&quot;: &quot;796&quot;,
+            &quot;productName&quot;: &quot;FlightInsurance&quot;,
+            &quot;crossSellAddOnType&quot;: &quot;INSURANCE_CHECKBOX&quot;
+          }
+        }
+      ],
+      &quot;createBookingProductSpecificAddOns&quot;: [
+        {
+          &quot;flightBaggageAddOn&quot;: {
+            &quot;baggageAddOnItems&quot;: [
+              {
+                &quot;associatedTravelerIndex&quot;: 0,
+                &quot;baggagesWithRoute&quot;: [
+                  [
+                    {
+                      &quot;baggageType&quot;: &quot;0&quot;,
+                      &quot;currency&quot;: &quot;IDR&quot;,
+                      &quot;fare&quot;: {
+                        &quot;currencyValue&quot;: {
+                          &quot;amount&quot;: 0,
+                          &quot;currency&quot;: &quot;IDR&quot;,
+                          &quot;nullOrEmpty&quot;: true
+                        },
+                        &quot;numOfDecimalPoint&quot;: 0
+                      },
+                      &quot;price&quot;: &quot;0&quot;,
+                      &quot;priceWithCurrency&quot;: {
+                        &quot;amount&quot;: 0,
+                        &quot;currency&quot;: &quot;IDR&quot;,
+                        &quot;nullOrEmpty&quot;: false
+                      },
+                      &quot;quantity&quot;: &quot;1&quot;,
+                      &quot;unitOfMeasure&quot;: &quot;KG&quot;,
+                      &quot;weight&quot;: &quot;20&quot;
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          &quot;id&quot;: &quot;FLIGHT_BAGGAGE&quot;,
+          &quot;type&quot;: &quot;FLIGHT_BAGGAGE&quot;
+        }
+      ],
+      &quot;createBookingSimpleAddOns&quot;: [
+      ],
+      &quot;createBookingTravelerSpecs&quot;: {
+        &quot;adultFormData&quot;: [
+          {
+            &quot;travelerForm&quot;: {
+              &quot;title&quot;: &quot;MISS&quot;,
+              &quot;name.first&quot;: &quot;IPI Front&quot;,
+              &quot;name.noLastName&quot;: false,
+              &quot;name.last&quot;: &quot;End&quot;,
+              &quot;name.regexName&quot;: &quot;DEFAULT&quot;,
+              &quot;nationality&quot;: &quot;ID&quot;,
+              &quot;travelerID.type&quot;: &quot;KTP&quot;,
+              &quot;travelerID.number&quot;: &quot;1234567890987688&quot;
+            }
+          }
+        ],
+        &quot;childFormData&quot;: [
+        ],
+        &quot;infantFormData&quot;: [
+        ]
+      },
+      &quot;currency&quot;: &quot;IDR&quot;,
+      &quot;isMultiItem&quot;: false,
+      &quot;selectedPrice&quot;: {
+        &quot;selectedPrice&quot;: {
+          &quot;amount&quot;: 935000,
+          &quot;currency&quot;: &quot;IDR&quot;,
+          &quot;nullOrEmpty&quot;: false
+        }
+      },
+      &quot;selectedProductSpec&quot;: {
+        &quot;flightProductBookingSpec&quot;: {
+          &quot;flightItineraryFares&quot;: [
+            {
+              &quot;airlineId&quot;: &quot;JT&quot;,
+              &quot;farePerPaxSearch&quot;: {
+                &quot;adultFareWithCurrency&quot;: {
+                  &quot;currency&quot;: &quot;IDR&quot;,
+                  &quot;amount&quot;: &quot;905400&quot;,
+                  &quot;nullOrEmpty&quot;: false
+                },
+                &quot;childFareWithCurrency&quot;: {
+                  &quot;currency&quot;: &quot;IDR&quot;,
+                  &quot;amount&quot;: &quot;0&quot;,
+                  &quot;nullOrEmpty&quot;: true
+                },
+                &quot;infantFareWithCurrency&quot;: {
+                  &quot;currency&quot;: &quot;IDR&quot;,
+                  &quot;amount&quot;: &quot;0&quot;,
+                  &quot;nullOrEmpty&quot;: true
+                }
+              },
+              &quot;farePerPaxExpected&quot;: {
+                &quot;adultFareWithCurrency&quot;: {
+                  &quot;currency&quot;: &quot;IDR&quot;,
+                  &quot;amount&quot;: &quot;955400&quot;,
+                  &quot;nullOrEmpty&quot;: false
+                },
+                &quot;childFareWithCurrency&quot;: {
+                  &quot;currency&quot;: &quot;IDR&quot;,
+                  &quot;amount&quot;: &quot;0&quot;,
+                  &quot;nullOrEmpty&quot;: true
+                },
+                &quot;infantFareWithCurrency&quot;: {
+                  &quot;currency&quot;: &quot;IDR&quot;,
+                  &quot;amount&quot;: &quot;0&quot;,
+                  &quot;nullOrEmpty&quot;: true
+                }
+              },
+              &quot;farePerPaxAgentExpected&quot;: {
+                &quot;adultFareWithCurrency&quot;: {
+                  &quot;currency&quot;: &quot;IDR&quot;,
+                  &quot;amount&quot;: &quot;905400&quot;,
+                  &quot;nullOrEmpty&quot;: false
+                },
+                &quot;childFareWithCurrency&quot;: {
+                  &quot;currency&quot;: &quot;IDR&quot;,
+                  &quot;amount&quot;: &quot;0&quot;,
+                  &quot;nullOrEmpty&quot;: true
+                },
+                &quot;infantFareWithCurrency&quot;: {
+                  &quot;currency&quot;: &quot;IDR&quot;,
+                  &quot;amount&quot;: &quot;0&quot;,
+                  &quot;nullOrEmpty&quot;: true
+                }
+              },
+              &quot;routeFares&quot;: [
+                {
+                  &quot;farePerPaxSearch&quot;: {
+                    &quot;adultFareWithCurrency&quot;: {
+                      &quot;currency&quot;: &quot;IDR&quot;,
+                      &quot;amount&quot;: &quot;905400&quot;,
+                      &quot;nullOrEmpty&quot;: false
+                    },
+                    &quot;childFareWithCurrency&quot;: {
+                      &quot;currency&quot;: &quot;IDR&quot;,
+                      &quot;amount&quot;: &quot;0&quot;,
+                      &quot;nullOrEmpty&quot;: true
+                    },
+                    &quot;infantFareWithCurrency&quot;: {
+                      &quot;currency&quot;: &quot;IDR&quot;,
+                      &quot;amount&quot;: &quot;0&quot;,
+                      &quot;nullOrEmpty&quot;: true
+                    }
+                  },
+                  &quot;farePerPaxExpected&quot;: {
+                    &quot;adultFareWithCurrency&quot;: {
+                      &quot;currency&quot;: &quot;IDR&quot;,
+                      &quot;amount&quot;: &quot;955400&quot;,
+                      &quot;nullOrEmpty&quot;: false
+                    },
+                    &quot;childFareWithCurrency&quot;: {
+                      &quot;currency&quot;: &quot;IDR&quot;,
+                      &quot;amount&quot;: &quot;0&quot;,
+                      &quot;nullOrEmpty&quot;: true
+                    },
+                    &quot;infantFareWithCurrency&quot;: {
+                      &quot;currency&quot;: &quot;IDR&quot;,
+                      &quot;amount&quot;: &quot;0&quot;,
+                      &quot;nullOrEmpty&quot;: true
+                    }
+                  },
+                  &quot;farePerPaxAgentExpected&quot;: {
+                    &quot;adultFareWithCurrency&quot;: {
+                      &quot;currency&quot;: &quot;IDR&quot;,
+                      &quot;amount&quot;: &quot;905400&quot;,
+                      &quot;nullOrEmpty&quot;: false
+                    },
+                    &quot;childFareWithCurrency&quot;: {
+                      &quot;currency&quot;: &quot;IDR&quot;,
+                      &quot;amount&quot;: &quot;0&quot;,
+                      &quot;nullOrEmpty&quot;: true
+                    },
+                    &quot;infantFareWithCurrency&quot;: {
+                      &quot;currency&quot;: &quot;IDR&quot;,
+                      &quot;amount&quot;: &quot;0&quot;,
+                      &quot;nullOrEmpty&quot;: true
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          &quot;selectedFlight&quot;: {
+            &quot;currency&quot;: &quot;IDR&quot;,
+            &quot;destinationAirportSpec&quot;: &quot;DPS&quot;,
+            &quot;flightDisplayedDate&quot;: [
+              [
+                [
+                  &quot;Thu, 11 Aug 2022&quot;
+                ]
+              ]
+            ],
+            &quot;funnelId&quot;: &quot;flight&quot;,
+            &quot;funnelSource&quot;: &quot;iconHomepage&quot;,
+            &quot;idSelectedUpsellNew&quot;: [
+            ],
+            &quot;isBuybackGuarantee&quot;: false,
+            &quot;isReschedule&quot;: false,
+            &quot;isUseDateFlow&quot;: false,
+            &quot;isUsePromoFinder&quot;: true,
+            &quot;numberOfSeats&quot;: {
+              &quot;numAdults&quot;: 1,
+              &quot;numChildren&quot;: 0,
+              &quot;numInfants&quot;: 0
+            },
+            &quot;originAirportSpec&quot;: &quot;JKTA&quot;,
+            &quot;planIds&quot;: [
+            ],
+            &quot;searchId&quot;: &quot;f5a53d49-fc13-491b-bc63-b10624493b63&quot;,
+            &quot;searchSource&quot;: &quot;BASIC&quot;,
+            &quot;seatPublishedClass&quot;: &quot;ECONOMY&quot;,
+            &quot;selectedFlightSpecs&quot;: [
+              {
+                &quot;flightIds&quot;: [
+                  &quot;3CgbWE8IWKZ+gnQ0cDFUPtZQBbr/kRLReWsqxt5fdkPDhgt0ncD4gTWGW3Gz/F1hLnhS5zVenPr5+MsiOJDvOl4PnUeaap7i7smG+cC3deuG9PlM7lBAyS9T4wNSYGYCIScUmZZN1ov095slIVtuZx0OBsDwXv7+wvoFBNmh8Mqu+s84DDNG3HgiieiHAZOGM2rhA9ISV2gcL94nebkhgfUxqKEQRHuqNfiP8eiC2kU=&quot;
+                ],
+                &quot;isPackage&quot;: false
+              }
+            ],
+            &quot;selectedRecommendationCardIds&quot;: [
+            ],
+            &quot;visitId&quot;: &quot;ee480da3-af6a-4035-ae09-38178309e964&quot;,
+            &quot;winnerTypes&quot;: [
+            ]
+          }
+        },
+        &quot;productType&quot;: &quot;FLIGHT&quot;
+      },
+      &quot;trackingSpec&quot;: {
+        &quot;bookingFormId&quot;: &quot;6460c50f-97af-405a-a6c9-82677be3899d&quot;,
+        &quot;contexts&quot;: {
+          &quot;std_selectId&quot;: &quot;6460c50f-97af-405a-a6c9-82677be3899d&quot;,
+          &quot;std_preSelectId&quot;: &quot;8d1de2fd-af2f-4158-bc96-50beedeb6a6e&quot;
+        },
+        &quot;marketingContexts&quot;: {
+          &quot;google_play_ads_id&quot;: &quot;27bdfe8d-ce0f-48a0-87b6-56cb4a50c878&quot;
+        },
+        &quot;preBookingId&quot;: &quot;8d1de2fd-af2f-4158-bc96-50beedeb6a6e&quot;,
+        &quot;searchId&quot;: &quot;f5a53d49-fc13-491b-bc63-b10624493b63&quot;
+      }
+    },
+    &quot;fields&quot;: [
+    ]
+  },
+  &quot;response&quot;: {
+    &quot;data&quot;: {
+      &quot;trackingSpec&quot;: {
+        &quot;searchId&quot;: &quot;f5a53d49-fc13-491b-bc63-b10624493b63&quot;,
+        &quot;preBookingId&quot;: &quot;8d1de2fd-af2f-4158-bc96-50beedeb6a6e&quot;,
+        &quot;bookingFormId&quot;: &quot;6460c50f-97af-405a-a6c9-82677be3899d&quot;,
+        &quot;contexts&quot;: {
+          &quot;std_selectId&quot;: &quot;6460c50f-97af-405a-a6c9-82677be3899d&quot;,
+          &quot;std_preSelectId&quot;: &quot;8d1de2fd-af2f-4158-bc96-50beedeb6a6e&quot;
+        },
+        &quot;marketingContexts&quot;: {
+          &quot;google_play_ads_id&quot;: &quot;27bdfe8d-ce0f-48a0-87b6-56cb4a50c878&quot;
+        }
+      },
+      &quot;bookingId&quot;: &quot;89723149&quot;,
+      &quot;invoiceId&quot;: &quot;1739493054180500548&quot;,
+      &quot;auth&quot;: &quot;b7731146d8&quot;,
+      &quot;status&quot;: {
+        &quot;code&quot;: &quot;OK&quot;,
+        &quot;travelerErrors&quot;: null,
+        &quot;addOnErrors&quot;: null,
+        &quot;productErrors&quot;: null,
+        &quot;dialog&quot;: null,
+        &quot;nextFlow&quot;: {
+          &quot;isReviewPage&quot;: false,
+          &quot;isPostBookingPage&quot;: false,
+          &quot;otherFlow&quot;: null,
+          &quot;postBookingPage&quot;: false,
+          &quot;reviewPage&quot;: false
+        }
+      }
+    },
+    &quot;userContext&quot;: null,
+    &quot;context&quot;: {
+      &quot;tvLifetime&quot;: &quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJSzR7e+UxwwnDq8/oC2kAcTy5dC2lSi+J5m4ThEzfK3Qs5sxKg8amorBx8sQKfVWU+E2oiNgWZfe0YKMqMewuDkf7ZjchNqUvW83c/+YGfcWVpThw5YFNmBy4ScJ/+3+G/BejrnaUgukJfx1YV1Cw7NMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,
+      &quot;tvSession&quot;: &quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlf8Vk8LITl4FLcI0qLd8U3ep1EUFlvfAVhmCZXrY9a3tjexrfmCFfq+1OkuEMzrU8dhlDJNK+Zv+xPIjAlumQwCE3hi7baSP8UZUVxyX3j/0bSoX2NqGeNHdclrta9gAMMQwv0gZge0Z7vlNhHw/rwWRJrWBZ/OiWpn9E+Mpta8i+NPdeLbRQ4adBWQQR2L1rOYot5BmcGPfA715rpmiog1NU4H0P8241Yhmw//vxoHHA0HgryifXmGUoZPMoEp4qvCcESXx0xB0wenWPQO43cuND+cdW4U2uLG/qKLuhXOEC6jjW9KWSrmsU4rbbpICICIR8No/I72JT7xk0vDFzFmcPqRn85MK3oVNjhd9QNIC+/6lDzkrCJVzrAoxemiKMro0ze+WnrHVAHBF977yKdRn9SGq/zTumgE91tsy8kshj5yBDnqEw4+5DmDgUejq50Vr4xJyOY0MDPh/niS3pjsBJx/eQr8OlsPwq0oIjAF8kswteV1CMFkPWSCd/+x+Zzo8sTR7E4pSRVMoyclAjhlqyf99twBZMAsstw4mr3qmZTR+tkXrsTZJbHX41nIZNi7ceDGYgYneH+AfodZMd5A==&quot;,
+      &quot;nonce&quot;: &quot;817aaf3f-e8c6-4005-a7d7-e8abf31c6ec2&quot;
+    }
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def reqbodyreviewbooking = read(&#39;classpath:request/booking/booking/flight/createbooking.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref bg-step">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodyreviewbooking.context.tvLifetime = tvLifetime</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref bg-step">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodyreviewbooking.context.tvSession = tvSession</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref bg-step">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodyreviewbooking.data.auth = createbookingresponse.response.data.auth</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref bg-step">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodyreviewbooking.data.bookingId = createbookingresponse.response.data.bookingId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqbodyreviewbooking.data.invoiceId = createbookingresponse.response.data.invoiceId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path reviewbooking</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request reqbodyreviewbooking</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2630</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.21">15:17:29.705 request:
+2 &gt; POST https://api.trp.staging-traveloka.com/en-id/v2/trip/booking/reviewPage
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Content-Length: 5826
+2 &gt; Host: api.trp.staging-traveloka.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;clientInterface&quot;:&quot;mobile-ios&quot;,&quot;context&quot;:{&quot;nonce&quot;:&quot;817aaf3f-e8c6-4005-a7d7-e8abf31c6ec2&quot;,&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJAEl0rVWkhb63Iw2pnVMDOTy5dC2lSi+J5m4ThEzfK3R2ngHsqu\/c2XnL0frPi\/1kk5vwlu4wEkgiuFFHXSHznEf7ZjchNqUvW83c\/+YGfcWVpThw5YFNmBy4ScJ\/+3+G\/BejrnaUgukJfx1YV1Cw7NMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3zmfHCt9QQnuDPM7k3pLYlf8Vk8LITl4FLcI0qLd8U3ep1EUFlvfAVhmCZXrY9a3tjexrfmCFfq+1OkuEMzrU8dhlDJNK+Zv+xPIjAlumQwCE3hi7baSP8UZUVxyX3j\/0bSoX2NqGeNHdclrta9gAMMQwv0gZge0Z7vlNhHw\/rwWRJrWBZ\/OiWpn9E+Mpta8i+NPdeLbRQ4adBWQQR2L1rOYot5BmcGPfA715rpmiog1NU4H0P8241Yhmw\/\/vxoHHA0HgryifXmGUoZPMoEp4qvCcESXx0xB0wenWPQO43cuND+cdW4U2uLG\/qKLuhXOEC6jjW9KWSrmsU4rbbpICICIR8No\/I72JT7xk0vDFzFmcPqRn85MK3oVNjhd9QNIC+\/6lDzkrCJVzrAoxemiKMro0ze+WnrHVAHBF977yKdRn9SGq\/zTumgE91tsy8ksgHLgXpMtjp01Ro2osSk4MF0Vr4xJyOY0MDPh\/niS3pjsBJx\/eQr8OlsPwq0oIjAF8kswteV1CMFkPWSCd\/+x+Zzo8sTR7E4pSRVMoyclAjhlqyf99twBZMAsstw4mr3qmZTR+tkXrsTZJbHX41nIZNi7ceDGYgYneH+AfodZMd5A==&quot;},&quot;data&quot;:{&quot;addOnProductSpecs&quot;:[],&quot;bookingContact&quot;:{&quot;formData&quot;:{&quot;travelerForm&quot;:{&quot;title&quot;:&quot;MISS&quot;,&quot;name.first&quot;:&quot;IPI Front&quot;,&quot;name.noLastName&quot;:false,&quot;name.last&quot;:&quot;End&quot;,&quot;name.regexName&quot;:&quot;DEFAULT&quot;,&quot;phoneNumber&quot;:{&quot;countryCode&quot;:&quot;+62&quot;,&quot;phoneNumber&quot;:&quot;8234567876&quot;},&quot;emailAddress&quot;:&quot;ipi.front.end2@gmail.com&quot;,&quot;nationality&quot;:&quot;ID&quot;,&quot;travelerID.type&quot;:&quot;KTP&quot;,&quot;travelerID.number&quot;:&quot;1234567890987688&quot;},&quot;FLIGHT.FF&quot;:{&quot;boxAccordionFF&quot;:true,&quot;ffAccount[0]&quot;:&quot;&quot;,&quot;ffNumber[0]&quot;:&quot;&quot;}}},&quot;createBookingCrossSellAddOns&quot;:[{&quot;id&quot;:&quot;INSURANCE_796&quot;,&quot;productType&quot;:&quot;INSURANCE&quot;,&quot;type&quot;:&quot;INSURANCE_CHECKBOX&quot;,&quot;displayType&quot;:&quot;CHECKBOX&quot;,&quot;insuranceCreateCrossSellAddOnV2&quot;:{&quot;productType&quot;:&quot;FLIGHT&quot;,&quot;insuranceSpecId&quot;:&quot;34e280a2653f911aa6d8f0b159b3bb25d503b219&quot;,&quot;insurancePlanId&quot;:&quot;796&quot;,&quot;productName&quot;:&quot;FlightInsurance&quot;,&quot;crossSellAddOnType&quot;:&quot;INSURANCE_CHECKBOX&quot;}}],&quot;createBookingProductSpecificAddOns&quot;:[{&quot;flightBaggageAddOn&quot;:{&quot;baggageAddOnItems&quot;:[{&quot;associatedTravelerIndex&quot;:0,&quot;baggagesWithRoute&quot;:[[{&quot;baggageType&quot;:&quot;0&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;amount&quot;:0,&quot;currency&quot;:&quot;IDR&quot;,&quot;nullOrEmpty&quot;:true},&quot;numOfDecimalPoint&quot;:0},&quot;price&quot;:&quot;0&quot;,&quot;priceWithCurrency&quot;:{&quot;amount&quot;:0,&quot;currency&quot;:&quot;IDR&quot;,&quot;nullOrEmpty&quot;:false},&quot;quantity&quot;:&quot;1&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;weight&quot;:&quot;20&quot;}]]}]},&quot;id&quot;:&quot;FLIGHT_BAGGAGE&quot;,&quot;type&quot;:&quot;FLIGHT_BAGGAGE&quot;}],&quot;createBookingSimpleAddOns&quot;:[],&quot;createBookingTravelerSpecs&quot;:{&quot;adultFormData&quot;:[{&quot;travelerForm&quot;:{&quot;title&quot;:&quot;MISS&quot;,&quot;name.first&quot;:&quot;IPI Front&quot;,&quot;name.noLastName&quot;:false,&quot;name.last&quot;:&quot;End&quot;,&quot;name.regexName&quot;:&quot;DEFAULT&quot;,&quot;nationality&quot;:&quot;ID&quot;,&quot;travelerID.type&quot;:&quot;KTP&quot;,&quot;travelerID.number&quot;:&quot;1234567890987688&quot;}}],&quot;childFormData&quot;:[],&quot;infantFormData&quot;:[]},&quot;currency&quot;:&quot;IDR&quot;,&quot;isMultiItem&quot;:false,&quot;selectedPrice&quot;:{&quot;selectedPrice&quot;:{&quot;amount&quot;:935000,&quot;currency&quot;:&quot;IDR&quot;,&quot;nullOrEmpty&quot;:false}},&quot;selectedProductSpec&quot;:{&quot;flightProductBookingSpec&quot;:{&quot;flightItineraryFares&quot;:[{&quot;airlineId&quot;:&quot;JT&quot;,&quot;farePerPaxSearch&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;905400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxExpected&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;955400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxAgentExpected&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;905400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;routeFares&quot;:[{&quot;farePerPaxSearch&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;905400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxExpected&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;955400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}},&quot;farePerPaxAgentExpected&quot;:{&quot;adultFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;905400&quot;,&quot;nullOrEmpty&quot;:false},&quot;childFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;infantFareWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true}}}]}],&quot;selectedFlight&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;destinationAirportSpec&quot;:&quot;DPS&quot;,&quot;flightDisplayedDate&quot;:[[[&quot;Thu, 11 Aug 2022&quot;]]],&quot;funnelId&quot;:&quot;flight&quot;,&quot;funnelSource&quot;:&quot;iconHomepage&quot;,&quot;idSelectedUpsellNew&quot;:[],&quot;isBuybackGuarantee&quot;:false,&quot;isReschedule&quot;:false,&quot;isUseDateFlow&quot;:false,&quot;isUsePromoFinder&quot;:true,&quot;numberOfSeats&quot;:{&quot;numAdults&quot;:1,&quot;numChildren&quot;:0,&quot;numInfants&quot;:0},&quot;originAirportSpec&quot;:&quot;JKTA&quot;,&quot;planIds&quot;:[],&quot;searchId&quot;:&quot;f5a53d49-fc13-491b-bc63-b10624493b63&quot;,&quot;searchSource&quot;:&quot;BASIC&quot;,&quot;seatPublishedClass&quot;:&quot;ECONOMY&quot;,&quot;selectedFlightSpecs&quot;:[{&quot;flightIds&quot;:[&quot;3CgbWE8IWKZ+gnQ0cDFUPtZQBbr\/kRLReWsqxt5fdkPDhgt0ncD4gTWGW3Gz\/F1hLnhS5zVenPr5+MsiOJDvOl4PnUeaap7i7smG+cC3deuG9PlM7lBAyS9T4wNSYGYCIScUmZZN1ov095slIVtuZx0OBsDwXv7+wvoFBNmh8Mqu+s84DDNG3HgiieiHAZOGM2rhA9ISV2gcL94nebkhgfUxqKEQRHuqNfiP8eiC2kU=&quot;],&quot;isPackage&quot;:false}],&quot;selectedRecommendationCardIds&quot;:[],&quot;visitId&quot;:&quot;ee480da3-af6a-4035-ae09-38178309e964&quot;,&quot;winnerTypes&quot;:[]}},&quot;productType&quot;:&quot;FLIGHT&quot;},&quot;trackingSpec&quot;:{&quot;bookingFormId&quot;:&quot;6460c50f-97af-405a-a6c9-82677be3899d&quot;,&quot;contexts&quot;:{&quot;std_selectId&quot;:&quot;6460c50f-97af-405a-a6c9-82677be3899d&quot;,&quot;std_preSelectId&quot;:&quot;8d1de2fd-af2f-4158-bc96-50beedeb6a6e&quot;},&quot;marketingContexts&quot;:{&quot;google_play_ads_id&quot;:&quot;27bdfe8d-ce0f-48a0-87b6-56cb4a50c878&quot;},&quot;preBookingId&quot;:&quot;8d1de2fd-af2f-4158-bc96-50beedeb6a6e&quot;,&quot;searchId&quot;:&quot;f5a53d49-fc13-491b-bc63-b10624493b63&quot;},&quot;auth&quot;:&quot;b7731146d8&quot;,&quot;bookingId&quot;:&quot;89723149&quot;,&quot;invoiceId&quot;:&quot;1739493054180500548&quot;},&quot;fields&quot;:[]}
+
+15:17:32.332 response time in milliseconds: 2626
+2 &lt; 200
+2 &lt; Date: Wed, 27 Jul 2022 08:17:32 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Connection: keep-alive
+2 &lt; Cache-Control: no-cache
+2 &lt; Access-Control-Allow-Credentials: true
+2 &lt; X-Nonce: 817aaf3f-e8c6-4005-a7d7-e8abf31c6ec2
+2 &lt; Vary: Accept-Encoding, User-Agent
+2 &lt; Set-Cookie: AWSALB=xWOGf63VGznIzhdspttrWDa0xN8wnvXUM2m8qbrg8oLvQ7oOux9qzn2I50DytMrq45aZVMyqCGiF1mYVzpSvemmAHpAhEvvBtjl3Y3tfERAfVbw9E+5CYBss2q4K; Max-Age=1659514651000; Expires=Sat, 30 Jun 54610 20:14:12 GMT; Domain=api.trp.staging-traveloka.com
+2 &lt; Set-Cookie: AWSALBCORS=xWOGf63VGznIzhdspttrWDa0xN8wnvXUM2m8qbrg8oLvQ7oOux9qzn2I50DytMrq45aZVMyqCGiF1mYVzpSvemmAHpAhEvvBtjl3Y3tfERAfVbw9E+5CYBss2q4K; Max-Age=1659514651000; Expires=Sat, 30 Jun 54610 20:14:12 GMT; Domain=api.trp.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;mainProductReview&quot;:{&quot;tripPackageResponse&quot;:null,&quot;flightBookingInfo&quot;:{&quot;invoiceId&quot;:&quot;1739493054180500548&quot;,&quot;bookingId&quot;:&quot;89723149&quot;,&quot;auth&quot;:&quot;b7731146d8&quot;,&quot;rescheduleId&quot;:null,&quot;bookingStatus&quot;:&quot;BOOKED&quot;,&quot;insurancePurchasingStatus&quot;:null,&quot;failureReason&quot;:null,&quot;bookingSubmissionStatus&quot;:null,&quot;bookingDetail&quot;:{&quot;grandTotal&quot;:&quot;0&quot;,&quot;sourceAirport&quot;:&quot;CGK&quot;,&quot;sourceCity&quot;:&quot;Jakarta&quot;,&quot;sourceCity_en&quot;:&quot;Jakarta&quot;,&quot;destinationAirport&quot;:&quot;DPS&quot;,&quot;destinationCity&quot;:&quot;Bali / Denpasar&quot;,&quot;destinationCity_en&quot;:&quot;Bali / Denpasar&quot;,&quot;flightScope&quot;:&quot;DOMESTIC&quot;,&quot;numJourneys&quot;:&quot;1&quot;,&quot;tripType&quot;:&quot;ONE_WAY&quot;,&quot;originFlightDate&quot;:{&quot;month&quot;:&quot;8&quot;,&quot;day&quot;:&quot;11&quot;,&quot;year&quot;:&quot;2022&quot;},&quot;returnFlightDate&quot;:null,&quot;contactName&quot;:&quot;IPI Front End&quot;,&quot;contactFirstName&quot;:null,&quot;contactLastName&quot;:null,&quot;contactEmail&quot;:&quot;ipi.front.end2@gmail.com&quot;,&quot;contactPhone&quot;:&quot;+628234567876&quot;,&quot;terminalInfoMap&quot;:{&quot;CGK-DPS&quot;:{&quot;sourceTerminal&quot;:&quot;1C&quot;,&quot;sourceTerminalDefaultName&quot;:&quot;1C&quot;,&quot;destinationTerminal&quot;:&quot;Domestic&quot;,&quot;destinationTerminalDefaultName&quot;:&quot;Domestic&quot;}},&quot;routes&quot;:[{&quot;segments&quot;:[{&quot;firstAirport&quot;:&quot;CGK&quot;,&quot;lastAirport&quot;:&quot;DPS&quot;,&quot;sourceTerminal&quot;:&quot;1C&quot;,&quot;destinationTerminal&quot;:&quot;Domestic&quot;,&quot;airlineCode&quot;:&quot;JT&quot;,&quot;brandCode&quot;:&quot;JT&quot;,&quot;brandName&quot;:&quot;Lion Air&quot;,&quot;flightCode&quot;:&quot;JT-32&quot;,&quot;operatingAirlineCode&quot;:&quot;JT&quot;,&quot;date&quot;:{&quot;month&quot;:&quot;8&quot;,&quot;day&quot;:&quot;11&quot;,&quot;year&quot;:&quot;2022&quot;},&quot;departureTime&quot;:&quot;18:00&quot;,&quot;arrivalTime&quot;:&quot;20:50&quot;,&quot;duration&quot;:&quot;1j 50m&quot;,&quot;durationInMinutes&quot;:&quot;110&quot;,&quot;seatPublishedClass&quot;:&quot;ECONOMY&quot;,&quot;seatClass&quot;:&quot;M&quot;,&quot;tzDepartureMinuteOffset&quot;:&quot;420&quot;,&quot;tzArrivalMinuteOffset&quot;:&quot;480&quot;,&quot;routeNumDaysOffset&quot;:&quot;0&quot;,&quot;pnrCode&quot;:&quot;&quot;,&quot;dateString&quot;:&quot;Kamis, 11 Agu 2022&quot;,&quot;timeString&quot;:&quot;18:00 - 20:50&quot;,&quot;arrivalDateString&quot;:&quot;Kamis, 11 Agu 2022&quot;,&quot;arrivalDate&quot;:{&quot;month&quot;:&quot;8&quot;,&quot;day&quot;:&quot;11&quot;,&quot;year&quot;:&quot;2022&quot;},&quot;departureCity&quot;:&quot;Jakarta&quot;,&quot;arrivalCity&quot;:&quot;Bali / Denpasar&quot;,&quot;departureCityCode&quot;:&quot;CGK&quot;,&quot;arrivalCityCode&quot;:&quot;DPS&quot;,&quot;aircraftType&quot;:&quot;Boeing 740-800&quot;,&quot;hasMeal&quot;:false,&quot;freeBaggageInfo&quot;:null,&quot;flightLegInfoList&quot;:[],&quot;firstAirportName&quot;:&quot;Soekarno Hatta Intl Airport&quot;,&quot;lastAirportName&quot;:&quot;Ngurah Rai International Airport&quot;,&quot;departureTimestamp&quot;:&quot;1660215600000&quot;,&quot;arrivalTimestamp&quot;:&quot;1660222200000&quot;,&quot;visaRequired&quot;:false,&quot;mayReCheckIn&quot;:false,&quot;subclassInfo&quot;:null}],&quot;title&quot;:&quot;Penerbangan&quot;,&quot;airlineName&quot;:&quot;Lion Air&quot;,&quot;airlineShortName&quot;:&quot;Lion&quot;,&quot;airlineCode&quot;:&quot;JT&quot;,&quot;brandCode&quot;:&quot;JT&quot;,&quot;departCity&quot;:&quot;Jakarta&quot;,&quot;departCityShort&quot;:&quot;Jakarta&quot;,&quot;departCityCode&quot;:&quot;CGK&quot;,&quot;returnCity&quot;:&quot;Bali / Denpasar&quot;,&quot;returnCityShort&quot;:&quot;Bali&quot;,&quot;returnCityCode&quot;:&quot;DPS&quot;,&quot;transit&quot;:null,&quot;baggageInfo&quot;:&quot;Pemesanan sudah termasuk bagasi 20 kg&quot;,&quot;routeType&quot;:&quot;DEPART&quot;,&quot;departCount&quot;:&quot;0&quot;,&quot;returnCount&quot;:&quot;0&quot;,&quot;routeLabel&quot;:&quot;FLIGHT&quot;,&quot;routeLabelOption&quot;:&quot;NORMAL&quot;,&quot;baggageOptions&quot;:[{&quot;price&quot;:&quot;0&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;0&quot;,&quot;weight&quot;:&quot;20&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;165222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;165222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;1&quot;,&quot;weight&quot;:&quot;25&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;165000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;330222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;330222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;2&quot;,&quot;weight&quot;:&quot;30&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;330000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;495222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;495222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;3&quot;,&quot;weight&quot;:&quot;35&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;495000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;660222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;660222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;4&quot;,&quot;weight&quot;:&quot;40&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;660000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;825222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;825222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;5&quot;,&quot;weight&quot;:&quot;45&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;825000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;990222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;990222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;6&quot;,&quot;weight&quot;:&quot;50&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;990000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}}],&quot;transitServices&quot;:[{&quot;price&quot;:&quot;0&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;serviceName&quot;:null}],&quot;baggageRouteDisplayMapList&quot;:[{&quot;segmentKey&quot;:null,&quot;firstIndex&quot;:&quot;0&quot;,&quot;lastIndex&quot;:&quot;0&quot;,&quot;baggageOptions&quot;:[{&quot;price&quot;:&quot;0&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;0&quot;,&quot;weight&quot;:&quot;20&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;165222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;165222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;1&quot;,&quot;weight&quot;:&quot;25&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;165000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;330222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;330222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;2&quot;,&quot;weight&quot;:&quot;30&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;330000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;495222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;495222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;3&quot;,&quot;weight&quot;:&quot;35&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;495000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;660222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;660222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;4&quot;,&quot;weight&quot;:&quot;40&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;660000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;825222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;825222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;5&quot;,&quot;weight&quot;:&quot;45&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;825000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;990222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;990222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;6&quot;,&quot;weight&quot;:&quot;50&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;990000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}}]}],&quot;numOfTransits&quot;:&quot;-1&quot;,&quot;durationInMinutes&quot;:&quot;110&quot;,&quot;refundInfoDisplay&quot;:{&quot;status&quot;:&quot;REFUNDABLE&quot;,&quot;detailInformations&quot;:[{&quot;sourceAirport&quot;:&quot;CGK&quot;,&quot;destinationAirport&quot;:&quot;DPS&quot;,&quot;detailInfo&quot;:&quot;For refund request submitted up to 10 days after departure, refund is subject to a cancellation fee 0% of the basic fare per pax.&quot;,&quot;detailInfos&quot;:[&quot;For refund request submitted up to 10 days after departure, refund is subject to a cancellation fee 0% of the basic fare per pax.&quot;]}],&quot;infoSummary&quot;:&quot;&quot;,&quot;displayPerReasons&quot;:[]},&quot;rescheduleInfoDisplay&quot;:{&quot;routeId&quot;:&quot;&quot;,&quot;airlineId&quot;:&quot;JT&quot;,&quot;airlineName&quot;:&quot;Lion Air&quot;,&quot;airlineShortName&quot;:&quot;Lion&quot;,&quot;sourceAirport&quot;:&quot;CGK&quot;,&quot;sourceLocation&quot;:&quot;Jakarta&quot;,&quot;destinationAirport&quot;:&quot;DPS&quot;,&quot;destinationLocation&quot;:&quot;Bali / Denpasar&quot;,&quot;title&quot;:&quot;Reschedule policy for {airline_name}&quot;,&quot;status&quot;:&quot;RESCHEDULABLE&quot;,&quot;rescheduleInfoSummary&quot;:null,&quot;policyDetail&quot;:{&quot;generalPolicy&quot;:{&quot;title&quot;:&quot;General Policy&quot;,&quot;policies&quot;:[&quot;Easy Reschedule is applicable for changing flight dates, routes, and airlines.&quot;,&quot;Your new e-ticket will be issued immediately once payment is verified.&quot;,&quot;Surplus of payment from the original booking will be returned as cashback.&quot;,&quot;Transaction must be made in Indonesian rupiah (Rp).&quot;]},&quot;datePolicy&quot;:{&quot;title&quot;:&quot;Reschedule Validity Date&quot;,&quot;policies&quot;:[&quot;Reschedule requests may be submitted up to 11 August 2022 17:00 Jakarta time&quot;]},&quot;passengerFeePolicy&quot;:{&quot;title&quot;:&quot;Reschedule Fee&quot;,&quot;preface&quot;:null,&quot;paxFeePolicies&quot;:[{&quot;title&quot;:null,&quot;policyRules&quot;:[{&quot;title&quot;:null,&quot;policies&quot;:[&quot;&lt;p&gt;Easy Reschedule is subject to Traveloka Rescheduling Fee of IDR 15000 per passenger per route. &lt;/p&gt;&lt;p&gt;On top of the above mentioned fee, customer needs to also pay for additional fare (if any).&lt;/p&gt;&quot;]}]}]},&quot;disclaimer&quot;:{&quot;title&quot;:&quot;Disclaimer&quot;,&quot;policies&quot;:[&quot;Easy Reschedule will not be available if your flight does not meet the listed terms and conditions.&quot;,&quot;test en all locale&quot;]}},&quot;providerContacts&quot;:[{&quot;providerName&quot;:&quot;Lion Air&quot;,&quot;note&quot;:null,&quot;contactNumbers&quot;:[&quot;0804-1-77-88-99&quot;]}]},&quot;departureTime&quot;:&quot;1660215600000&quot;,&quot;promoLabels&quot;:[{&quot;id&quot;:&quot;VTL_nonSmartcombo&quot;,&quot;promoType&quot;:&quot;CUSTOM_SPECIAL_FARE&quot;,&quot;displayedText&quot;:{&quot;label&quot;:&quot;JT-CGKDPS&quot;,&quot;tooltip&quot;:&quot;We give out free tickets to Hong Kong Disneyland! Check the e-ticket in your email to see if you win.&quot;,&quot;priceDetail&quot;:&quot;We give out free tickets to Hong Kong Disneyland! Check the e-ticket in your email to see if you win.&quot;},&quot;conditionList&quot;:[{&quot;parameter&quot;:&quot;AIRLINE_BRAND&quot;,&quot;sign&quot;:&quot;EQUAL_TO&quot;,&quot;value&quot;:[&quot;JT&quot;]},{&quot;parameter&quot;:&quot;NUMBER_OF_TRANSIT&quot;,&quot;sign&quot;:&quot;EQUAL_TO&quot;,&quot;value&quot;:[&quot;0&quot;]},{&quot;parameter&quot;:&quot;ROUTE_PAIR&quot;,&quot;sign&quot;:&quot;EQUAL_TO&quot;,&quot;value&quot;:[&quot;CGK-DPS&quot;]},{&quot;parameter&quot;:&quot;LOCALE&quot;,&quot;sign&quot;:&quot;EQUAL_TO&quot;,&quot;value&quot;:[&quot;id_ID&quot;,&quot;en_ID&quot;,&quot;en_SG&quot;]}],&quot;bgColor&quot;:null,&quot;textColor&quot;:null,&quot;priority&quot;:&quot;32010&quot;,&quot;placeholder&quot;:&quot;TOP_LEFT&quot;,&quot;timeLimitInHour&quot;:&quot;3752&quot;,&quot;timeLimitInMinutes&quot;:&quot;225162&quot;,&quot;timeLimitVisibility&quot;:false,&quot;actionType&quot;:null,&quot;actionContent&quot;:null,&quot;displayLocations&quot;:[&quot;PRICE_BREAKDOWN&quot;,&quot;PRICE_INCLUSION&quot;,&quot;PRICE_DETAIL&quot;],&quot;freebies&quot;:[],&quot;quickFilter&quot;:null,&quot;belongsToFlight&quot;:null,&quot;ancillaryType&quot;:&quot;ADDITIONAL_PERKS&quot;}],&quot;departRoute&quot;:true,&quot;returnRoute&quot;:false,&quot;routeLabelFlight&quot;:true,&quot;routeLabelFlightDepart&quot;:false,&quot;routeLabelFlightReturn&quot;:false,&quot;routeLabelOptionWithNum&quot;:false}],&quot;flightRouteGroups&quot;:[{&quot;routes&quot;:[{&quot;segments&quot;:[{&quot;firstAirport&quot;:&quot;CGK&quot;,&quot;lastAirport&quot;:&quot;DPS&quot;,&quot;sourceTerminal&quot;:&quot;1C&quot;,&quot;destinationTerminal&quot;:&quot;Domestic&quot;,&quot;airlineCode&quot;:&quot;JT&quot;,&quot;brandCode&quot;:&quot;JT&quot;,&quot;brandName&quot;:&quot;Lion Air&quot;,&quot;flightCode&quot;:&quot;JT-32&quot;,&quot;operatingAirlineCode&quot;:&quot;JT&quot;,&quot;date&quot;:{&quot;month&quot;:&quot;8&quot;,&quot;day&quot;:&quot;11&quot;,&quot;year&quot;:&quot;2022&quot;},&quot;departureTime&quot;:&quot;18:00&quot;,&quot;arrivalTime&quot;:&quot;20:50&quot;,&quot;duration&quot;:&quot;1j 50m&quot;,&quot;durationInMinutes&quot;:&quot;110&quot;,&quot;seatPublishedClass&quot;:&quot;ECONOMY&quot;,&quot;seatClass&quot;:&quot;M&quot;,&quot;tzDepartureMinuteOffset&quot;:&quot;420&quot;,&quot;tzArrivalMinuteOffset&quot;:&quot;480&quot;,&quot;routeNumDaysOffset&quot;:&quot;0&quot;,&quot;pnrCode&quot;:&quot;&quot;,&quot;dateString&quot;:&quot;Kamis, 11 Agu 2022&quot;,&quot;timeString&quot;:&quot;18:00 - 20:50&quot;,&quot;arrivalDateString&quot;:&quot;Kamis, 11 Agu 2022&quot;,&quot;arrivalDate&quot;:{&quot;month&quot;:&quot;8&quot;,&quot;day&quot;:&quot;11&quot;,&quot;year&quot;:&quot;2022&quot;},&quot;departureCity&quot;:&quot;Jakarta&quot;,&quot;arrivalCity&quot;:&quot;Bali / Denpasar&quot;,&quot;departureCityCode&quot;:&quot;CGK&quot;,&quot;arrivalCityCode&quot;:&quot;DPS&quot;,&quot;aircraftType&quot;:&quot;Boeing 740-800&quot;,&quot;hasMeal&quot;:false,&quot;freeBaggageInfo&quot;:null,&quot;flightLegInfoList&quot;:[],&quot;firstAirportName&quot;:&quot;Soekarno Hatta Intl Airport&quot;,&quot;lastAirportName&quot;:&quot;Ngurah Rai International Airport&quot;,&quot;departureTimestamp&quot;:&quot;1660215600000&quot;,&quot;arrivalTimestamp&quot;:&quot;1660222200000&quot;,&quot;visaRequired&quot;:false,&quot;mayReCheckIn&quot;:false,&quot;subclassInfo&quot;:null}],&quot;title&quot;:&quot;Penerbangan&quot;,&quot;airlineName&quot;:&quot;Lion Air&quot;,&quot;airlineShortName&quot;:&quot;Lion&quot;,&quot;airlineCode&quot;:&quot;JT&quot;,&quot;brandCode&quot;:&quot;JT&quot;,&quot;departCity&quot;:&quot;Jakarta&quot;,&quot;departCityShort&quot;:&quot;Jakarta&quot;,&quot;departCityCode&quot;:&quot;CGK&quot;,&quot;returnCity&quot;:&quot;Bali / Denpasar&quot;,&quot;returnCityShort&quot;:&quot;Bali&quot;,&quot;returnCityCode&quot;:&quot;DPS&quot;,&quot;transit&quot;:null,&quot;baggageInfo&quot;:&quot;Pemesanan sudah termasuk bagasi 20 kg&quot;,&quot;routeType&quot;:&quot;DEPART&quot;,&quot;departCount&quot;:&quot;0&quot;,&quot;returnCount&quot;:&quot;0&quot;,&quot;routeLabel&quot;:&quot;FLIGHT&quot;,&quot;routeLabelOption&quot;:&quot;NORMAL&quot;,&quot;baggageOptions&quot;:[{&quot;price&quot;:&quot;0&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;0&quot;,&quot;weight&quot;:&quot;20&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;165222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;165222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;1&quot;,&quot;weight&quot;:&quot;25&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;165000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;330222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;330222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;2&quot;,&quot;weight&quot;:&quot;30&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;330000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;495222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;495222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;3&quot;,&quot;weight&quot;:&quot;35&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;495000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;660222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;660222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;4&quot;,&quot;weight&quot;:&quot;40&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;660000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;825222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;825222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;5&quot;,&quot;weight&quot;:&quot;45&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;825000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;990222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;990222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;6&quot;,&quot;weight&quot;:&quot;50&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;990000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}}],&quot;transitServices&quot;:[{&quot;price&quot;:&quot;0&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;serviceName&quot;:null}],&quot;baggageRouteDisplayMapList&quot;:[{&quot;segmentKey&quot;:null,&quot;firstIndex&quot;:&quot;0&quot;,&quot;lastIndex&quot;:&quot;0&quot;,&quot;baggageOptions&quot;:[{&quot;price&quot;:&quot;0&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;0&quot;,&quot;weight&quot;:&quot;20&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;165222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;165222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;1&quot;,&quot;weight&quot;:&quot;25&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;165000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;330222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;330222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;2&quot;,&quot;weight&quot;:&quot;30&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;330000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;495222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;495222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;3&quot;,&quot;weight&quot;:&quot;35&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;495000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;660222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;660222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;4&quot;,&quot;weight&quot;:&quot;40&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;660000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;825222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;825222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;5&quot;,&quot;weight&quot;:&quot;45&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;825000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}},{&quot;price&quot;:&quot;990222&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;fare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;990222&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;baggageType&quot;:&quot;6&quot;,&quot;weight&quot;:&quot;50&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;originPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;990000&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}}]}],&quot;numOfTransits&quot;:&quot;-1&quot;,&quot;durationInMinutes&quot;:&quot;110&quot;,&quot;refundInfoDisplay&quot;:{&quot;status&quot;:&quot;REFUNDABLE&quot;,&quot;detailInformations&quot;:[{&quot;sourceAirport&quot;:&quot;CGK&quot;,&quot;destinationAirport&quot;:&quot;DPS&quot;,&quot;detailInfo&quot;:&quot;For refund request submitted up to 10 days after departure, refund is subject to a cancellation fee 0% of the basic fare per pax.&quot;,&quot;detailInfos&quot;:[&quot;For refund request submitted up to 10 days after departure, refund is subject to a cancellation fee 0% of the basic fare per pax.&quot;]}],&quot;infoSummary&quot;:&quot;&quot;,&quot;displayPerReasons&quot;:[]},&quot;rescheduleInfoDisplay&quot;:{&quot;routeId&quot;:&quot;&quot;,&quot;airlineId&quot;:&quot;JT&quot;,&quot;airlineName&quot;:&quot;Lion Air&quot;,&quot;airlineShortName&quot;:&quot;Lion&quot;,&quot;sourceAirport&quot;:&quot;CGK&quot;,&quot;sourceLocation&quot;:&quot;Jakarta&quot;,&quot;destinationAirport&quot;:&quot;DPS&quot;,&quot;destinationLocation&quot;:&quot;Bali / Denpasar&quot;,&quot;title&quot;:&quot;Reschedule policy for {airline_name}&quot;,&quot;status&quot;:&quot;RESCHEDULABLE&quot;,&quot;rescheduleInfoSummary&quot;:null,&quot;policyDetail&quot;:{&quot;generalPolicy&quot;:{&quot;title&quot;:&quot;General Policy&quot;,&quot;policies&quot;:[&quot;Easy Reschedule is applicable for changing flight dates, routes, and airlines.&quot;,&quot;Your new e-ticket will be issued immediately once payment is verified.&quot;,&quot;Surplus of payment from the original booking will be returned as cashback.&quot;,&quot;Transaction must be made in Indonesian rupiah (Rp).&quot;]},&quot;datePolicy&quot;:{&quot;title&quot;:&quot;Reschedule Validity Date&quot;,&quot;policies&quot;:[&quot;Reschedule requests may be submitted up to 11 August 2022 17:00 Jakarta time&quot;]},&quot;passengerFeePolicy&quot;:{&quot;title&quot;:&quot;Reschedule Fee&quot;,&quot;preface&quot;:null,&quot;paxFeePolicies&quot;:[{&quot;title&quot;:null,&quot;policyRules&quot;:[{&quot;title&quot;:null,&quot;policies&quot;:[&quot;&lt;p&gt;Easy Reschedule is subject to Traveloka Rescheduling Fee of IDR 15000 per passenger per route. &lt;/p&gt;&lt;p&gt;On top of the above mentioned fee, customer needs to also pay for additional fare (if any).&lt;/p&gt;&quot;]}]}]},&quot;disclaimer&quot;:{&quot;title&quot;:&quot;Disclaimer&quot;,&quot;policies&quot;:[&quot;Easy Reschedule will not be available if your flight does not meet the listed terms and conditions.&quot;,&quot;test en all locale&quot;]}},&quot;providerContacts&quot;:[{&quot;providerName&quot;:&quot;Lion Air&quot;,&quot;note&quot;:null,&quot;contactNumbers&quot;:[&quot;0804-1-77-88-99&quot;]}]},&quot;departureTime&quot;:&quot;1660215600000&quot;,&quot;promoLabels&quot;:[{&quot;id&quot;:&quot;VTL_nonSmartcombo&quot;,&quot;promoType&quot;:&quot;CUSTOM_SPECIAL_FARE&quot;,&quot;displayedText&quot;:{&quot;label&quot;:&quot;JT-CGKDPS&quot;,&quot;tooltip&quot;:&quot;We give out free tickets to Hong Kong Disneyland! Check the e-ticket in your email to see if you win.&quot;,&quot;priceDetail&quot;:&quot;We give out free tickets to Hong Kong Disneyland! Check the e-ticket in your email to see if you win.&quot;},&quot;conditionList&quot;:[{&quot;parameter&quot;:&quot;AIRLINE_BRAND&quot;,&quot;sign&quot;:&quot;EQUAL_TO&quot;,&quot;value&quot;:[&quot;JT&quot;]},{&quot;parameter&quot;:&quot;NUMBER_OF_TRANSIT&quot;,&quot;sign&quot;:&quot;EQUAL_TO&quot;,&quot;value&quot;:[&quot;0&quot;]},{&quot;parameter&quot;:&quot;ROUTE_PAIR&quot;,&quot;sign&quot;:&quot;EQUAL_TO&quot;,&quot;value&quot;:[&quot;CGK-DPS&quot;]},{&quot;parameter&quot;:&quot;LOCALE&quot;,&quot;sign&quot;:&quot;EQUAL_TO&quot;,&quot;value&quot;:[&quot;id_ID&quot;,&quot;en_ID&quot;,&quot;en_SG&quot;]}],&quot;bgColor&quot;:null,&quot;textColor&quot;:null,&quot;priority&quot;:&quot;32010&quot;,&quot;placeholder&quot;:&quot;TOP_LEFT&quot;,&quot;timeLimitInHour&quot;:&quot;3752&quot;,&quot;timeLimitInMinutes&quot;:&quot;225162&quot;,&quot;timeLimitVisibility&quot;:false,&quot;actionType&quot;:null,&quot;actionContent&quot;:null,&quot;displayLocations&quot;:[&quot;PRICE_BREAKDOWN&quot;,&quot;PRICE_INCLUSION&quot;,&quot;PRICE_DETAIL&quot;],&quot;freebies&quot;:[],&quot;quickFilter&quot;:null,&quot;belongsToFlight&quot;:null,&quot;ancillaryType&quot;:&quot;ADDITIONAL_PERKS&quot;}],&quot;departRoute&quot;:true,&quot;returnRoute&quot;:false,&quot;routeLabelFlight&quot;:true,&quot;routeLabelFlightDepart&quot;:false,&quot;routeLabelFlightReturn&quot;:false,&quot;routeLabelOptionWithNum&quot;:false}],&quot;flightScope&quot;:&quot;DOMESTIC&quot;,&quot;seatClassLabel&quot;:&quot;NONE&quot;}],&quot;itinerariesInfo&quot;:[{&quot;primaryAirlineId&quot;:&quot;JT&quot;,&quot;flightFareInfo&quot;:{&quot;adult&quot;:{&quot;totalFare&quot;:&quot;905400&quot;},&quot;child&quot;:{&quot;totalFare&quot;:&quot;0&quot;},&quot;infant&quot;:{&quot;totalFare&quot;:&quot;0&quot;}}}],&quot;passengers&quot;:{&quot;adults&quot;:[{&quot;gender&quot;:&quot;F&quot;,&quot;lastName&quot;:&quot;End&quot;,&quot;firstName&quot;:&quot;IPI Front&quot;,&quot;birthDate&quot;:null,&quot;birthLocation&quot;:null,&quot;nationality&quot;:&quot;ID&quot;,&quot;documentType&quot;:&quot;KTP&quot;,&quot;documentNo&quot;:&quot;1234567890987688&quot;,&quot;documentIssuanceLocation&quot;:null,&quot;documentIssuanceDate&quot;:null,&quot;documentExpirationDate&quot;:null,&quot;specialServiceRequestCode&quot;:null,&quot;specialFoodRequestCode&quot;:null,&quot;frequentFlyers&quot;:[{&quot;id&quot;:null,&quot;accountNumber&quot;:null,&quot;status&quot;:&quot;UNKNOWN&quot;}],&quot;eTicket&quot;:null,&quot;isActive&quot;:true,&quot;notes&quot;:&quot;&quot;,&quot;addOns&quot;:[[{&quot;baggage&quot;:{&quot;price&quot;:&quot;0&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;priceWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;ancillaryProductName&quot;:&quot;JT BAGGAGE 20KG&quot;,&quot;baggageType&quot;:&quot;0&quot;,&quot;weight&quot;:&quot;20&quot;,&quot;quantity&quot;:&quot;1&quot;,&quot;unitOfMeasure&quot;:&quot;KG&quot;},&quot;transitService&quot;:{&quot;price&quot;:&quot;0&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;priceWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;ancillaryProductName&quot;:null,&quot;serviceName&quot;:null},&quot;comfortKit&quot;:{&quot;price&quot;:&quot;0&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;priceWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;ancillaryProductName&quot;:null},&quot;insurance&quot;:{&quot;price&quot;:&quot;0&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;priceWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;ancillaryProductName&quot;:null},&quot;meal&quot;:{&quot;selectionList&quot;:[]},&quot;medkit&quot;:{&quot;selectionList&quot;:[]},&quot;sportEquipment&quot;:{&quot;price&quot;:&quot;0&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;priceWithCurrency&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;0&quot;,&quot;nullOrEmpty&quot;:true},&quot;ancillaryProductName&quot;:null},&quot;seatSelection&quot;:{&quot;requestedSeat&quot;:null,&quot;bookedSeat&quot;:null}}]],&quot;title&quot;:&quot;MISS&quot;,&quot;phoneNumber&quot;:null,&quot;addressLines&quot;:[],&quot;faxNumber&quot;:null,&quot;emailAddress&quot;:null,&quot;countryOfResidence&quot;:null,&quot;language&quot;:null,&quot;watchlistExlusionNumber&quot;:null}],&quot;children&quot;:[],&quot;infants&quot;:[]},&quot;fareChangeStatus&quot;:{&quot;expectedTotalFare&quot;:&quot;905400&quot;,&quot;actualTotalFare&quot;:&quot;905400&quot;,&quot;expectedAdultFare&quot;:&quot;905400&quot;,&quot;actualAdultFare&quot;:&quot;905400&quot;,&quot;currency&quot;:&quot;IDR&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;,&quot;priceUpAlertThreshold&quot;:&quot;10000&quot;,&quot;priceDownAlertThreshold&quot;:&quot;10000&quot;,&quot;totalSearchExpectedFare&quot;:&quot;905400&quot;},&quot;pdfUrlIds&quot;:[],&quot;pdfUrls&quot;:[],&quot;hasReferenceInsuranceInformation&quot;:false,&quot;airlineDataMap&quot;:{&quot;JT&quot;:{&quot;airlineId&quot;:&quot;JT&quot;,&quot;name&quot;:&quot;Lion Air&quot;,&quot;shortName&quot;:&quot;Lion&quot;,&quot;iconUrl&quot;:null,&quot;iataCode&quot;:&quot;JT, IW, ID&quot;}},&quot;airportDataMap&quot;:{&quot;CGK&quot;:{&quot;airportId&quot;:&quot;CGK&quot;,&quot;localName&quot;:&quot;Soekarno Hatta Intl Airport&quot;,&quot;city&quot;:&quot;Jakarta&quot;,&quot;country&quot;:&quot;Indonesia&quot;},&quot;DPS&quot;:{&quot;airportId&quot;:&quot;DPS&quot;,&quot;localName&quot;:&quot;Ngurah Rai International Airport&quot;,&quot;city&quot;:&quot;Bali / Denpasar&quot;,&quot;country&quot;:&quot;Indonesia&quot;}},&quot;frequentFlyerDataMap&quot;:{},&quot;additionalLabels&quot;:[],&quot;twoWay&quot;:false},&quot;insuranceDetail&quot;:{&quot;insuranceStatus&quot;:&quot;OPEN&quot;,&quot;policyId&quot;:null,&quot;fulfillment&quot;:&quot;CHUBB&quot;,&quot;providerId&quot;:&quot;CHUBB&quot;,&quot;providerProfile&quot;:{&quot;providerId&quot;:&quot;CHUBB&quot;,&quot;phone&quot;:&quot;1500-257&quot;,&quot;email&quot;:&quot;travel.id@chubb.com&quot;,&quot;providerName&quot;:&quot;CHUBB&quot;,&quot;shortName&quot;:&quot;CHUBB&quot;,&quot;companyName&quot;:&quot;PT Chubb General Insurance Indonesia&quot;,&quot;providerPreviewInformation&quot;:&quot;Travel Insurance is underwritten by PT Chubb General Insurance Indonesia. PT Chubb General Insurance Indonesia is registered and supervised by Otoritas Jasa Keuangan (OJK).&quot;,&quot;csTimeInformations&quot;:[{&quot;day&quot;:&quot;Everyday&quot;,&quot;hour&quot;:&quot;24 hours nonstop service&quot;}],&quot;url&quot;:&quot;http://www.chubb.com&quot;},&quot;insurancePlan&quot;:{&quot;planName&quot;:&quot;ONE_WAY_DOMESTIC_ROUTES_HIGH&quot;,&quot;planCode&quot;:&quot;ONE_WAY_DOMESTIC&quot;,&quot;insurancePackage&quot;:&quot;Travel Insurance&quot;,&quot;insuranceTypeName&quot;:&quot;Travel Insurance&quot;,&quot;planDesc&quot;:null,&quot;coverage&quot;:null},&quot;productType&quot;:&quot;FLIGHT&quot;,&quot;totalInsuredProductFare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;905400&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;totalPaidByCust&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;29600&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;policyHolder&quot;:{&quot;identifier&quot;:&quot;0&quot;,&quot;titlePrefix&quot;:&quot;MISS&quot;,&quot;personType&quot;:&quot;ADULT&quot;,&quot;lastName&quot;:&quot;End&quot;,&quot;firstName&quot;:&quot;IPI Front&quot;,&quot;birthDate&quot;:null,&quot;nationality&quot;:null,&quot;documentType&quot;:&quot;NONE&quot;,&quot;documentNo&quot;:&quot;1234567890987688&quot;,&quot;phoneNumber&quot;:&quot;+628234567876&quot;,&quot;emailAddress&quot;:&quot;ipi.front.end2@gmail.com&quot;},&quot;insuredPersons&quot;:[{&quot;identifier&quot;:&quot;0&quot;,&quot;titlePrefix&quot;:&quot;MISS&quot;,&quot;personType&quot;:&quot;ADULT&quot;,&quot;lastName&quot;:&quot;End&quot;,&quot;firstName&quot;:&quot;IPI Front&quot;,&quot;birthDate&quot;:null,&quot;nationality&quot;:null,&quot;documentType&quot;:&quot;KTP&quot;,&quot;documentNo&quot;:&quot;1234567890987688&quot;,&quot;phoneNumber&quot;:&quot;&quot;,&quot;emailAddress&quot;:null,&quot;insuredProductFare&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;905400&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;},&quot;insuranceFarePaidByCust&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;29600&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}}]},&quot;rescheduleDetailDisplay&quot;:null,&quot;userSelectedSeatClass&quot;:&quot;ECONOMY&quot;,&quot;loyaltyPointDetail&quot;:null,&quot;corporateTravelContext&quot;:null,&quot;isCorporateBooking&quot;:false,&quot;corporateBooking&quot;:false},&quot;trainBookingInfo&quot;:null,&quot;airportTransferReviewBookingResult&quot;:null,&quot;connectivityInternationalBookingReview&quot;:null,&quot;busBookingInfo&quot;:null,&quot;flightCheckInBookingReview&quot;:null,&quot;vehicleRentalBookingReview&quot;:null,&quot;culinaryBookingReview&quot;:null,&quot;experienceBookingInfo&quot;:null,&quot;insuranceBookingReview&quot;:null,&quot;flightAncillaryProductReview&quot;:null,&quot;healthTelemedBookingReview&quot;:null,&quot;healthSHSBookingReview&quot;:null,&quot;productType&quot;:&quot;FLIGHT&quot;},&quot;crossSellingProductReview&quot;:[{&quot;tripPackageResponse&quot;:null,&quot;flightBookingInfo&quot;:null,&quot;trainBookingInfo&quot;:null,&quot;airportTransferReviewBookingResult&quot;:null,&quot;connectivityInternationalBookingReview&quot;:null,&quot;busBookingInfo&quot;:null,&quot;flightCheckInBookingReview&quot;:null,&quot;vehicleRentalBookingReview&quot;:null,&quot;culinaryBookingReview&quot;:null,&quot;experienceBookingInfo&quot;:null,&quot;insuranceBookingReview&quot;:{&quot;title&quot;:&quot;Insurance&quot;,&quot;titleInsuranceList&quot;:&quot;Your Insurance Purchase(s)&quot;,&quot;insuranceList&quot;:[{&quot;agentBookingId&quot;:&quot;89723149&quot;,&quot;insuranceBookingId&quot;:&quot;3812448&quot;,&quot;insuranceBookingItemId&quot;:&quot;1726682&quot;,&quot;productIcon&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2020/02/18/1582011485925-f0d073d23594bdcaeedde31e0be62cf3.png?tr=q-75&quot;,&quot;productName&quot;:&quot;Travel Insurance (Flight)&quot;,&quot;planName&quot;:&quot;Domestic Plan&quot;,&quot;providerLogo&quot;:&quot;https://ik.imagekit.io/tvlkdev/image/imageResource/2019/12/03/1575347944637-f4ae7712bd359d7b685e5b8440fc54c7.png?tr=q-75&quot;,&quot;coverageInfo&quot;:null}],&quot;titleInsuranceDetail&quot;:&quot;Insurance Details&quot;,&quot;insuranceTitle&quot;:&quot;Jakarta  →  Bali /Denpasar&quot;,&quot;coverageStart&quot;:&quot;11 Aug 2022&quot;,&quot;coverageEnd&quot;:&quot;11 Aug 2022&quot;,&quot;titleInsured&quot;:&quot;The Insured&quot;,&quot;insuranceInsuredPersonList&quot;:[{&quot;identifier&quot;:&quot;1&quot;,&quot;personTitle&quot;:&quot;MISS&quot;,&quot;personName&quot;:&quot;IPI Front End&quot;,&quot;personType&quot;:&quot;ADULT&quot;}],&quot;titleContact&quot;:&quot;Contact Details&quot;,&quot;insuranceBookingContact&quot;:{&quot;contactTitle&quot;:&quot;MISS&quot;,&quot;contactName&quot;:&quot;IPI Front End&quot;,&quot;contactPhone&quot;:&quot;+628234567876&quot;,&quot;contactEmail&quot;:&quot;ipi.front.end2@gmail.com&quot;},&quot;titlePriceDetail&quot;:&quot;Price Breakdown&quot;,&quot;insurancePriceList&quot;:[{&quot;productTitle&quot;:&quot;Travel Insurance (Flight)&quot;,&quot;productPrice&quot;:{&quot;currencyValue&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;amount&quot;:&quot;29600&quot;,&quot;nullOrEmpty&quot;:false},&quot;numOfDecimalPoint&quot;:&quot;0&quot;}}]},&quot;flightAncillaryProductReview&quot;:null,&quot;healthTelemedBookingReview&quot;:null,&quot;healthSHSBookingReview&quot;:null,&quot;productType&quot;:&quot;INSURANCE&quot;}],&quot;bookingContact&quot;:{&quot;personTitle&quot;:null,&quot;firstName&quot;:&quot;IPI Front&quot;,&quot;lastName&quot;:&quot;End&quot;,&quot;phone&quot;:[&quot;+628234567876&quot;],&quot;email&quot;:&quot;ipi.front.end2@gmail.com&quot;}},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJSzR7e+UxwwnDq8/oC2kAcTy5dC2lSi+J5m4ThEzfK3Qs5sxKg8amorBx8sQKfVWU+E2oiNgWZfe0YKMqMewuDkf7ZjchNqUvW83c/+YGfcWVpThw5YFNmBy4ScJ/+3+G/BejrnaUgukJfx1YV1Cw7NMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlf8Vk8LITl4FLcI0qLd8U3ep1EUFlvfAVhmCZXrY9a3tjexrfmCFfq+1OkuEMzrU8dhlDJNK+Zv+xPIjAlumQwCE3hi7baSP8UZUVxyX3j/0bSoX2NqGeNHdclrta9gAMMQwv0gZge0Z7vlNhHw/rwWRJrWBZ/OiWpn9E+Mpta8i+NPdeLbRQ4adBWQQR2L1rOYot5BmcGPfA715rpmiog1NU4H0P8241Yhmw//vxoHHA0HgryifXmGUoZPMoEp4qvCcESXx0xB0wenWPQO43cuND+cdW4U2uLG/qKLuhXOEC6jjW9KWSrmsU4rbbpICICIR8No/I72JT7xk0vDFzFmcPqRn85MK3oVNjhd9QNIC+/6lDzkrCJVzrAoxemiKMro0ze+WnrHVAHBF977yKdRn9SGq/zTumgE91tsy8ksgHLgXpMtjp01Ro2osSk4MF0Vr4xJyOY0MDPh/niS3pjsBJx/eQr8OlsPwq0oIjAF8kswteV1CMFkPWSCd/+x+Zzo8sTR7E4pSRVMoyclAjhlqyf99twBZMAsstw4mr3qmZTR+tkXrsTZJbHX41nIZNi7ceDGYgYneH+AfodZMd5A==&quot;,&quot;nonce&quot;:&quot;817aaf3f-e8c6-4005-a7d7-e8abf31c6ec2&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.mainProductReview.flightBookingInfo.invoiceId == createbookingresponse.response.data.invoiceId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.mainProductReview.flightBookingInfo.auth == createbookingresponse.response.data.auth</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.mainProductReview.flightBookingInfo.bookingId == createbookingresponse.response.data.bookingId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response.data.mainProductReview.flightBookingInfo.bookingId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.26">15:17:32.342 [print] 89723149 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,76 @@
+{
+  "fields": [],
+  "data": {
+    "labelContext": {},
+    "contexts": {
+      "funnelId": "hotel",
+      "userLocation": {
+        "lat": "0.000000",
+        "lon": "0.000000"
+      },
+      "funnelSource": "iconHomepage"
+    },
+    "currency": "IDR",
+    "checkInDate": {
+      "month": 9,
+      "day": 9,
+      "year": 2022
+    },
+    "roomInfoSpecs": [
+      {
+        "promoIds": null,
+        "hotelRoomId": null,
+        "guestInfo": {
+          "numChildren": 0,
+          "childAges": [],
+          "numInfant": 0,
+          "numAdult": 1
+        },
+        "guests": [],
+        "numberOfExtraBeds": 0
+      }
+    ],
+    "numOfNights": 1,
+    "numInfants": 0,
+    "numRooms": 1,
+    "lastMinute": false,
+    "sid": "tcode-7797-696E-mf-01",
+    "checkOutDate": {
+      "month": 9,
+      "day": 10,
+      "year": 2022
+    },
+    "rateTypes": [
+      "PAY_NOW",
+      "PAY_AT_PROPERTY"
+    ],
+    "ccGuaranteeOptions": {
+      "ccInfoPreferences": [
+        "CC_TOKEN",
+        "CC_FULL_INFO"
+      ],
+      "ccGuaranteeRequirementOptions": [
+        "CC_GUARANTEE",
+        "NO_CC_GUARANTEE"
+      ]
+    },
+    "monitoringSpec": {
+      "bannerMessage": "Planning a longer stay? You can now search for stays of up to 30 nights!",
+      "searchFunnelType": "MAIN_FUNNEL",
+      "refferer": null,
+      "isPriceFinderActive": "true"
+    },
+    "isExtraBedIncluded": true,
+    "numAdults": 1,
+    "numChildren": 0,
+    "backdate": false,
+    "hotelId": "3000020000251",
+    "childAges": []
+  },
+  "context": {
+    "tvLifetime": "qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zav/DP3H3oxbg7cdZiIvskNf1l+vACgj8Fu4PDNdOHjaTy5dC2lSi+J5m4ThEzfK3RmU7odit3dJQ1mtw33T7v5fzKbGNvjcwn9pgwoUT4ccDM6zknKWiSZX2XTS/MftpxPD7FELaZwaw7u0cQBOjqa9MTvd2ifWrbL0Yl7uqDspNMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==",
+    "nonce": "96D01719-6ABA-424F-B35E-15CA52FC3525",
+    "tvSession": "qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg2J02di7wCevjc01jxEACTfO4B8/FMQhl7y7w75lPH7IHRWCQFs9xGxGSYQysDuY8iRQsoupqxm2GxcX8oyFSCTIVV3fLsByVaMy7VQkMUHLDzskJknNyQ9S0wH4kueeaY1PiZf+qSdVhmynPbcHSQR1gfwMe/Np/p37XKnglgPEAWpBf4t1lqjygYnSetmqRQU22AsX+j52cOm0KVKuHP0I7IOzfCTrDU1l8kIEe7sD2bYNwtaeQNi4oCYDmfrviqRqXchugSA8qxMGZ1Lduz6oyDRtDChPvLNpmohy5FOicUa4EQK1yTcIf8YiiA+0hUQgDNeRIVvtcwZ1O4lORR9q1oic1tvNCRFLtgNYdSOefdHLFyMIqqCvdRKqMqreVqF7b91cWH7NdLN5aSJrJ+EzzZP+rzw3XjTV2HqIZyhOjq3pwdh2VE7pUhxJPEakYU="
+  },
+  "clientInterface": "mobile-iOS"
+}

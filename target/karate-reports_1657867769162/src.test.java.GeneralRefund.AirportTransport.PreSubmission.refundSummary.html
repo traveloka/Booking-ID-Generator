@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ac47b090-41ca-42aa-b5b1-dd1bb09963b4",{name:"siskaadelinadamanik"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.GeneralRefund.AirportTransport.PreSubmission.refundSummary</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-07-14 05:38:33 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:8]"><span>[1:8]</span> <span>Get Refund Summary successful</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/GeneralRefund/AirportTransport/PreSubmission/refundSummary.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">General Refund Summary</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">Get Refund Summary successful</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>5374</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:8]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlIPI</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>json requestbodySummary = read(&#39;classpath:request/refund/pre/AT/refundSummary.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">37</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>json requestbodyInfo = read(&#39;classpath:request/refund/pre/AT/refundInfo.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path refundSummary</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers accept</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">17:38:28.548 did not evaluate to map accept: [type: STRING, value: application/json]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestbodySummary</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3382</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">17:38:28.753 request:
+1 &gt; POST https://ipipapi.ipi.staging-traveloka.com/en-id/v2/post-issuance/refund/pre/refund-summary
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 998
+1 &gt; Host: ipipapi.ipi.staging-traveloka.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;fields&quot;:[],&quot;data&quot;:{&quot;itemId&quot;:&quot;89701455.36124&quot;,&quot;productType&quot;:&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;,&quot;bookingId&quot;:&quot;89701455&quot;},&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJaTsQvP6QXu262U1MW58p2jy5dC2lSi+J5m4ThEzfK3QF9GdN7PMllebdQmCc4OswjzusQcQ42gpaNc1zdVl8oF1QEpRy1xDL9Gi+rx\/xJogQavmtx9pictpACZpmdT9kKF9jP1yNFnmX5HfiACojydMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;nonce&quot;:&quot;6FC5645D-3C66-4C4F-B85A-5D05BAFF029B&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3CKqgtVARX\/VDwq+PgoTH1aLb7MdTdXKtCOtHBtffKIrZ9klIk8KMvB\/MfyxJCcFBTWp6Z+ofHQCshoZLtdxlDcQYPDsiAN4MFOZCDaz0psIXRZaoIKpepteaY4SxjANBnD6kZ\/OTCt6FTY4XfUDSAX3Vxd6ANuDwUUJWfesjata6NM3vlp6x1QBwRfe+8inWR4cxG0L+0E53y7KvESqjZW76HmtFVxwwWyjt0jLBzb\/h5d\/nEuMnNBVJiu72GJBaR84v\/8CECAiZypkyCdE5W7p\/gnMn\/HVMHtU5PG72gW7HSdw78JB77VZnoDSac36Oirf0bwCXn2aNuprREzGe83WGlnSOcmvWmaBAeRxrpnumaURC0pEZeeQCe7188J\/C6CG27OJSUuklXWI0BIrNRCFnqYYpMSCRL8yPQAXFPMQ==&quot;},&quot;clientInterface&quot;:&quot;mobile-iOS&quot;}
+
+17:38:31.927 response time in milliseconds: 3160
+1 &lt; 200
+1 &lt; Date: Thu, 14 Jul 2022 10:38:31 GMT
+1 &lt; Content-Type: application/json;charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: no-cache
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; X-Nonce: 6FC5645D-3C66-4C4F-B85A-5D05BAFF029B
+1 &lt; vary: accept-encoding
+1 &lt; Set-Cookie: AWSALB=dIvexsU9m3FQPkbgs7NIA3MN7jJKCWonhe8D3Qmdf8TswpekI2+wLkby5uLS4MZgco0Dh8M+hSEATOoUY+V947PVAcPMIB+aWlhyiBYXn7VXuE9vs7PCXarSswtG; Max-Age=1658399911000; Expires=Sat, 18 Feb 54575 20:35:11 GMT; Domain=ipipapi.ipi.staging-traveloka.com
+1 &lt; Set-Cookie: AWSALBCORS=dIvexsU9m3FQPkbgs7NIA3MN7jJKCWonhe8D3Qmdf8TswpekI2+wLkby5uLS4MZgco0Dh8M+hSEATOoUY+V947PVAcPMIB+aWlhyiBYXn7VXuE9vs7PCXarSswtG; Max-Age=1658399911000; Expires=Sat, 18 Feb 54575 20:35:11 GMT; Domain=ipipapi.ipi.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;apiStatus&quot;:&quot;SUCCESS&quot;,&quot;message&quot;:null,&quot;refundItemSummary&quot;:{&quot;bookingId&quot;:&quot;89701455&quot;,&quot;iconUrl&quot;:&quot;https://static-content.ipi.staging-traveloka.com/static/icon/product/SHUTTLE_AIRPORT_TRANSPORT.png&quot;,&quot;selectedItem&quot;:{&quot;itemId&quot;:&quot;36124&quot;,&quot;type&quot;:&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;,&quot;title&quot;:&quot;From Soekarno Hatta International Airport (CGK)&quot;,&quot;description&quot;:[&quot;Tue, 19 Jul 2022 • 15:00&quot;,&quot;Golden Bird - All New Avanza - 1 car(s)&quot;]}},&quot;relatedItems&quot;:[{&quot;itemId&quot;:&quot;1726094&quot;,&quot;type&quot;:&quot;INSURANCE&quot;,&quot;title&quot;:&quot;ATPersonalAccidentInsuranceBundle&quot;,&quot;description&quot;:[&quot;TODO GCI 1&quot;]}],&quot;refundHistoryCards&quot;:[{&quot;refundId&quot;:&quot;28422&quot;,&quot;refundedItems&quot;:[&quot;From Soekarno Hatta International Airport (CGK) (1)&quot;],&quot;status&quot;:{&quot;name&quot;:&quot;EXECUTING_PAYOUT&quot;,&quot;displayText&quot;:&quot;REFUND APPROVED&quot;,&quot;statusColor&quot;:&quot;#1BA0E2&quot;},&quot;submittedTime&quot;:&quot;14 July 2022 &amp;bull; 16:32&quot;,&quot;disclaimerInformation&quot;:&quot;If approved, your refund will be transferred to your bank account by &lt;b&gt;Tue, 19 Jul 2022&lt;/b&gt; at the latest.&quot;}]},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJaTsQvP6QXu262U1MW58p2jy5dC2lSi+J5m4ThEzfK3QF9GdN7PMllebdQmCc4OswjzusQcQ42gpaNc1zdVl8oF1QEpRy1xDL9Gi+rx/xJogQavmtx9pictpACZpmdT9kKF9jP1yNFnmX5HfiACojydMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3CKqgtVARX/VDwq+PgoTH1aLb7MdTdXKtCOtHBtffKIrZ9klIk8KMvB/MfyxJCcFBTWp6Z+ofHQCshoZLtdxlDcQYPDsiAN4MFOZCDaz0psIXRZaoIKpepteaY4SxjANBnD6kZ/OTCt6FTY4XfUDSAX3Vxd6ANuDwUUJWfesjata6NM3vlp6x1QBwRfe+8inWR4cxG0L+0E53y7KvESqjZW76HmtFVxwwWyjt0jLBzb/h5d/nEuMnNBVJiu72GJBaR84v/8CECAiZypkyCdE5W7p/gnMn/HVMHtU5PG72gW7HSdw78JB77VZnoDSac36Oirf0bwCXn2aNuprREzGe83WGlnSOcmvWmaBAeRxrpnumaURC0pEZeeQCe7188J/C6CG27OJSUuklXWI0BIrNRCFnqYYpMSCRL8yPQAXFPMQ==&quot;,&quot;nonce&quot;:&quot;6FC5645D-3C66-4C4F-B85A-5D05BAFF029B&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def responseData = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.refundHistoryCards[0].refundId == &quot;28422&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">18</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path refundInfo</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers accept</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">17:38:31.951 did not evaluate to map accept: [type: STRING, value: application/json]
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestbodyInfo</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1926</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.20">17:38:31.953 request:
+2 &gt; POST https://ipipapi.ipi.staging-traveloka.com/en-id/v2/post-issuance/refund/pre/refund-info
+2 &gt; Cookie: AWSALB=dIvexsU9m3FQPkbgs7NIA3MN7jJKCWonhe8D3Qmdf8TswpekI2+wLkby5uLS4MZgco0Dh8M+hSEATOoUY+V947PVAcPMIB+aWlhyiBYXn7VXuE9vs7PCXarSswtG; AWSALBCORS=dIvexsU9m3FQPkbgs7NIA3MN7jJKCWonhe8D3Qmdf8TswpekI2+wLkby5uLS4MZgco0Dh8M+hSEATOoUY+V947PVAcPMIB+aWlhyiBYXn7VXuE9vs7PCXarSswtG
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Content-Length: 998
+2 &gt; Host: ipipapi.ipi.staging-traveloka.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;fields&quot;:[],&quot;data&quot;:{&quot;itemId&quot;:&quot;89701455.36124&quot;,&quot;productType&quot;:&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;,&quot;bookingId&quot;:&quot;89701455&quot;},&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJaTsQvP6QXu262U1MW58p2jy5dC2lSi+J5m4ThEzfK3QF9GdN7PMllebdQmCc4OswjzusQcQ42gpaNc1zdVl8oF1QEpRy1xDL9Gi+rx\/xJogQavmtx9pictpACZpmdT9kKF9jP1yNFnmX5HfiACojydMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;nonce&quot;:&quot;ABC5B1A6-61DA-4F1F-B760-AC80DE2B3EF1&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3CKqgtVARX\/VDwq+PgoTH1aLb7MdTdXKtCOtHBtffKIrZ9klIk8KMvB\/MfyxJCcFBTWp6Z+ofHQCshoZLtdxlDcQYPDsiAN4MFOZCDaz0psIXRZaoIKpepteaY4SxjANBnD6kZ\/OTCt6FTY4XfUDSAX3Vxd6ANuDwUUJWfesjata6NM3vlp6x1QBwRfe+8inWR4cxG0L+0E53y7KvESqjZW76HmtFVxwwWyjt0jLBzb\/h5d\/nEuMnNBVJiu72GJBaR84v\/8CECAiZypkyCdE5W7p\/gnMn\/HVMHtU5PG72gW7HSdw78JB77VZnoDSac36Oirf0bwCXn2aNuprREzGe83WGlnSOcmvWmaBAeRxrpnumaURC0pEZeeQCe7188J\/C6CG27OJSUuklXWI0BIrNRCFnqYYpMSCRL8yPQAXFPMQ==&quot;},&quot;clientInterface&quot;:&quot;mobile-iOS&quot;}
+
+17:38:33.874 response time in milliseconds: 1920
+2 &lt; 200
+2 &lt; Date: Thu, 14 Jul 2022 10:38:32 GMT
+2 &lt; Content-Type: application/json;charset=utf-8
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Connection: keep-alive
+2 &lt; Cache-Control: no-cache
+2 &lt; Access-Control-Allow-Credentials: true
+2 &lt; X-Nonce: ABC5B1A6-61DA-4F1F-B760-AC80DE2B3EF1
+2 &lt; vary: accept-encoding
+2 &lt; Set-Cookie: AWSALB=Krdan8ufrnFagMwd32MSILTh+w4evp9qHfJBtv0jLBNT78BMILkVAJDEaxbf+PIGqcrH3SScByLp//gfht4KhEAPRC/62AO1jAutVtEgc0THVFaGMek9UUe54Oei; Max-Age=1658399912000; Expires=Sat, 18 Feb 54575 20:51:53 GMT; Domain=ipipapi.ipi.staging-traveloka.com
+2 &lt; Set-Cookie: AWSALBCORS=Krdan8ufrnFagMwd32MSILTh+w4evp9qHfJBtv0jLBNT78BMILkVAJDEaxbf+PIGqcrH3SScByLp//gfht4KhEAPRC/62AO1jAutVtEgc0THVFaGMek9UUe54Oei; Max-Age=1658399912000; Expires=Sat, 18 Feb 54575 20:51:53 GMT; Domain=ipipapi.ipi.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;apiStatus&quot;:&quot;SUCCESS&quot;,&quot;message&quot;:null,&quot;bookingId&quot;:&quot;89701455&quot;,&quot;itemId&quot;:&quot;36124&quot;,&quot;productType&quot;:&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;,&quot;refundabilityInfo&quot;:{&quot;refundabilityLabel&quot;:{&quot;type&quot;:&quot;SUCCESS&quot;,&quot;displayText&quot;:&quot;Yes&quot;},&quot;description&quot;:&quot;You may request for a refund until Mon, 18 Jul 2022, 15:00 Jakarta time.&quot;,&quot;showPolicyButton&quot;:false,&quot;contactUsUrl&quot;:null,&quot;providerPhone&quot;:null},&quot;refundReceivedInfo&quot;:{&quot;disclaimer&quot;:null,&quot;receivedAmounts&quot;:[],&quot;description&quot;:&quot;We cannot calculate your refund amount because you already submitted a refund request for this booking. Go to &lt;b&gt;Refund History&lt;/b&gt; to check its status.&quot;,&quot;showPolicyButton&quot;:true},&quot;refundAdditionalInfo&quot;:[{&quot;title&quot;:&quot;Refund Estimation&quot;,&quot;description&quot;:&quot;We cannot calculate your refund amount because you already submitted a refund request for this booking. Go to &lt;b&gt;Refund History&lt;/b&gt; to check its status.&quot;,&quot;link&quot;:null},{&quot;title&quot;:&quot;How long is the refund process?&quot;,&quot;description&quot;:&quot;The refund process may take &lt;b&gt;up to 5 days&lt;/b&gt; from the date of request.&quot;,&quot;link&quot;:null}],&quot;refundAdditionalInfoGradientView&quot;:[],&quot;refundExtraInfo&quot;:[],&quot;reasonSelectionInfo&quot;:{&quot;title&quot;:&quot;Refund is applicable for the following reason(s):&quot;,&quot;description&quot;:[&quot;Self cancellation&quot;,&quot;Sickness&quot;,&quot;Pregnancy&quot;,&quot;Death&quot;,&quot;Canceled by airline&quot;,&quot;Wrong booking date&quot;,&quot;Double booking&quot;,&quot;Natural disaster&quot;,&quot;Other&quot;],&quot;itemId&quot;:null,&quot;type&quot;:null},&quot;refundEstimationInfo&quot;:null,&quot;buttonState&quot;:&quot;DISABLED&quot;,&quot;faq&quot;:null},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJaTsQvP6QXu262U1MW58p2jy5dC2lSi+J5m4ThEzfK3QF9GdN7PMllebdQmCc4OswjzusQcQ42gpaNc1zdVl8oF1QEpRy1xDL9Gi+rx/xJogQavmtx9pictpACZpmdT9kKF9jP1yNFnmX5HfiACojydMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3CKqgtVARX/VDwq+PgoTH1aLb7MdTdXKtCOtHBtffKIrZ9klIk8KMvB/MfyxJCcFBTWp6Z+ofHQCshoZLtdxlDcQYPDsiAN4MFOZCDaz0psIXRZaoIKpepteaY4SxjANBnD6kZ/OTCt6FTY4XfUDSAX3Vxd6ANuDwUUJWfesjata6NM3vlp6x1QBwRfe+8inWR4cxG0L+0E53y7KvESqjZW76HmtFVxwwWyjt0jLBzb/h5d/nEuMnNBVJiu72GJBaR84v/8CECAiZypkyCdE5W7p/gnMn/HVMHtU5PG72gW7HSdw78JB77VZnoDSac36Oirf0bwCXn2aNuprREzGe83WGlnSOcmvWmaBAeRxrpnumaURC0pEZeeQCe7188J/C6CG27OJSUuklXWI0BIrNRCFnqYYpMSCRL8yPQAXFPMQ==&quot;,&quot;nonce&quot;:&quot;ABC5B1A6-61DA-4F1F-B760-AC80DE2B3EF1&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def responseData = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data.bookingId == &quot;89701455&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

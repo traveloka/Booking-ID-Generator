@@ -1,0 +1,42 @@
+{
+  "fields": [],
+  "data": {
+    "isReschedule": "false",
+    "isSavedFilterAvailable": "false",
+    "flexibleTicket": "false",
+    "useDateFlow": "false",
+    "searchSpecRoutesTotal": "1",
+    "visitId": "7A9F6D20-BE3F-4B37-B195-7A4B4CBE92EF",
+    "sourceAirportOrArea": "JKTA",
+    "searchSource": "BASIC",
+    "newResult": "true",
+    "destinationAirportOrArea": "DPS",
+    "funnelId": "flight",
+    "currency": "IDR",
+    "funnelSource": "iconHomepage",
+    "locale": "en_ID",
+    "pageName": "SEARCH_FORM",
+    "savedFilterType": "",
+    "searchId": "29B52919-A727-41D6-A510-737799258052",
+    "seatPublishedClass": "ECONOMY",
+    "flightDate": {
+      "month": 7,
+      "year": 2022,
+      "day": 14
+    },
+    "numSeats": {
+      "numAdults": "1",
+      "numChildren": "0",
+      "numInfants": "0"
+    },
+    "usePromoFinder": "true",
+    "isSavedFilterRemoved": "false",
+    "seqNo": {}
+  },
+  "context": {
+    "tvLifetime": "qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJY19wS81IBJlwbiQl5O9CXzy5dC2lSi+J5m4ThEzfK3Q4qHHzXmdR1zzYqa9maOm8WX65P+u/LWA72OwFwOsGI2yUz1ZnkoiVeEG/lqZGsPtg8yCLuSpDAikcm09H+kntLj6tMbzztrvIBmvX+06+O9MHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==",
+    "nonce": "38F2B676-4A43-4D5D-861B-D14FA613F45F",
+    "tvSession": "qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3CKqgtVARX/VDwq+PgoTH1FGyCQ3S3iG9turfQ6yzDsLZ9klIk8KMvB/MfyxJCcFBTWp6Z+ofHQCshoZLtdxlDR6TpCCtLyDlToJW87bs5KoN2ID+KfbmvzOwe/bOZxuo8FWIYbLHc1C6wD7WxQUdWoBcdsU1khhNSJM+sfLAYJN+Lu/rNAwFAJvno5NxnCN8HX9kNjPmuDkGjFLuJIzDedhJ0jsYySubdTwFV+GmoID8ZK9Jeq8lKDFShdaO5ueMIWephikxIJEvzI9ABcU8x"
+  },
+  "clientInterface": "mobile-iOS"
+}

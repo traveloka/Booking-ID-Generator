@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ac47b090-41ca-42aa-b5b1-dd1bb09963b4",{name:"siskaadelinadamanik"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.BookingProductMainFlow.BookingProduct.Hotel.createBooking</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-08-24 03:04:18 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:10]"><span>[1:10]</span> <span>Create Booking Hotel</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/BookingProductMainFlow/BookingProduct/Hotel/createBooking.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Create Booking Hotel</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:10]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:10]</span>
+                <span class="scenario-name">Create Booking Hotel</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>4991</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:10]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:10]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlHotel</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:10]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def reqCreateBookingHotel = read(&#39;classpath:request/booking/booking/hotel/createbooking.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">122</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:10]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqCreateBookingHotel.context.tvLifetime = tvLifetime</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:10]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set reqCreateBookingHotel.context.tvSession = tvSession</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path createBookingHotel</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request reqCreateBookingHotel</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4863</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.13">15:04:14.027 request:
+1 &gt; POST https://room-api.acd.staging-traveloka.com/en-id/v2/hotel/createBooking
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 3435
+1 &gt; Host: room-api.acd.staging-traveloka.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;fields&quot;:[],&quot;data&quot;:{&quot;hotelId&quot;:&quot;3000020000251&quot;,&quot;hasInsurance&quot;:&quot;false&quot;,&quot;totalSearchRate&quot;:{&quot;currency&quot;:&quot;IDR&quot;,&quot;totalFare&quot;:&quot;232750&quot;,&quot;taxes&quot;:&quot;46371&quot;,&quot;numOfDecimalPoint&quot;:&quot;0&quot;,&quot;baseFare&quot;:&quot;186379&quot;,&quot;fees&quot;:&quot;0&quot;},&quot;contact&quot;:{&quot;email&quot;:&quot;ipi.front.end2@gmail.com&quot;,&quot;firstName&quot;:&quot;IPI Front End&quot;,&quot;personTitle&quot;:&quot;MR&quot;,&quot;phone&quot;:[&quot;+628234567876&quot;]},&quot;numRooms&quot;:1,&quot;numOfNights&quot;:1,&quot;specialRequests&quot;:[],&quot;checkOutDate&quot;:{&quot;month&quot;:9,&quot;day&quot;:10,&quot;year&quot;:2022},&quot;lastMinute&quot;:false,&quot;sid&quot;:&quot;tcode-7797-696E-mf-01&quot;,&quot;originalSearchOccupancySpec&quot;:{&quot;numChildren&quot;:0,&quot;numAdults&quot;:1,&quot;numRooms&quot;:1,&quot;childAges&quot;:[]},&quot;searchId&quot;:&quot;1742024070359157479&quot;,&quot;contexts&quot;:{&quot;funnelId&quot;:&quot;hotel&quot;,&quot;userLocation&quot;:{&quot;lat&quot;:&quot;0.000000&quot;,&quot;lon&quot;:&quot;0.000000&quot;},&quot;funnelSource&quot;:&quot;iconHomepage&quot;,&quot;bookingFormId&quot;:&quot;fef2520e-651f-416a-af8a-636e2cfd4e76&quot;},&quot;roomSpecs&quot;:[{&quot;guests&quot;:[{&quot;firstName&quot;:&quot;IPI Front End&quot;,&quot;passportCountryCode&quot;:null,&quot;title&quot;:null}],&quot;providerId&quot;:&quot;EHiSDxgF170yBrL9U1S\/xZjmD123P49B9zcwZ1rMZL0aNRcA8FAo1HVAYtt0fHuw&quot;,&quot;promoIds&quot;:null,&quot;rateType&quot;:&quot;PAY_NOW&quot;,&quot;guestInfo&quot;:{&quot;numChildren&quot;:0,&quot;childAges&quot;:[],&quot;numInfant&quot;:0,&quot;numAdult&quot;:1},&quot;numberOfExtraBeds&quot;:0,&quot;hotelRoomId&quot;:&quot;1000060171&quot;,&quot;contexts&quot;:{&quot;NEWROOMDATAAVAILABLE&quot;:true,&quot;bookingId&quot;:&quot;0&quot;,&quot;childAges&quot;:null,&quot;inventoryRateKey&quot;:&quot;povEwB3ZzsU2C6pd+6MdUxPQfH0zjQrhnrQN8muKP1k1PIxvkWni5SHY5PMCw2bix9Z2LvBe+SoYFyNDTPSTRN+7Axu2VFbhp6585eFic44vxaB\/+bOpybDc+t1Q34LibSAr1eTChthH4BLj8YLfeKgNuww9aKA0MjtHxsoTW00h9SPbF6a8qkPtExeI3NLRzsQNBGWd+b7ECHij54tjQVPb4h2Va6UYWLa9HdDMmDFIOpGL3bqIn8Wx86UBgidryBIUNSrKUGXC8PFeBKStTzS5\/vakKJLW8g1nvg6NAgCgTt34TUfY8THAXITVy3KEWzfZRyjdgMKHa8qcMW7bMo7IxANe4fOys8DB92XtwdbEWiYgkgHJzlt5MTHObYCO+D2yaQaTXOW7zRWfooCLGWxhCFe8KWu2o9VdB18FqSa8r9nPDIEQOOJdpZt5wy2sMRjBUNjcxcseice5r9V6HWHxHBXT3Fv1V3dlGUu0lz5qXOfrY0vGmrWN0cP5qGuAMzSB+M5HdIZfCGDaE0OEJDmz\/izkcPYEEea52IR7iL6+GbOgxb+dw0RSv\/rY8EkC9i6mpa6Sj7NnrzfnGoZNERsn+0qTYne0YnyF\/ouzRtioV+q+ONkYVRLu6Wrp26bL7ko1n32uKMMI3lUzAOQutsHTQH0v+cw1gqJudbDKGSIAB0Liq27fzSt8RTD5DMhSp+GLnYvPU3nPgDTvII\/66Bav0WAp1+9VlRj011S7oLbU8S5zmdwM1b3\/+rFkoDXL6BVNI82Fwt63RMpetNb88qO75QxGTLKZH1lP9rw4II\/R1ev5wMKWdpCqiSRmigACNRNhqdMzSsBMtw3UQYGuX5uNZqE0LtPsOV6+8p66FzvBLBhXuSAk2y+vhHWwzja14nOBw4eWSAofuXx6z+tfQ7r09ovFpzNU8dczKtJ4RtA6fSxitSKmEiMgnB7WjkZRI1dPMbeJb\/6ygu0fWYH16LKpibFJ6dEoUR9IdLRc7eQ2DejU2UETitDpPfhc7yGRGjUXAPBQKNR1QGLbdHx7sA==&quot;,&quot;prevSearchId&quot;:&quot;1742023265228976462&quot;,&quot;prebookingRateTotalFare&quot;:&quot;232750&quot;,&quot;standardBookingVariant&quot;:&quot;new&quot;,&quot;searchId&quot;:&quot;1742024072120791374&quot;}}],&quot;backdate&quot;:false,&quot;checkInDate&quot;:{&quot;month&quot;:9,&quot;day&quot;:9,&quot;year&quot;:2022},&quot;preBookingId&quot;:&quot;1742024070359157479&quot;},&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zav\/DP3H3oxbg7cdZiIvskNWsDdrU40Mvgy8dAY3fuwpzy5dC2lSi+J5m4ThEzfK3TOlwW9fohpFfCCUgC2fy2BYvB9HAjnqFY+1bn0nvFW3DM6zknKWiSZX2XTS\/MftpxPD7FELaZwaw7u0cQBOjqa9MTvd2ifWrbL0Yl7uqDspNMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;nonce&quot;:&quot;43EF7A82-BD1D-4942-BDAD-0C45B128CDD3&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg2J02di7wCevjc01jxEACTfO4B8\/FMQhl7y7w75lPH7IHRWCQFs9xGxGSYQysDuY8iRQsoupqxm2GxcX8oyFSCTIVV3fLsByVaMy7VQkMUHLDzskJknNyQ9S0wH4kueeaY1PiZf+qSdVhmynPbcHSQR1gfwMe\/Np\/p37XKnglgPEAWpBf4t1lqjygYnSetmqRSN4oe6dNmOjVng97D0L89lI7IOzfCTrDU1l8kIEe7sDxiZpMaJ\/EdnoH5rCZfTnj59jYGqxRgVYJOWaYsTvD\/AU833c9Gi+r218MDeU4C3N0xV6hrERCF5cLOabRwRrqytYubxOkCsDN89AdbMpJMrD2EZw1ygYrLG2QCSsFa1So2pYSE1YCo1ArTspKKA3O\/B\/g7WjbyUCerAtTPNDjFTg5QuFpCSdkAK3aDKRoRYvE\/mVRR5m+rCDxlr\/mxc7ctk\/7BvfeakecrLGNt93lmVM3eEzMiYVzLO8gLbB5\/F+g==&quot;},&quot;clientInterface&quot;:&quot;mobile-iOS&quot;}
+
+15:04:18.619 response time in milliseconds: 4578
+1 &lt; 404
+1 &lt; Date: Wed, 24 Aug 2022 08:04:18 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; vary: accept-encoding
+1 &lt; Set-Cookie: AWSALB=ZW0uNOlTDj1W96Id7nrh0zwcZLCoT6FpkO0+x1mn91T4WCrTPlxoFqwYkwROmbxs1j2EewCRcJ9Fjiesq9jN/X0Eu/7eOvNrV7dPbXYUg/cFtQbgLxLIcXsG8mCR; Max-Age=1661933058000; Expires=Thu, 17 Mar 54687 15:44:18 GMT; Domain=room-api.acd.staging-traveloka.com
+1 &lt; Set-Cookie: AWSALBCORS=ZW0uNOlTDj1W96Id7nrh0zwcZLCoT6FpkO0+x1mn91T4WCrTPlxoFqwYkwROmbxs1j2EewCRcJ9Fjiesq9jN/X0Eu/7eOvNrV7dPbXYUg/cFtQbgLxLIcXsG8mCR; Max-Age=1661933058000; Expires=Thu, 17 Mar 54687 15:44:18 GMT; Domain=room-api.acd.staging-traveloka.com; Secure
+{&quot;errorType&quot;:&quot;SERVER_ERROR&quot;,&quot;userErrorMessage&quot;:&quot;Unexpected server error occurred. We apologize for the inconvenience. Please try again later.&quot;,&quot;errorMessage&quot;:&quot;Exception occurred in server. Unexpected server error occurred. We apologize for the inconvenience. Please try again later (404).&quot;,&quot;statusCode&quot;:&quot;404&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref failed">14</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">15:04:18.623 src/test/java/BookingProductMainFlow/BookingProduct/Hotel/createBooking.feature:14
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 4578, url: https://room-api.acd.staging-traveloka.com/en-id/v2/hotel/createBooking, response: 
+{&quot;errorType&quot;:&quot;SERVER_ERROR&quot;,&quot;userErrorMessage&quot;:&quot;Unexpected server error occurred. We apologize for the inconvenience. Please try again later.&quot;,&quot;errorMessage&quot;:&quot;Exception occurred in server. Unexpected server error occurred. We apologize for the inconvenience. Please try again later (404).&quot;,&quot;statusCode&quot;:&quot;404&quot;}
+src/test/java/BookingProductMainFlow/BookingProduct/Hotel/createBooking.feature:14
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref skipped">15</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response.data contains { bookingResult: &#39;#notnull&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref skipped">16</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>assert response.data.status == &#39;SUCCESS&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

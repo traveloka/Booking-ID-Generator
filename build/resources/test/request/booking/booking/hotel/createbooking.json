@@ -1,0 +1,94 @@
+{
+  "fields": [],
+  "data": {
+    "hotelId": "3000020000251",
+    "hasInsurance": "false",
+    "totalSearchRate": {
+      "currency": "IDR",
+      "totalFare": "232750",
+      "taxes": "46371",
+      "numOfDecimalPoint": "0",
+      "baseFare": "186379",
+      "fees": "0"
+    },
+    "contact": {
+      "email": "ipi.front.end2@gmail.com",
+      "firstName": "IPI Front End",
+      "personTitle": "MR",
+      "phone": [
+        "+628234567876"
+      ]
+    },
+    "numRooms": 1,
+    "numOfNights": 1,
+    "specialRequests": [],
+    "checkOutDate": {
+      "month": 9,
+      "day": 10,
+      "year": 2022
+    },
+    "lastMinute": false,
+    "sid": "tcode-7797-696E-mf-01",
+    "originalSearchOccupancySpec": {
+      "numChildren": 0,
+      "numAdults": 1,
+      "numRooms": 1,
+      "childAges": []
+    },
+    "searchId": "1742024070359157479",
+    "contexts": {
+      "funnelId": "hotel",
+      "userLocation": {
+        "lat": "0.000000",
+        "lon": "0.000000"
+      },
+      "funnelSource": "iconHomepage",
+      "bookingFormId": "fef2520e-651f-416a-af8a-636e2cfd4e76"
+    },
+    "roomSpecs": [
+      {
+        "guests": [
+          {
+            "firstName": "IPI Front End",
+            "passportCountryCode": null,
+            "title": null
+          }
+        ],
+        "providerId": "EHiSDxgF170yBrL9U1S/xZjmD123P49B9zcwZ1rMZL0aNRcA8FAo1HVAYtt0fHuw",
+        "promoIds": null,
+        "rateType": "PAY_NOW",
+        "guestInfo": {
+          "numChildren": 0,
+          "childAges": [],
+          "numInfant": 0,
+          "numAdult": 1
+        },
+        "numberOfExtraBeds": 0,
+        "hotelRoomId": "1000060171",
+        "contexts": {
+          "NEWROOMDATAAVAILABLE": true,
+          "bookingId": "0",
+          "childAges": null,
+          "inventoryRateKey": "povEwB3ZzsU2C6pd+6MdUxPQfH0zjQrhnrQN8muKP1k1PIxvkWni5SHY5PMCw2bix9Z2LvBe+SoYFyNDTPSTRN+7Axu2VFbhp6585eFic44vxaB/+bOpybDc+t1Q34LibSAr1eTChthH4BLj8YLfeKgNuww9aKA0MjtHxsoTW00h9SPbF6a8qkPtExeI3NLRzsQNBGWd+b7ECHij54tjQVPb4h2Va6UYWLa9HdDMmDFIOpGL3bqIn8Wx86UBgidryBIUNSrKUGXC8PFeBKStTzS5/vakKJLW8g1nvg6NAgCgTt34TUfY8THAXITVy3KEWzfZRyjdgMKHa8qcMW7bMo7IxANe4fOys8DB92XtwdbEWiYgkgHJzlt5MTHObYCO+D2yaQaTXOW7zRWfooCLGWxhCFe8KWu2o9VdB18FqSa8r9nPDIEQOOJdpZt5wy2sMRjBUNjcxcseice5r9V6HWHxHBXT3Fv1V3dlGUu0lz5qXOfrY0vGmrWN0cP5qGuAMzSB+M5HdIZfCGDaE0OEJDmz/izkcPYEEea52IR7iL6+GbOgxb+dw0RSv/rY8EkC9i6mpa6Sj7NnrzfnGoZNERsn+0qTYne0YnyF/ouzRtioV+q+ONkYVRLu6Wrp26bL7ko1n32uKMMI3lUzAOQutsHTQH0v+cw1gqJudbDKGSIAB0Liq27fzSt8RTD5DMhSp+GLnYvPU3nPgDTvII/66Bav0WAp1+9VlRj011S7oLbU8S5zmdwM1b3/+rFkoDXL6BVNI82Fwt63RMpetNb88qO75QxGTLKZH1lP9rw4II/R1ev5wMKWdpCqiSRmigACNRNhqdMzSsBMtw3UQYGuX5uNZqE0LtPsOV6+8p66FzvBLBhXuSAk2y+vhHWwzja14nOBw4eWSAofuXx6z+tfQ7r09ovFpzNU8dczKtJ4RtA6fSxitSKmEiMgnB7WjkZRI1dPMbeJb/6ygu0fWYH16LKpibFJ6dEoUR9IdLRc7eQ2DejU2UETitDpPfhc7yGRGjUXAPBQKNR1QGLbdHx7sA==",
+          "prevSearchId": "1742023265228976462",
+          "prebookingRateTotalFare": "232750",
+          "standardBookingVariant": "new",
+          "searchId": "1742024072120791374"
+        }
+      }
+    ],
+    "backdate": false,
+    "checkInDate": {
+      "month": 9,
+      "day": 9,
+      "year": 2022
+    },
+    "preBookingId": "1742024070359157479"
+  },
+  "context": {
+    "tvLifetime": "qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ9K9FkoYnVCGf4rP/dncpbzy5dC2lSi+J5m4ThEzfK3RmU7odit3dJQ1mtw33T7v5tFyPQ+l9yNS/b0Gkz2EmdjM6zknKWiSZX2XTS/MftpxPD7FELaZwaw7u0cQBOjqa9MTvd2ifWrbL0Yl7uqDspNMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==",
+    "nonce": "43EF7A82-BD1D-4942-BDAD-0C45B128CDD3",
+    "tvSession": "qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg2J02di7wCevjc01jxEACTfO4B8/FMQhl7y7w75lPH7IHRWCQFs9xGxGSYQysDuY8iRQsoupqxm2GxcX8oyFSCTIVV3fLsByVaMy7VQkMUHLDzskJknNyQ9S0wH4kueeaY1PiZf+qSdVhmynPbcHSQR1gfwMe/Np/p37XKnglgPEAWpBf4t1lqjygYnSetmqRQU22AsX+j52cOm0KVKuHP0I7IOzfCTrDU1l8kIEe7sD2bYNwtaeQNi4oCYDmfrviqRqXchugSA8qxMGZ1Lduz681llVHWwDx7Kd8dTX02+FPzWVc5iEX0axbsxqtXpUqQQgDNeRIVvtcwZ1O4lORR9q1oic1tvNCRFLtgNYdSOefdHLFyMIqqCvdRKqMqreVqF7b91cWH7NdLN5aSJrJ+EzzZP+rzw3XjTV2HqIZyhOjq3pwdh2VE7pUhxJPEakYU="
+  },
+  "clientInterface": "mobile-iOS"
+}

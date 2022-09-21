@@ -1,0 +1,22 @@
+{
+  "fields": [],
+  "data": {
+    "items": {
+      "SHUTTLE_AIRPORT_TRANSPORT": [
+        {
+          "groupId": "36125",
+          "primaryReason": {
+            "reasonName": "SELF_CANCELLATION"
+          }
+        }
+      ]
+    },
+    "sessionId": "a0d7c2cc-8e32-46fb-87bd-15e32f40b600"
+  },
+  "context": {
+    "tvLifetime": "qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJ0/jzKPCPd3nFxPeKMtZ4nzy5dC2lSi+J5m4ThEzfK3Sg8ruPIVnMsQISOAEP+R0T7ki4YBZiaRVGvqlz62nevFXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==",
+    "tvSession": "qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887lecA3dUEJcxDcTj83e+I6x6fwmq+mAhJhZ9PbDBTI8PYtxt1YlJuzunBvdXu1oqsWIx3F+dX2xIprCtXoKo8F8=",
+    "nonce": "a0d7c2cc-8e32-46fb-87bd-15e32f40b600"
+  },
+  "clientInterface": "mobile-iOS"
+}

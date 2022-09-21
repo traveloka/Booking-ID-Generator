@@ -1,0 +1,60 @@
+{
+  "clientInterface": "mobile-ios",
+  "context": {
+    "nonce": "8d78ec0b-654c-48b2-b110-2012d563ca8b",
+    "tvLifetime": "qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJAEl0rVWkhb63Iw2pnVMDOTy5dC2lSi+J5m4ThEzfK3R2ngHsqu/c2XnL0frPi/1kk5vwlu4wEkgiuFFHXSHznEf7ZjchNqUvW83c/+YGfcWVpThw5YFNmBy4ScJ/+3+G/BejrnaUgukJfx1YV1Cw7NMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==",
+    "tvSession": "qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlf8Vk8LITl4FLcI0qLd8U3ep1EUFlvfAVhmCZXrY9a3tjexrfmCFfq+1OkuEMzrU8dhlDJNK+Zv+xPIjAlumQwCE3hi7baSP8UZUVxyX3j/0bSoX2NqGeNHdclrta9gAMMQwv0gZge0Z7vlNhHw/rwWRJrWBZ/OiWpn9E+Mpta8i+NPdeLbRQ4adBWQQR2L1rOYot5BmcGPfA715rpmiog1NU4H0P8241Yhmw//vxoHHA0HgryifXmGUoZPMoEp4qvCcESXx0xB0wenWPQO43cuND+cdW4U2uLG/qKLuhXOEC6jjW9KWSrmsU4rbbpICICIR8No/I72JT7xk0vDFzFmcPqRn85MK3oVNjhd9QNIC+/6lDzkrCJVzrAoxemiKMro0ze+WnrHVAHBF977yKdRn9SGq/zTumgE91tsy8ksgHLgXpMtjp01Ro2osSk4MF0Vr4xJyOY0MDPh/niS3pjsBJx/eQr8OlsPwq0oIjAF8kswteV1CMFkPWSCd/+x+Zzo8sTR7E4pSRVMoyclAjhlqyf99twBZMAsstw4mr3qmZTR+tkXrsTZJbHX41nIZNi7ceDGYgYneH+AfodZMd5A=="
+  },
+  "data": {
+    "addOnProductSpecs": [],
+    "currency": "IDR",
+    "isMultiItem": false,
+    "selectedPrice": {
+      "selectedPrice": {
+        "amount": 905400,
+        "currency": "IDR",
+        "nullOrEmpty": false
+      }
+    },
+    "selectedProductSpec": {
+      "flightProductBookingSpec": {
+        "currency": "IDR",
+        "destinationAirportSpec": "DPS",
+        "funnelId": "flight",
+        "funnelSource": "iconHomepage",
+        "isBuybackGuarantee": false,
+        "isReschedule": false,
+        "isUseDateFlow": false,
+        "isUsePromoFinder": true,
+        "numberOfSeats": {
+          "numAdults": 1,
+          "numChildren": 0,
+          "numInfants": 0
+        },
+        "originAirportSpec": "JKTA",
+        "searchId": "f5a53d49-fc13-491b-bc63-b10624493b63",
+        "searchSource": "BASIC",
+        "seatPublishedClass": "ECONOMY",
+        "selectedFlightSpecs": [
+          {
+            "flightIds": [
+              "3CgbWE8IWKZ+gnQ0cDFUPtZQBbr/kRLReWsqxt5fdkPDhgt0ncD4gTWGW3Gz/F1hLnhS5zVenPr5+MsiOJDvOl4PnUeaap7i7smG+cC3deuG9PlM7lBAyS9T4wNSYGYCIScUmZZN1ov095slIVtuZx0OBsDwXv7+wvoFBNmh8Mqu+s84DDNG3HgiieiHAZOGM2rhA9ISV2gcL94nebkhgfUxqKEQRHuqNfiP8eiC2kU="
+            ],
+            "isPackage": false
+          }
+        ],
+        "selectedRecommendationCardIds": [],
+        "visitId": "ee480da3-af6a-4035-ae09-38178309e964"
+      },
+      "productType": "FLIGHT"
+    },
+    "trackingSpec": {
+      "contexts": {},
+      "marketingContexts": {
+        "google_play_ads_id": "27bdfe8d-ce0f-48a0-87b6-56cb4a50c878"
+      },
+      "searchId": "f5a53d49-fc13-491b-bc63-b10624493b63"
+    }
+  },
+  "fields": []
+}

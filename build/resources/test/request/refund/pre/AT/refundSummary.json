@@ -1,0 +1,14 @@
+{
+  "fields": [],
+  "data": {
+    "itemId": "89710515.36174",
+    "productType": "SHUTTLE_AIRPORT_TRANSPORT",
+    "bookingId": "89710515"
+  },
+  "context": {
+    "tvLifetime": "",
+    "tvSession": "",
+    "nonce": "a0d7c2cc-8e32-46fb-87bd-15e32f40b600"
+  },
+  "clientInterface": "mobile-iOS"
+}

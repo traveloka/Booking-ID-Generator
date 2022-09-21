@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("ac47b090-41ca-42aa-b5b1-dd1bb09963b4",{name:"siskaadelinadamanik"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.GeneralRefund.AirportTransport.E2ERefundSubmit</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-07-18 05:45:06 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>User Submit Refund Successful</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/GeneralRefund/AirportTransport/E2ERefundSubmit.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Refund Submit E2E flow</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">User Submit Refund Successful</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1740</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def bookingID = &quot;89704438&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref failed">8</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def refundSummary = call read(&#39;classpath:GeneralRefund/AirportTransport/PreSubmission/refundSummary.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">1739</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">17:45:06.243 src/test/java/GeneralRefund/AirportTransport/E2ERefundSubmit.feature:8
+* def refundSummary = call read(&#39;classpath:GeneralRefund/AirportTransport/PreSubmission/refundSummary.feature&#39;)
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  &#39;#notpresent&#39;
+  &#39;28422&#39;
+
+classpath:GeneralRefund/AirportTransport/PreSubmission/refundSummary.feature:14
+src/test/java/GeneralRefund/AirportTransport/E2ERefundSubmit.feature:8
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.8.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">GeneralRefund.AirportTransport.PreSubmission.refundSummary</div>
+      </div>
+      <div class="time-cell passed">1723</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrlIPI</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>json requestbodySummary = read(&#39;classpath:request/refund/pre/AT/refundSummary.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">38</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path refundSummary</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers accept</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8.0.call.0.9">17:45:04.560 did not evaluate to map accept: [type: STRING, value: application/json]
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestbodySummary</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1674</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8.0.call.0.11">17:45:04.830 request:
+1 &gt; POST https://ipipapi.ipi.staging-traveloka.com/en-id/v2/post-issuance/refund/pre/refund-summary
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 952
+1 &gt; Host: ipipapi.ipi.staging-traveloka.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_202)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;fields&quot;:[],&quot;data&quot;:{&quot;itemId&quot;:&quot;89704438.36125&quot;,&quot;productType&quot;:&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;,&quot;bookingId&quot;:&quot;89704438&quot;},&quot;context&quot;:{&quot;nonce&quot;:&quot;a0d7c2cc-8e32-46fb-87bd-15e32f40b600&quot;,&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJBDqTgI+DD7\/HOwa9plyF+Ty5dC2lSi+J5m4ThEzfK3R\/cyB4P\/4G0PuaE5XJrADsHKjS8\/YvMqOv28sKvZLdplXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE\/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93\/3Xi103f\/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U\/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY\/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887kDgOp5NjejHRzLCdAQYVMZ+DMUqmq5borN+NCh4+pN2KrDVbXxLGcp9MsFt7IEp9lNMr7CV3F\/aDVGnTkpCGSM=&quot;},&quot;clientInterface&quot;:&quot;mobile-iOS&quot;}
+
+17:45:06.233 response time in milliseconds: 1396
+1 &lt; 200
+1 &lt; Date: Mon, 18 Jul 2022 10:45:06 GMT
+1 &lt; Content-Type: application/json;charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: no-cache
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; X-Nonce: a0d7c2cc-8e32-46fb-87bd-15e32f40b600
+1 &lt; vary: accept-encoding
+1 &lt; Set-Cookie: AWSALB=ecnZqQfot9SXzmjfqh6Ob+/dmQ3N1Ujxsxqj5TEl0SsBsgexmfHqT3aFLhuzmj8wQ4J1PbtPfPRetdW+LLgm+O2tQgjq78Py8i3apLEdla22GfOHiA3wjoRdm2PK; Max-Age=1658745905000; Expires=Thu, 09 Feb 54586 10:08:26 GMT; Domain=ipipapi.ipi.staging-traveloka.com
+1 &lt; Set-Cookie: AWSALBCORS=ecnZqQfot9SXzmjfqh6Ob+/dmQ3N1Ujxsxqj5TEl0SsBsgexmfHqT3aFLhuzmj8wQ4J1PbtPfPRetdW+LLgm+O2tQgjq78Py8i3apLEdla22GfOHiA3wjoRdm2PK; Max-Age=1658745905000; Expires=Thu, 09 Feb 54586 10:08:26 GMT; Domain=ipipapi.ipi.staging-traveloka.com; Secure
+{&quot;data&quot;:{&quot;apiStatus&quot;:&quot;SUCCESS&quot;,&quot;message&quot;:null,&quot;refundItemSummary&quot;:{&quot;bookingId&quot;:&quot;89704438&quot;,&quot;iconUrl&quot;:&quot;https://static-content.ipi.staging-traveloka.com/static/icon/product/SHUTTLE_AIRPORT_TRANSPORT.png&quot;,&quot;selectedItem&quot;:{&quot;itemId&quot;:&quot;36125&quot;,&quot;type&quot;:&quot;SHUTTLE_AIRPORT_TRANSPORT&quot;,&quot;title&quot;:&quot;From Soekarno Hatta International Airport (CGK)&quot;,&quot;description&quot;:[&quot;Tue, 19 Jul 2022 • 15:00&quot;,&quot;Traveloka Airport Transport Supplier 1  - Sedan - 1 car(s)&quot;]}},&quot;relatedItems&quot;:[],&quot;refundHistoryCards&quot;:[]},&quot;userContext&quot;:null,&quot;context&quot;:{&quot;tvLifetime&quot;:&quot;qgdHX7GvehrD9XH5a3S4PdE8AYpuF3hYPaT5bxhY7Zay5Sz4ZyFlZX0t1Hg7r5bJBDqTgI+DD7/HOwa9plyF+Ty5dC2lSi+J5m4ThEzfK3R/cyB4P/4G0PuaE5XJrADsHKjS8/YvMqOv28sKvZLdplXFRNYvHobK+QbyUjWM6GvaTuVYnNjTrhdes5RrJVEjOuH7wcxMIPtZ+NvnUpYE/tMHVP0VdPbSYiKGnJV952BxWUxu60TgfIw33UVCu5PpBFWaecfJpY3CnGBYV6+UNA==&quot;,&quot;tvSession&quot;:&quot;qgdHX7GvehrD9XH5a3S4PXWKx93/3Xi103f/kPpnhg3zmfHCt9QQnuDPM7k3pLYlzYmeXEH+LA4giH+esHyr5up1EUFlvfAVhmCZXrY9a3u8U/n8QsnzI5bq0nnlzw6r1o8VCu9DE2qjMWJ8eUujuKysUmvt3YhiuQew6qlrd0Z3njBaEodLl+bJ8wy+p5RMENRfg8Sul6phyrcwAjWCFhVopGSlZ5lumshmyV4sqRpY/wtcXOcmJ6keIlgwranimmH9LQKMdDWjxAYsl2Kg0m0lzr7Z6myeuoMTgUflI5xzvjKdNSlbxevdyrjCSjSzR0V8YUT6EVHFyPLFcb887kDgOp5NjejHRzLCdAQYVMZ+DMUqmq5borN+NCh4+pN2KrDVbXxLGcp9MsFt7IEp9lNMr7CV3F/aDVGnTkpCGSM=&quot;,&quot;nonce&quot;:&quot;a0d7c2cc-8e32-46fb-87bd-15e32f40b600&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def responseData = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.8.0.call">
+    <div class="step-container" id="0.8.0.call.0.14">
+      <div class="step-ref failed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response.data.refundHistoryCards[0].refundId == &quot;28422&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8.0.call.0.14">17:45:06.243 classpath:GeneralRefund/AirportTransport/PreSubmission/refundSummary.feature:14
+And match response.data.refundHistoryCards[0].refundId == &quot;28422&quot;
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  &#39;#notpresent&#39;
+  &#39;28422&#39;
+
+classpath:GeneralRefund/AirportTransport/PreSubmission/refundSummary.feature:14
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref skipped">9</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>print refundSummary</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref skipped">10</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>match refundSummary.data.refundItemSummary contains { bookingId: bookingID }</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
